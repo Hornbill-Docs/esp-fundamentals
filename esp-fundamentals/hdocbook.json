@@ -1,0 +1,29 @@
+{
+  "docId": "esp-fundamentals",
+  "title": "Hornbill Platform Fundamentals",
+  "description": "Everything you should know before using/administering/working with the Hornbill Platform",
+  "publicSource": "--publicSource--",
+  "productFamily": "docs",
+  "version": "0.0.1",
+  "audience": [
+    "public"
+  ],
+  "languages": [
+    "en"
+  ],
+  "navigation": {
+    "items": [
+      {
+        "text": "Introduction",
+        "expand": true,
+        "items": [
+          {
+            "text": "Welcome",
+            "link": "esp-fundamentals/index"
+          }
+        ]
+      }
+    ]
+  },
+  "tags": []
+}

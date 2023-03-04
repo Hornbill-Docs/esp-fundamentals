@@ -1,0 +1,10 @@
+{
+  "docId": "esp-fundamentals",
+  "pdfGeneration": {
+    "enable": true,
+    "exclude_paths": []
+  },
+  "validation": {
+    "exclude_links": []
+  }
+}
