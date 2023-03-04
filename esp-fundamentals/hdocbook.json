@@ -14,12 +14,74 @@
   "navigation": {
     "items": [
       {
-        "text": "Introduction",
+        "text": "Welcome",
+        "link": "esp-fundamentals/welcome"
+      },
+      {
+        "text": "Why Hornbill",
         "expand": true,
         "items": [
           {
-            "text": "Welcome",
-            "link": "esp-fundamentals/index"
+            "text": "Todo...",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "text": "Core Capabilities",
+        "expand": true,
+        "items": [
+          {
+            "text": "Topics",
+            "link": "esp-fundamentals/todo/topics"
+          }
+        ]
+      },
+      {
+        "text": "Security",
+        "expand": true,
+        "items": [
+          {
+            "text": "Login and Account Types",
+            "link": "esp-fundamentals/security/account-types"
+          }
+        ]
+      },
+      {
+        "text": "In The Cloud",
+        "expand": true,
+        "items": [
+          {
+            "text": "Continuous Delivery",
+            "link": ""
+          },
+          {
+            "text": "Subscription",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "text": "Working with Hornbill (the company)",
+        "expand": true,
+        "items": [
+          {
+            "text": "Continuous Delivery",
+            "link": ""
+          },
+          {
+            "text": "Subscription",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "text": "TODO..",
+        "expand": false,
+        "items": [
+          {
+            "text": "Topics",
+            "link": "esp-fundamentals/todo/topics"
           }
         ]
       }
