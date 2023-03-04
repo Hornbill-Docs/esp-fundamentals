@@ -2,8 +2,8 @@
   "docId": "esp-fundamentals",
   "title": "Hornbill Platform Fundamentals",
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
-  "publicSource": "--publicSource--",
-  "productFamily": "docs",
+  "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals.git",
+  "productFamily": "esp",
   "version": "0.0.1",
   "audience": [
     "public"
@@ -23,7 +23,7 @@
         "items": [
           {
             "text": "Todo...",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           }
         ]
       },
@@ -33,35 +33,35 @@
         "items": [
           {
             "text": "System of Record",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "System of Action",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "Workflow Orchestration",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "Workflow Automation",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "IT Automation",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "Cloud System Integrations",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "Behind the Firewall Integrations",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "Mobile Access",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           }
         ]
       },
@@ -81,15 +81,15 @@
         "items": [
           {
             "text": "Availability",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "Software Updates",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "Subscription Model",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           }
         ]
       },
@@ -99,15 +99,15 @@
         "items": [
           {
             "text": "Browser Support",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "Device Support",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           },
           {
             "text": "Behind the Firewall",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           }
         ]
       },
@@ -117,7 +117,7 @@
         "items": [
           {
             "text": "Todo...",
-            "link": ""
+            "link": "esp-fundamentals/todo/topics"
           }
         ]
       },

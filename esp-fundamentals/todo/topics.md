@@ -1,4 +1,9 @@
-# Required Topics
+# Placeholder
+Your content will go here
+
+<hr>
+
+## Required Topics
 
 
 - Core Platform Capabilities 
