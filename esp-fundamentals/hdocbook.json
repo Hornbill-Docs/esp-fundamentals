@@ -32,8 +32,36 @@
         "expand": true,
         "items": [
           {
-            "text": "Topics",
-            "link": "esp-fundamentals/todo/topics"
+            "text": "System of Record",
+            "link": ""
+          },
+          {
+            "text": "System of Action",
+            "link": ""
+          },
+          {
+            "text": "Workflow Orchestration",
+            "link": ""
+          },
+          {
+            "text": "Workflow Automation",
+            "link": ""
+          },
+          {
+            "text": "IT Automation",
+            "link": ""
+          },
+          {
+            "text": "Cloud System Integrations",
+            "link": ""
+          },
+          {
+            "text": "Behind the Firewall Integrations",
+            "link": ""
+          },
+          {
+            "text": "Mobile Access",
+            "link": ""
           }
         ]
       },
@@ -52,11 +80,33 @@
         "expand": true,
         "items": [
           {
-            "text": "Continuous Delivery",
+            "text": "Availability",
             "link": ""
           },
           {
-            "text": "Subscription",
+            "text": "Software Updates",
+            "link": ""
+          },
+          {
+            "text": "Subscription Model",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "text": "System Requirements and Compatibility",
+        "expand": true,
+        "items": [
+          {
+            "text": "Browser Support",
+            "link": ""
+          },
+          {
+            "text": "Device Support",
+            "link": ""
+          },
+          {
+            "text": "Behind the Firewall",
             "link": ""
           }
         ]
@@ -66,11 +116,7 @@
         "expand": true,
         "items": [
           {
-            "text": "Continuous Delivery",
-            "link": ""
-          },
-          {
-            "text": "Subscription",
+            "text": "Todo...",
             "link": ""
           }
         ]
