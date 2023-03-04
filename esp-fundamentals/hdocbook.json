@@ -2,7 +2,7 @@
   "docId": "esp-fundamentals",
   "title": "Hornbill Platform Fundamentals",
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
-  "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals.git",
+  "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
   "version": "0.0.1",
   "audience": [
