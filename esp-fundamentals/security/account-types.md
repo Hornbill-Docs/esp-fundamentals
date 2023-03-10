@@ -1,14 +1,13 @@
 # Hornbill Platform Security Model
-It is important to understand that the Hornbill Platform has a comprehensive and very granular security model built into to its foundation. The platform is designed to be used by the enterprise, and as such data and system security features need to be flexible enough to allow each organization to manage its security policies as needed.   
+The platform is designed to be used within enterprise organizations, a key capability is a security model that delivers data and system security features that are flexible enough to support the most stringent of security controls to support any organization.   
  
-All interactions with Hornbill are done under the supervision of a [Security Context](#Security Context) which ensures each action is subject to security checks against the rights allocated to a specific user account. Even if an API call does not require any specific security validation, behind the scenes, all API calls from all devices and API channels is still treated in this way. verified through a specific user account. 
 
-For security checks there are four classes of account, these are known as: - 
+## Security Controls
+Each system and user account is allocated a security context. The security context is made up of several elements which provide fine-grained control over what a specific user account is allowed to do. 
 
-- User Accounts
-- Portal Accounts
-- Guest Accounts
-- System Accounts
+All requests to the Hornbill service are processed under the supervision of a [Security Context](#Security Context) which ensures each action is subject to security checks against the rights allocated to a specific user account. Even if an API call does not require any specific security validation, behind the scenes, all API calls from all devices and API channels is still treated in this way. verified through a specific user account. 
+
+For security checks there are four types of account, these are: - 
 
 __User Accounts__ are as you might expect, for normal users that will log into the Hornbill platform. So for every User, there will be an associated user account. A user can log into Hornbill using the login credentials associated with a user account. 
 
@@ -19,8 +18,20 @@ __Guest Accounts__ are not strictly "accounts" so warrant their own, more detail
 __System Accounts__ implicitly exist as part of the platform. System accounts cannot be logged into, interacted with or changed in any way. They are defined to allow the platform to perform background tasks and functions required to make the platform and applications operate in the areas where there is no interactive user. Typically, system tasks, background tasks and jobs, integrations and inter-process communications are all examples of where system accounts are used.  As a system administrator you really do not need to worry about these, its just useful to be aware they exist.  System accounts have an ID that always begins with SYS_xxx
 
 
+### Privilege Level
+The most fundamental security control applied to any account type is its Privilege Level. The following list shows the privilege level, ascending in access level:
+
+|Privilege Level|Description|
+|:---|:---|
+|none|The security context has no privilege level assigned, generally means no session established.|
+|guest|The security context is a guest, this is the security level applied to any `guest` account login via a customer/external portal session.|
+|basic|This privilege level is associated with basic user accounts. Basic user privilege level provides very limited access to the Hornbill platform, typically this type of user would be an employee that does not use Hornbill on a day to day basis, but uses the Employee portal to access services being provided.|
+|user|This privilege level is typically associated with a normal user account.|
+|admin|This privilege level is in effect a 'super user' account. This privilege level is used sparingly, and should not be used for day to day user accounts.|
+
+
 ## Security Context
-In all cases, in order for any API call to work, you first need to establish a valid security context. There are various ways to create a security context, logging in interactively, using API keys, Single-Sign-On etc. All of these different mechanisms lead to the creation of a security context which is then uses as the security container for subsequent interactions with the system.  Once a security context exists, that is considered a User Session, and as is typical of any login scheme, the established session will generally remain persistent in accordance with the session management and timeout rules, once the user loggs out, or the session is otherwise closed, the session and security context are destroyed.
+In order for any user interface or API call to work, a valid security context has to be established. There are various ways to create a security context, including logging in interactively, using API keys, Single-Sign-On etc. All of these different mechanisms lead to the creation of a security context bound to a session, which is then used as the security container for subsequent interactions with the system.  Once a security context exists, that is considered a User Session, and as is typical of any login scheme, the established session will generally remain persistent in accordance with the session management and timeout rules, once the user logs out, or the session is otherwise closed, the session and security context are destroyed.
 
 # Login and Account Types
 The Hornbill Platform provides the ability for different classes of users to access different areas of the system.  Under the hood, all users are subject to strict security controls, but different classes of user require very different access controls to be applied.  In essence there are three types of "user" that can access the Hornbill platform, these are called `user`, `basic` and `guest`. 

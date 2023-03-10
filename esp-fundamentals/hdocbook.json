@@ -18,11 +18,41 @@
         "link": "esp-fundamentals/welcome"
       },
       {
-        "text": "Why Hornbill",
+        "text": "About Hornbill",
         "expand": true,
         "items": [
           {
+            "text": "What is Hornbill?",
+            "link": "esp-fundamentals/about/what-is-hornbill"
+          },
+          {
+            "text": "Hornbill Applications",
+            "link": "esp-fundamentals/about/hornbill-apps"
+          },
+          {
+            "text": "Hornbill Integrations",
+            "link": "esp-fundamentals/about/hornbill-integrations"
+          },
+          {
             "text": "Todo...",
+            "link": "esp-fundamentals/todo/topics"
+          }
+        ]
+      },
+      {
+        "text": "In The Cloud",
+        "expand": true,
+        "items": [
+          {
+            "text": "Availability",
+            "link": "esp-fundamentals/todo/topics"
+          },
+          {
+            "text": "Software Updates",
+            "link": "esp-fundamentals/todo/topics"
+          },
+          {
+            "text": "Subscription Model",
             "link": "esp-fundamentals/todo/topics"
           }
         ]
@@ -76,24 +106,6 @@
         ]
       },
       {
-        "text": "In The Cloud",
-        "expand": true,
-        "items": [
-          {
-            "text": "Availability",
-            "link": "esp-fundamentals/todo/topics"
-          },
-          {
-            "text": "Software Updates",
-            "link": "esp-fundamentals/todo/topics"
-          },
-          {
-            "text": "Subscription Model",
-            "link": "esp-fundamentals/todo/topics"
-          }
-        ]
-      },
-      {
         "text": "System Requirements and Compatibility",
         "expand": true,
         "items": [
@@ -107,16 +119,6 @@
           },
           {
             "text": "Behind the Firewall",
-            "link": "esp-fundamentals/todo/topics"
-          }
-        ]
-      },
-      {
-        "text": "Working with Hornbill (the company)",
-        "expand": true,
-        "items": [
-          {
-            "text": "Todo...",
             "link": "esp-fundamentals/todo/topics"
           }
         ]

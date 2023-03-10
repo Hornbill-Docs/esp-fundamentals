@@ -4,7 +4,7 @@ layout: article-toc
 # Welcome to Hornbill Platform Fundamentals
 The Hornbill Platform is a cloud-based solution that can help your organization with workflow and automation capabilities to support your Enterprise Service Management (ESM) and Digital Transformation initiatives. The platform has a very wide range of functional capabilities, and this guide is designed to help you understand the fundamental high-level concepts, capabilities of the Hornbill platform, without going into any specific technical details.  This guide focuses on the "why" and "what", and not on the "how."
 
-Thank you for your interest and your time in discovering more about what the Hornbill Platform has to offer. 
+Thank you for your interest and your time in discovering more about what the Hornbill Platform has to offer. Please use the navigation to the left to browse and discover more about the Hornbill Platform
 
 ## Intended Audience 
 This document should be used by anyone who will be involved in the selection of the Hornbill Platform, or anyone working with the Hornbill Platform on a day-to-day basis, especially those who are involved in deploying and getting business value from the use of the Hornbill Platform.  
