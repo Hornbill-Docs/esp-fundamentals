@@ -27,7 +27,7 @@
           },
           {
             "text": "Hornbill Applications",
-            "link": "esp-fundamentals/about/hornbill-apps"
+            "link": "esp-fundamentals/about/hornbill-applications"
           },
           {
             "text": "Hornbill Integrations",
@@ -45,15 +45,15 @@
         "items": [
           {
             "text": "Availability",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/in-the-cloud/availability"
           },
           {
             "text": "Software Updates",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/in-the-cloud/software-updates"
           },
           {
             "text": "Subscription Model",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/in-the-cloud/subscription-model"
           }
         ]
       },
@@ -63,35 +63,43 @@
         "items": [
           {
             "text": "System of Record",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/core-capabilities/system-of-record"
           },
           {
             "text": "System of Action",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/core-capabilities/system-of-action"
+          },
+          {
+            "text": "Business Rules",
+            "link": "esp-fundamentals/core-capabilities/business-rules"
           },
           {
             "text": "Workflow Orchestration",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/core-capabilities/workflow-orchestration"
           },
           {
             "text": "Workflow Automation",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/core-capabilities/workflow-automation"
+          },
+          {
+            "text": "E-Mail Automation",
+            "link": "esp-fundamentals/core-capabilities/email-automation"
           },
           {
             "text": "IT Automation",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/core-capabilities/it-automaton"
           },
           {
             "text": "Cloud System Integrations",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/core-capabilities/cloud-integration"
           },
           {
             "text": "Behind the Firewall Integrations",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/core-capabilities/behind-the-firewall-integration"
           },
           {
             "text": "Mobile Access",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/core-capabilities/mobile-access"
           }
         ]
       },

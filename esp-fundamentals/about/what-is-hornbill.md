@@ -13,18 +13,17 @@ The major features of the Hornbill platform are: -
 - Business Process Orchestration 
 - Workflow Automation
 - Intelligent Capture
-- 1000's of pre-created, ready-to-use, without-code integrations
-- Tasks and Authorizations
+- 1000's of read-make, ready-to-use, no-code integrations
+- human Tasks and Authorizations
 - Employee and Customer Service Portals
 - Email Automation
-- AppStore
+- AppStore + Numerous Business Applications
 - Reporting and Analytics
 - Messaging, Targeted Communications, Collaboration and Workspaces
+- Document Content & Lifecycle Management
+- Context, Information and Knowledge Sharing
 
-These platform capabilities (and many more not mentioned) are like our ingredients. Our ready-made business applications bring 
-these ingredients together creating comprehensive range of recipes, creating comprehensive workflows and automation's for you
-employee, partner and customer workflows, as well as resource and documentation sharing and human task and work management
-capabilities.
+These platform capabilities (and many more not mentioned) are like our ingredients. Our [ready-made business applications](/esp-fundamentals/about/what-is-hornbill#hornbill-applications) (available in the App Store) bring these ingredients together creating comprehensive range of recipes, creating comprehensive workflows and automation's for your employee, partner and customer workflows, as well as resource and documentation sharing and human task and work management capabilities.
 
 ## Hornbill - Applications
 There are a number of ready-to-install and use applications, these include: -
