@@ -119,15 +119,15 @@
         "items": [
           {
             "text": "Browser Support",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/system-requirements/browser-compatibility"
           },
           {
             "text": "Device Support",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/system-requirements/device-support"
           },
           {
             "text": "Behind the Firewall",
-            "link": "esp-fundamentals/todo/topics"
+            "link": "esp-fundamentals/system-requirements/behind-the-firewall"
           }
         ]
       },
