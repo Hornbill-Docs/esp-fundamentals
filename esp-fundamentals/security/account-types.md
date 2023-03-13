@@ -39,7 +39,7 @@ The Hornbill Platform provides the ability for different classes of users to acc
 
 |Account Type|Service Type|Description|
 |:---|---|---|
-|`system`|n/a|System accounts are special internal accounts that enable the system to function. These accounts are allocated allocated by the system and cannot be changed/edited/deleted. System accounts are also inaccessible for logins of any type or other uses.|
+|`system`|n/a|System accounts are special internal accounts that enable the system to function. These accounts are allocated by the system and cannot be changed/edited/deleted. System accounts are also inaccessible for logins of any type or other uses.|
 |`user`|see _User Account Types_ below|A user account is any individual person or system that has a dedicated account on the Hornbill Platform, that can be logged into in order to gain access to the Hornbill Platform facilities and functions.  The purpose of an _account_ on the Hornbill Platform is to act as a security container for interaction with the systems functions. In other words, the **only** way you can get access to any part of the system is _through_ a defined account,  There are three sub-categories of user account types, those being `full`,  `basic` and `portal` (see below for description)
 |`guest`|Consumer|A guest user is another class of person that may log in, or otherwise access Hornbill through a guest portal or system. Guests are considered Service Consumers, and therefore have very limited access to the Hornbill Platform features. Typically, guests are individual users who are external to the organization, for example, customers, consumers, citizens etc.  There are two sub-categories of guest accounts, being 'anonymous' or 'authenticated'. See descriptions below |
 
