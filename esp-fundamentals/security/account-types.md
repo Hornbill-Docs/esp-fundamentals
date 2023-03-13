@@ -5,7 +5,7 @@ The platform is designed to be used within enterprise organizations, a key capab
 ## Security Controls
 Each system and user account is allocated a security context. The security context is made up of several elements which provide fine-grained control over what a specific user account is allowed to do. 
 
-All requests to the Hornbill service are processed under the supervision of a [Security Context](#Security Context) which ensures each action is subject to security checks against the rights allocated to a specific user account. Even if an API call does not require any specific security validation, behind the scenes, all API calls from all devices and API channels is still treated in this way. verified through a specific user account. 
+All requests to the Hornbill service are processed under the supervision of a [Security Context](esp-fundamentals/security/account-types#Security Context) which ensures each action is subject to security checks against the rights allocated to a specific user account. Even if an API call does not require any specific security validation, behind the scenes, all API calls from all devices and API channels is still treated in this way. verified through a specific user account. 
 
 For security checks there are four types of account, these are: - 
 
