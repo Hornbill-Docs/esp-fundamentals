@@ -33,7 +33,7 @@ The most fundamental security control applied to any account type is its Privile
 ## Security Context
 In order for any user interface or API call to work, a valid security context has to be established. There are various ways to create a security context, including logging in interactively, using API keys, Single-Sign-On etc. All of these different mechanisms lead to the creation of a security context bound to a session, which is then used as the security container for subsequent interactions with the system.  Once a security context exists, that is considered a User Session, and as is typical of any login scheme, the established session will generally remain persistent in accordance with the session management and timeout rules, once the user logs out, or the session is otherwise closed, the session and security context are destroyed.
 
-# Account Types
+## Account Types
 The Hornbill Platform provides the ability for different classes of users to access different areas of the system.  Under the hood, all users are subject to strict security controls, but different classes of user require very different access controls to be applied.  In essence there are three types of "user" that can access the Hornbill platform, these are called `user`, `basic` and `guest`. 
 
 
