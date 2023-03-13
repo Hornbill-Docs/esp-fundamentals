@@ -110,6 +110,10 @@
           {
             "text": "Login and Account Types",
             "link": "esp-fundamentals/security/account-types"
+          },
+          {
+            "text": "KeySafe",
+            "link": "esp-fundamentals/security/keysafe"
           }
         ]
       },
