@@ -100,6 +100,28 @@
           {
             "text": "Mobile Access",
             "link": "esp-fundamentals/core-capabilities/mobile-access"
+          },
+          {
+            "text": "Tasks and Activities",
+            "link": "esp-fundamentals/core-capabilities/tasks-and-activities"
+          },
+          {
+            "text": "Collaboration",
+            "link": "esp-fundamentals/core-capabilities/collaboration"
+          },
+          {
+            "text": "Conversations",
+            "link": "esp-fundamentals/core-capabilities/conversations"
+          }
+        ]
+      },
+      {
+        "text": "Productivity",
+        "expand": true,
+        "items": [
+          {
+            "text": "Bookmarks",
+            "link": "esp-fundamentals/productivity/bookmarks"
           }
         ]
       },
