@@ -6,11 +6,11 @@ Human tasks are essential components of a workflow because they:
 
 1. __Bring human expertise and judgment into the process__: Certain tasks demand human insight, critical thinking, or subjective evaluation, which cannot be effectively automated. Human tasks ensure that the necessary human element is incorporated into the workflow.
 
-2. __Facilitate approvals and authorizations__: In many business processes, approvals and authorizations from specific individuals or departments are necessary. Human tasks enable these required approvals to be integrated seamlessly into the workflow, ensuring that the process adheres to organizational policies and guidelines.
+2. __Facilitate approvals and authorizations__: In many business processes, approvals and authorizations from specific individuals or departments are necessary. The workflow system enable human tasks and approvals to be integrated seamlessly into the workflow, ensuring that the process adheres to organizational policies and guidelines.
 
 3. __Enhance collaboration and communication__: Human tasks can foster collaboration and communication among team members by assigning tasks to specific individuals, prompting them to contribute to the process or review and provide feedback on the work of others.
 
-4. __Manage exceptions and contingencies__: In cases where an automated process encounters an exception or unforeseen circumstance, a human task can be used to alert relevant personnel, who can then assess the situation and take appropriate action.
+4. __Manage exceptions and contingencies__: In cases where an workflow encounters an exception or unforeseen circumstance, a human task can be used to alert relevant personnel, who can then assess the situation and take appropriate action.
 
 5. __Provide flexibility and adaptability__: As business needs and processes evolve, human tasks allow for the easy adaptation of workflows, making it simple to add, modify, or remove steps that require human involvement.
 
@@ -109,13 +109,13 @@ While manually created tasks are either open or complete, automatically created 
 Outcomes and additional information collected can all be used by the workflow orchestrator to drive the flow and direction of the workflow's onwards path. 
 
 
-## Authorizations
+## Approvals
 
-On the Hornbill platform, an Authorization is a distinct type of human task, specifically tailored to obtain approval within a workflow orchestration. This differs from general human tasks, which are typically completed by a single individual, as authorizations often require consensus or involve the complexities of individual availability and authority levels.
+On the Hornbill platform, an Approval is a special type of human task, specifically tailored to obtain approval or authorization within a workflow orchestration. These differ from general human tasks that are completed by a single individual,  Approvals often involve more than one person, can require consensus and can better deal with the complexities of individual availability and authority levels.
 
-Authorizations not only possess a more defined set of outcomes but also offer additional functionality to facilitate approval through voting, consensus weighting, or individual authority. This enables a more versatile and adaptive approach to securing approval in various situations.
+Approvals not only possess a more defined set of outcomes but also offer additional functionality to facilitate approval through voting, consensus weighting, or individual authority. This enables a more versatile and adaptive approach to securing approval in various situations.
 
-In simpler use cases where an Authorization only requires a single individual (or nominated delegate(s)) to complete, a standard human task may be sufficient for workflow approvals. This flexibility allows organizations to effectively manage and streamline approval processes within their workflows.
+In simpler use cases where an Approval only requires a single individual (or nominated delegate(s)) to complete, a standard Human Task is simpler to configure and may be perfectly sufficient. This flexibility allows organizations to manage and streamline approval processes within their workflows.
 
 ## Task Ownership
 
