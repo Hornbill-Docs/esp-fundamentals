@@ -1,32 +1,33 @@
 ---
 layout: article-toc
 ---
-# Welcome to Hornbill Platform Fundamentals
-The Hornbill Platform is a cloud-based solution that can help your organization with workflow and automation capabilities to support your Enterprise Service Management (ESM) and Digital Transformation initiatives. The platform has a very wide range of functional capabilities, and this guide is designed to help you understand the fundamental high-level concepts, capabilities of the Hornbill platform, without going into any specific technical details.  This guide focuses on the "why" and "what", and not on the "how."
+# Introducing Hornbill Platform Fundamentals
+The Hornbill Platform is a cloud-based solution designed to assist your organization with workflow and automation capabilities that support your Enterprise Service Management (ESM) and Digital Transformation initiatives. The platform boasts a broad array of functional capabilities, and this guide aims to introduce you to the fundamental high-level concepts and features of the Hornbill platform without delving into specific technical details. This guide emphasizes the "what" and "why" aspects while intentionally avoiding the "how."
 
-Thank you for your interest and your time in discovering more about what the Hornbill Platform has to offer. Please use the navigation to the left to browse and discover more about the Hornbill Platform
+This document encompasses extensive written and conceptual content. A Hornbill platform expert would be well-versed in all the concepts, ideas, and design intentions outlined in this document.
 
-## Intended Audience 
-This document should be used by anyone who will be involved in the selection of the Hornbill Platform, or anyone working with the Hornbill Platform on a day-to-day basis, especially those who are involved in deploying and getting business value from the use of the Hornbill Platform.  
 
-You should consider understanding the fundamentals of the Hornbill Platform if you are: -
+## Target Audience
+This document is intended for anyone involved in selecting the Hornbill Platform or working with it on a daily basis, particularly those responsible for deploying and deriving business value from the platform.
 
-- Evaluating Hornbill to help with your Enterprise Service Management (ESM)/Digital Transformation initiatives.
-- Considering using the Hornbill Platform within your company or organization.
-- Implementing, Delivering or Advising on the use of the Hornbill platform internally or to other organizations.
-- Day to Day administration and power-user use of the Hornbill Platform.
-- Customizing/Building Workflows and Automation's
-- Developing Integrations, Apps or other aspects of the Hornbill Platform.
-- Developing the Hornbill Platform its self (Hornbill Dev and Product teams).
-- New to Hornbill and you wish to know more about what the Hornbill Platform is, and what its capabilities are. 
+Consider familiarizing yourself with the fundamentals of the Hornbill Platform if you are:
 
-This guide will be valuable to individuals who work with (or are considering using) Hornbill within their organization: -
+- Assessing Hornbill to support your Enterprise Service Management (ESM)/Digital Transformation initiatives.
+- Contemplating the use of the Hornbill Platform within your company or organization.
+- Implementing, delivering, or advising on Hornbill platform usage internally or for other organizations.
+- Administering the Hornbill Platform or serving as a power user.
+- Customizing or building workflows and automations.
+- Developing integrations, apps, or other aspects of the Hornbill Platform.
+- Working with the Hornbill Platform itself (e.g., Hornbill Dev and Product teams).
+- New to Hornbill and interested in learning about its capabilities.
 
-- CTO
-- CIO 
-- Enterprise Architects 
+This guide is valuable for individuals working with (or considering the use of) Hornbill within their organization, including:
+
+- CTOs
+- CIOs
+- Enterprise Architects
 - System Administrators and/or Power Users of the Hornbill Platform
-- Consultants engaging in guidance, training, implementation or support of solutions based on Hornbill
-- Technology Evaluators/Analysts
-- Developers involved with using, configuring, developing and integrating with Hornbill
+- Consultants providing guidance, training, implementation, or support for Hornbill-based solutions
+- Software Technology Evaluators/Analysts
+- Developers, partners, and anyone else involved in using, configuring, developing, and integrating with Hornbill
 
