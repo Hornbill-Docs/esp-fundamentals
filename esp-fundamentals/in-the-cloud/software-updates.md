@@ -1,7 +1,7 @@
 # Software Updates
+Hornbill streamlines the software update process for its customers by removing the traditional challenges associated with updating enterprise software systems. By maintaining all software updates in the background, Hornbill ensures that its customers always have access to the latest features and enhancements without any disruption to their customizations and integrations. This seamless approach allows organizations to focus on their core business activities while benefiting from the continuous improvements provided by Hornbill.
 
 ## Continuous Delivery
-
 Software updates in Hornbill's continuous delivery model refer to the regular and incremental enhancements made to the software, which are automatically provided to users without any need for manual intervention. This model enables Hornbill to deliver new features, improvements, bug fixes, and security patches to customers seamlessly and with minimal disruption.
 
 Here's an explanation of the key aspects of software updates for Hornbill's SaaS continuous delivery model:
@@ -23,8 +23,11 @@ Overall, software updates in Hornbill's SaaS continuous delivery model provide u
 
 ## Roadmaps
 
-Hornbill incorporates its roadmaps directly within its software, providing users with an easily accessible and transparent view of the product's development plan. This approach helps users stay informed about the latest features, improvements, and upcoming releases, ensuring that they can plan and adapt their workflows accordingly.
+Hornbill incorporates its roadmaps directly within its software Solution Center, providing users with an easily accessible and transparent view of the product's development plan. This approach helps users stay informed about the latest features, improvements, and upcoming releases, ensuring that they can plan and adapt their workflows accordingly.
 
+![Applications](/_books/esp-fundamentals/in-the-cloud/images/roadmap_example.png)
+
+<br>
 Here's a description of how Hornbill makes its roadmaps available in its software:
 
 - __In-app access__: Hornbill provides a dedicated section within its software where users can view and explore the roadmaps. This allows users to quickly access information about upcoming features and improvements without needing to search external websites or request information from support teams.
