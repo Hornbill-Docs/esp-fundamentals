@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "audience": [
     "public"
   ],
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "text": "In The Cloud",
+        "text": "Cloud Native",
         "expand": true,
         "items": [
           {
@@ -54,7 +54,7 @@
         ]
       },
       {
-        "text": "Core Capabilities",
+        "text": "Core Platform Capabilities",
         "expand": true,
         "items": [
           {

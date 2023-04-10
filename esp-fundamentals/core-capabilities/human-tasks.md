@@ -175,7 +175,7 @@ When a user is being added to an assignment team, each user is given a role with
 ### Role User Association & Task Assignment Controls
 TODO: ... possibly look to get rid of assignment roles altogether, as they only add an additional layer of complexity for customers to wrap their heads around.  We currently have no task options or membership role definable for roles (unlike assignment groups), so something needs to evolve/change (hopefully simplify here)
 
-## Creating Your Task Assignment Strategy
+## Defining Your Task Assignment Strategy
 An essential aspect of defining your task assignment strategy is setting up an appropriate [Organizational & Team Structure](/esp-fundamentals/core-capabilities/organization-and-teams). A strong correlation exists between lines of responsibility and the way you define your organizational structure, particularly in relation to assignment teams.
 
 Here are some tips for creating your task assignment strategy:
