@@ -78,6 +78,10 @@
             "link": "esp-fundamentals/core-capabilities/human-tasks"
           },
           {
+            "text": "Authorizations",
+            "link": "esp-fundamentals/core-capabilities/authorizations"
+          },
+          {
             "text": "Business Rules",
             "link": "esp-fundamentals/core-capabilities/business-rules"
           },
@@ -87,23 +91,28 @@
           },
           {
             "text": "Workflow Automation",
-            "link": "esp-fundamentals/core-capabilities/workflow-automation"
+            "link": "esp-fundamentals/core-capabilities/workflow-automation",
+            "expand": true,
+            "items": [
+
+              {
+                "text": "IT Automation",
+                "link": "esp-fundamentals/core-capabilities/it-automaton"
+              },
+              {
+                "text": "Cloud System Integrations",
+                "link": "esp-fundamentals/core-capabilities/cloud-integration"
+              },
+              {
+                "text": "Behind the Firewall Integrations",
+                "link": "esp-fundamentals/core-capabilities/behind-the-firewall-integration"
+              }
+    
+            ]
           },
           {
             "text": "E-Mail Automation",
             "link": "esp-fundamentals/core-capabilities/email-automation"
-          },
-          {
-            "text": "IT Automation",
-            "link": "esp-fundamentals/core-capabilities/it-automaton"
-          },
-          {
-            "text": "Cloud System Integrations",
-            "link": "esp-fundamentals/core-capabilities/cloud-integration"
-          },
-          {
-            "text": "Behind the Firewall Integrations",
-            "link": "esp-fundamentals/core-capabilities/behind-the-firewall-integration"
           },
           {
             "text": "Mobile Access",
