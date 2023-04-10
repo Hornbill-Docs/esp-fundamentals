@@ -175,5 +175,17 @@ When a user is being added to an assignment team, each user is given a role with
 ### Role User Association & Task Assignment Controls
 TODO: ... possibly look to get rid of assignment roles altogether, as they only add an additional layer of complexity for customers to wrap their heads around.  We currently have no task options or membership role definable for roles (unlike assignment groups), so something needs to evolve/change (hopefully simplify here)
 
-## Developing Your Task Assignment Strategy
-TODO: Planning your own task assignment strategy....  
+## Creating Your Task Assignment Strategy
+An essential aspect of defining your task assignment strategy is setting up an appropriate [Organizational & Team Structure](/esp-fundamentals/core-capabilities/organization-and-teams). A strong correlation exists between lines of responsibility and the way you define your organizational structure, particularly in relation to assignment teams.
+
+Here are some tips for creating your task assignment strategy:
+
+1. __Define clear roles and responsibilities__: Ensure that each team member has a well-defined role and set of responsibilities within their assignment team. This will help avoid confusion and ensure that tasks are assigned to the most suitable individuals.
+2. __Align your organizational structure with your assignment strategy__: Your organizational structure should reflect the needs of your assignment strategy. Make sure that your teams are organized in a way that supports efficient task assignment and delegation.
+3. __Create flexible assignment options__: Allow for some flexibility in task assignment to accommodate variations in team members' availability, expertise, and workload. This can help ensure tasks are completed efficiently and on time, even in the face of unforeseen circumstances.
+4. __Establish a clear escalation path__: In the event that a task cannot be completed by the assigned individual or team, have a well-defined escalation path in place to address any bottlenecks or issues that may arise.
+5. __Monitor and review__: Regularly monitor and review your task assignment strategy to identify areas for improvement and optimize task allocation. This can help you maintain a high level of efficiency and effectiveness in your workflows.
+6. __Communication and collaboration__: Encourage open communication and collaboration among team members to ensure that tasks are assigned and completed effectively. This can also help to foster a more positive and productive working environment.
+7. __Simple is always best__: When implementing a new system, it's easy to be drawn into addressing every edge case, resulting in added complexity. Our recommendation is to maintain simplicity whenever possible. Remember that your organization's structure is not static and will evolve over time. A simpler implementation will be easier to adapt to future changes, ensuring a more efficient and flexible system.
+
+By following these guidelines, you can create a task assignment strategy for your organization that is efficient, effective, and aligned with your organizational structure and goals.

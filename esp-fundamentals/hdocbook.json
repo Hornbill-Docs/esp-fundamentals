@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "audience": [
     "public"
   ],
@@ -70,7 +70,7 @@
             "link": "esp-fundamentals/core-capabilities/system-of-action"
           },
           {
-            "text": "Organizational Structure & Teams",
+            "text": "Organizational & Teams Structure",
             "link": "esp-fundamentals/core-capabilities/organization-and-teams"
           },
           {
