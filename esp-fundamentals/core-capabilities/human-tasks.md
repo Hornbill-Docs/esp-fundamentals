@@ -18,7 +18,9 @@ Human tasks play a vital role in workflow automation by bridging the gap between
 
 ## Human Task Core Capabilities
 
-A human task on the Hornbill platform has a significant number of capabilities to cater for various use cases and requirements.  By design, Human tasks are flexible to provide support and usefulness to the widest range of hum task needs. Core capabilities include:
+A human task on the Hornbill platform has a significant number of capabilities to cater for various use cases and requirements.  By design, Human tasks are flexible to provide support and usefulness to the widest range of human task needs. 
+
+Human task core capabilities include:
 
 - Subject and Description
 - Due Date
