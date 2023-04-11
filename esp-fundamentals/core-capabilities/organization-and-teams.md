@@ -9,6 +9,8 @@ The following types of organizational units are available in Hornbill to help yo
 |function|Yes|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
 |team|Yes|A group of individuals who work together to achieve a common goal, such as a project team, research team, or customer service team.|
 
+Please also see [Human Tasks](/esp-fundamentals/core-capabilities/human-tasks) for more details on how Functional OU types are used and how assigment relates to your Organizational and Groups structure
+
 ## General Organizational Unit Types
 The following types of organizational units are available in Hornbill to help you define your organizational structure
 
