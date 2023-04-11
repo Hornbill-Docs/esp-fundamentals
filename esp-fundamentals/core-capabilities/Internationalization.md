@@ -12,4 +12,4 @@ Some of the key features of Hornbill that support internationalization include:
 User profiles allow the setting on date, time, dateTime and timezone display formats as well as local time representation of global times. 
 
 ## International Universal Time System
-Behind the scenes, the Hornbill platform implements all date/times in Universal Coordinated Time (UTC), ensuring that our customers that have users or customers that span timezones and international boundaries are all working to the same times, with date/time storage in UTC, where required, each user can see that date/time in a local time representation 
+Behind the scenes, the Hornbill platform implements all date/times in Universal Coordinated Time (UTC), ensuring that our customers that have users or customers that span timezones and international boundaries are all working to the same times, with date/time storage in UTC, where required, each user can see that date/time in a local time representation.
