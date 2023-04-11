@@ -1,5 +1,13 @@
 # Organization and Team Structure
+It is possible to define part or all of your organizational structure in Hornbill. This allows you to organize your users into logical and organizational groups.  In Hornbill there are two classes of organizational units, general and functional.  While general org types are there to help you define your org structure, functional org types, can not only be part of your organizational structure, but also have some extended functional capabilities. 
 
+## Functional Organizational Unit Types
+The following types of organizational units are available in Hornbill to help you define your organizational structure but, these functional types also to define functional grouping of users.  Functional groups have additional "functional" behavior, specifically, the assignment of tasks can be made to a functional group, but not general group types.  Other applications on the Hornbill Platform may also use functional groups for assignment and other functional behaviors.   
+
+|Type|Assignable|Description|
+|:---|:---:|:---|
+|function|Yes|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
+|team|Yes|A group of individuals who work together to achieve a common goal, such as a project team, research team, or customer service team.|
 
 ## General Organizational Unit Types
 The following types of organizational units are available in Hornbill to help you define your organizational structure
@@ -19,11 +27,4 @@ The following types of organizational units are available in Hornbill to help yo
 |board|No|A group of individuals who oversee the strategic direction of an organization, often made up of external stakeholders or directors.|
 |subsidiary|No|A subsidiary is a separate legal entity that is owned and controlled by another company, known as the parent company. The subsidiary operates as an independent company with its own management, finances, and legal structure. The parent company may own all or a majority of the subsidiary's shares, giving it control over the subsidiary's operations.|
 
-## Functional Organizational Unit Types
-The following types of organizational units are available in Hornbill to help you define your organizational structure but also to provide a functional grouping of users.  Functional groups have additional "functional" behavior, specifically the assignment of tasks can be made to a group
-
-|Type|Assignable|Description|
-|:---|:---:|:---|
-|function|Yes|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
-|team|Yes|A group of individuals who work together to achieve a common goal, such as a project team, research team, or customer service team.|
 
