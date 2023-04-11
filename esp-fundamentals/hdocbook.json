@@ -50,6 +50,10 @@
           {
             "text": "Subscription Model",
             "link": "esp-fundamentals/in-the-cloud/subscription-model"
+          },
+          {
+            "text": "Open API",
+            "link": "esp-fundamentals/in-the-cloud/open-api"
           }
         ]
       },
