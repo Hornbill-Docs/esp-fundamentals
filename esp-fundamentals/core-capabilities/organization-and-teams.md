@@ -1,8 +1,9 @@
 # Organization and Team Structure
-It is possible to define part or all of your organizational structure in Hornbill. This allows you to organize your users into logical and organizational groups.  In Hornbill there are two classes of organizational units, general and functional.  While general org types are there to help you define your org structure, functional org types, can not only be part of your organizational structure, but also have some extended functional capabilities. 
+It is possible to define part or all of your organizational structure in Hornbill. This allows you to organize your users into logical and organizational groups.  In Hornbill there are two classes of organizational units, general and functional.  While general org types are there to help you define your org structure, functional org types, can not only be part of your organizational structure but also have some extended functional capabilities. 
 
 ## Functional Organizational Unit (OU) Types
 The following types of organizational units (OU Types) are available in Hornbill to help you define your organizational structure but, these functional types also define the functional grouping of users.  Functional OU's have additional "functional" behavior over and above General OU's, specifically, the assignment of tasks can be made to a functional OU, but not general OU types.  Other applications on the Hornbill Platform may also use functional OU types for assignment and other functional behaviors that are beyond the scope of the Hornbill platform itself.  For specific application behaviors around functional OUs, please refer to the applications specific documentation.  
+
 
 |OU Type|Assignable|Description|
 |:---|:---:|:---|
