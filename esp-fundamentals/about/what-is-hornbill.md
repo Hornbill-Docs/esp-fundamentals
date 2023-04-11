@@ -4,7 +4,7 @@ Hornbill is a cloud-based work automation solution with a strong foundation in e
 ![Applications](/_books/esp-fundamentals/about/images/hornbill_platform.png)
 
 ## The Hornbill Platform
-At the heart of our company lies the Hornbill Platform, a cutting-edge cloud-first system for workflow automation and business process orchestration. Continuously developed since 2012, our technology stack offers one of the most comprehensive and powerful codeless workflow automation and integration capabilities available today. Designed to support digital workflow, transformation, and enterprise service management initiatives, the Hornbill Platform caters to enterprises of all sizes.
+At the heart of Hornbill lies our Platform, a cutting-edge cloud-first system for workflow automation and business process orchestration. Continuously developed since 2012, our technology stack offers one of the most comprehensive and powerful codeless workflow automation and integration capabilities available today. Designed to support digital workflow, transformation, and enterprise service management initiatives, the Hornbill Platform caters to enterprises of all sizes.
 
 Key features of the Hornbill Platform encompass:
 

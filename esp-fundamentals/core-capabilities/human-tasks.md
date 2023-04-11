@@ -1,6 +1,6 @@
 # Human Tasks
 
-The Hornbill platform can help you manage and organize your day-to-day work.  Human tasks refer to specific steps or actions within a process that require human intervention, decision-making, or input. These tasks are generally integrated into automated workflows to ensure that complex processes can be managed effectively while still taking advantage of automation for repetitive, time-consuming, or mundane tasks.
+Human tasks refer to specific steps or actions within a workflow that requires specific human intervention, decision-making, or input. These tasks are generally integrated into automated workflows to ensure that complex processes can be managed effectively while still taking advantage of automation for repetitive, time-consuming, or mundane tasks.
 
 Human tasks are essential components of a workflow because they:
 
@@ -18,7 +18,7 @@ Human tasks play a vital role in workflow automation by bridging the gap between
 
 ## Human Task Core Capabilities
 
-A human task on the Hornbill platform has a significant number of capabilities to cater for various use cases and requirements.  By design, Human tasks are flexible to provide support and usefulness to the widest range of human task needs. 
+A human task on the Hornbill platform has a significant number of capabilities that cater for various use cases and workflow requirements.  By design, Human tasks are flexible in order to provide support and usefulness to the widest range of needs. 
 
 Human task core capabilities include:
 
@@ -41,7 +41,7 @@ There are two major categories of human task.
 
 ### Manually Created Human Tasks
 
-A manually created human task, is as its name would suggest, is a task that is created manually by an individual, in order to assign a task to someone.  This can be as simple as you creating a task for yourself, such as a reminder to carry out a specific task at some point in the future. Or, as a team leader, you many want to create a task for someone else to get something done. Manually created tasks are commonly found in all sorts of applications, from stand-alone TODO type tools, or tasks in Microsoft OUtlook,  or tasks in project management tools.  The Hornbill platform allows you to manually create ans assign tasks to individual users or teams. 
+A manually created human task, is, as its name would suggest, is a task that is created manually by an individual, in order to assign a task to someone.  This can be as simple as you creating a task for yourself, such as a reminder to carry out a specific task at some point in the future. Or, as a team leader, you many want to create a task for someone else to get something done. Manually created tasks are commonly found in all sorts of applications, from stand-alone TODO type tools, or tasks in Microsoft OUtlook,  or tasks in project management tools.  The Hornbill platform allows you to manually create ans assign tasks to individual users or teams. 
 
 __Advantages:__
 
@@ -84,7 +84,7 @@ Individual applications, for example Project Manager will create and assign huma
 
 Hornbill's workflow orchestration is the primary source of human task generation. Read more about [Hornbill Workflow Orchestration](/esp-fundamentals/core-capabilities/workflow-orchestration).  In summary, workflow orchestration is the process of coordinating, organizing, and managing various tasks, resources, and systems within a business process to achieve a desired outcome. It involves automating tasks, sequencing activities, orchestrating human activity, and integrating tools, systems and applications to ensure seamless execution and delivery of the workflow.
 
-One of the primary characteristics of human tasks that originate from workflow orchestration is the notion of 'Outcomes'. In general terms, human task outcomes refer to the results or consequences that emerge from the completion of tasks requiring human intervention within a workflow. These outcomes are typically characterized by the decisions, actions, or judgments made by individuals while performing their assigned tasks. Human task outcomes play a critical role in shaping the overall progression, flow and outcomes of a workflow.  Some common aspects of human task outcomes include:
+One of the primary characteristics of human tasks that originate from workflow orchestration in Hornbill is the notion of 'Outcomes'. In general terms, human task outcomes refer to the results or consequences that emerge from the completion of tasks requiring human intervention within a workflow. These outcomes are typically characterized by the decisions, actions, or judgments made by individuals while performing their assigned tasks. Human task outcomes play a critical role in shaping the overall progression, flow and outcomes of a workflow.  Some common aspects of human task outcomes include:
 
 - __Decision-making__: Human task outcomes often involve making decisions, such as approvals, rejections, or choosing between multiple options. These decisions can directly impact the subsequent steps in a workflow and determine the final outcome.
 
@@ -100,7 +100,7 @@ One of the primary characteristics of human tasks that originate from workflow o
 
 While manually created tasks are either open or complete, automatically created tasks typically have one or more outcomes. In the context of Workflow Orchestration, outcomes are a very important and powerful capability as the outcome of a task can be used to drive the direction and flow of a workflow.  There are a number of key capabilities with regards to task outcomes.  These are: 
 
-- __Outcome Options__: AA human task can provide up to 8 unique outcomes, with a single outcome being selected upon task completion. These outcome choices are typically presented as 1-8 buttons for the user to choose from when completing the task. These outcomes are fully customizable, even down to each individual task if needs be, allowing the individual user completing the task to provide precise and highly relevant completion outcome.
+- __Outcome Options__: A human task can provide up to 8 unique outcomes, with a single outcome being selected upon task completion. These outcome choices are typically presented as 1-8 buttons for the user to choose from when completing the task. These outcomes are fully customizable, even down to each individual task if needs be, allowing the individual user completing the task to provide precise and highly relevant completion outcome.
 
 - __Required Information__: Any task can be configured to capture additional information from the person completing the task.  This additional information can be captured using any number of custom fields, text inputs, drop-downs and other form-style input options.  Fields can be mandatory or optional, as well as enforce data quality using input validation.
 
@@ -127,9 +127,9 @@ Task assignment is a critical capability when working with human tasks as part o
 
 Task assignment is flexible, a task can be assigned to:
 
-- __An Individual User__: Any full user (see [User Account Types](/esp-fundamentals/security/account-types#user-account-types) to read more about account types) can have tasks assigned to them. It should be noted that its possible for a user to be a member of more than one Assignment Team and/or Assignment Role.  Therefore when assigning a task to an individual user, it may be required that you assign the task to the user, _in the context of_ a specific team or role.  Why you might need to do this is discussed in further details below [Assignment Context](/esp-fundamentals/core-capabilities/human-tasks#task-assignment-context)
+- __An Individual User__: Any full user (see [User Account Types](/esp-fundamentals/security/account-types#user-account-types) to read more about account types) can have tasks assigned to them. It should be noted that it's possible for a user to be a member of more than one Assignment Team and/or Assignment Role.  Therefore when assigning a task to an individual user, it may be required that you assign the task to the user, _in the context of_ a specific team or role.  Why you might need to do this is discussed in further details below [Assignment Context](/esp-fundamentals/core-capabilities/human-tasks#task-assignment-context)
 
-- __A Team__: When a Team is defined with the _Alow Task Assignment_ option set, you have created an "Assignment Team" making it is possible for a task to be assigned to this team.  Each team will have zero, one or more associated users. When associating a user to a team, there are a number of task related controls that can be applied to each user within the context of that team.  See (Team User Association & Task Controls)[#Task Assignment & Team/Role Associations]. 
+- __A Team__: When a team is defined with the _Alow Task Assignment_ option set, you have created an "Assignment Team" making it is possible for a task to be assigned to this team.  Each team will have zero, one or more associated users. When associating a user to a team, there are a number of task related controls that can be applied to each user within the context of that team.  See (Team User Association & Task Controls)[#Task Assignment & Team/Role Associations]. 
 
 - __A Role__: It is possible to create custom roles, which can be used (if appropriately configured) for the purpose of task assignment. 
 
@@ -148,7 +148,7 @@ It is common for an individual user to be a member of multiple assignment teams 
 
 A suitable example of this concept can be found in the case of team assignment. Imagine a task being assigned to the "Development Team" for completion. The business process does not specify a particular member of the Development Team to complete the task; instead, it only requires someone within the team to do so. Upon arrival in the Development Team's queue, the team leader might be responsible for assigning the task to an individual. However, it would be undesirable for the team leader to assign the task to another team, such as the QA team. In this scenario, the team leader would be presented with limited assignment options, based on the constraints set in the team container and the team leader's membership within that team. This ensures that task responsibility remains within the appropriate team, while still offering some flexibility in assigning individual team members.
 
-There are many other variations on how task assignment can be applied, so its important to grasp the concept in Hornbill that when assigning a task, its possible and quite typical that the task will be assigned to an individual in the "context" of an assignment team or role. 
+There are many other variations on how task assignment can be applied, so it's important to grasp the concept in Hornbill that when assigning a task, it's possible, and quite typical, that the task will be assigned to an individual in the "context" of an assignment team or role. 
 
 
 ### Team User Association & Task Assignment Controls
@@ -173,19 +173,21 @@ When a user is being added to an assignment team, each user is given a role with
 |Can Edit Task Configuration|No|No|Yes|
 
 ### Role User Association & Task Assignment Controls
-TODO: ... possibly look to get rid of assignment roles altogether, as they only add an additional layer of complexity for customers to wrap their heads around.  We currently have no task options or membership role definable for roles (unlike assignment groups), so something needs to evolve/change (hopefully simplify here)
+TODO: ... confusing area of the product currently, possibly look to get rid of assignment roles altogether, as they only add an additional layer of complexity for customers to wrap their heads around.  We currently have no task options or membership role definable for roles (unlike assignment groups), so something needs to evolve/change (hopefully simplify here)..??
 
-## Defining Your Task Assignment Strategy
-An essential aspect of defining your task assignment strategy is setting up an appropriate [Organizational & Team Structure](/esp-fundamentals/core-capabilities/organization-and-teams). A strong correlation exists between lines of responsibility and the way you define your organizational structure, particularly in relation to assignment teams.
 
-Here are some tips for creating your task assignment strategy:
+
+## Defining Your Task Assignment Architecture
+An essential aspect of defining your task assignment architecture is setting up an appropriate [Organizational & Team Structure](/esp-fundamentals/core-capabilities/organization-and-teams). A strong correlation exists between lines of responsibility and the way you define your organizational structure, particularly in relation to assignment teams. If you are deploying a specific application, there may well be special consideration needed for thw way in which the Org Structure needs to be defined. In this case, you should refer to documentation for that application to better understand how the [Organizational & Team Structure](/esp-fundamentals/core-capabilities/organization-and-teams) will impact the way the application operates. 
+
+Here are some general tips in relation to task assignments for creating your task assignment architecture:
 
 1. __Define clear roles and responsibilities__: Ensure that each team member has a well-defined role and set of responsibilities within their assignment team. This will help avoid confusion and ensure that tasks are assigned to the most suitable individuals.
-2. __Align your organizational structure with your assignment strategy__: Your organizational structure should reflect the needs of your assignment strategy. Make sure that your teams are organized in a way that supports efficient task assignment and delegation.
+2. __Align your organizational structure with your assignment strategy__: Your organizational structure should reflect the needs of your assignment architecture. Make sure that your teams are organized in a way that supports efficient task assignment and delegation.
 3. __Create flexible assignment options__: Allow for some flexibility in task assignment to accommodate variations in team members' availability, expertise, and workload. This can help ensure tasks are completed efficiently and on time, even in the face of unforeseen circumstances.
 4. __Establish a clear escalation path__: In the event that a task cannot be completed by the assigned individual or team, have a well-defined escalation path in place to address any bottlenecks or issues that may arise.
-5. __Monitor and review__: Regularly monitor and review your task assignment strategy to identify areas for improvement and optimize task allocation. This can help you maintain a high level of efficiency and effectiveness in your workflows.
+5. __Monitor and review__: Regularly monitor and review your task assignment architecture to identify areas for improvement and optimize task allocation. This can help you maintain a high level of efficiency and effectiveness in your workflows.
 6. __Communication and collaboration__: Encourage open communication and collaboration among team members to ensure that tasks are assigned and completed effectively. This can also help to foster a more positive and productive working environment.
 7. __Simple is always best__: When implementing a new system, it's easy to be drawn into addressing every edge case, resulting in added complexity. Our recommendation is to maintain simplicity whenever possible. Remember that your organization's structure is not static and will evolve over time. A simpler implementation will be easier to adapt to future changes, ensuring a more efficient and flexible system.
 
-By following these guidelines, you can create a task assignment strategy for your organization that is efficient, effective, and aligned with your organizational structure and goals.
+By following these guidelines, you can create a task assignment architecture for your organization that is efficient, effective, and properly aligned with your organizational structure.

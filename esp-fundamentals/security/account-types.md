@@ -1,11 +1,10 @@
 # Hornbill Platform Security Model
-The platform is designed to be used within enterprise organizations, a key capability is a security model that delivers data and system security features that are flexible enough to support the most stringent of security controls to support any organization.   
- 
+Hornbill is designed to be used within enterprise organizations, a key capability is a security model that delivers data and system security features that are flexible enough to support the most stringent of security controls to support any organization.
 
 ## Security Controls
 Each system and user account is allocated a security context. The security context is made up of several elements which provide fine-grained control over what a specific user account is allowed to do. 
 
-All requests to the Hornbill service are processed under the supervision of a [Security Context](#security-context) which ensures each action is subject to security checks against the rights allocated to a specific user account. Even if an API call does not require any specific security validation, behind the scenes, all API calls from all devices and API channels is still treated in this way. verified through a specific user account. 
+All individual requests to the Hornbill service are processed under the supervision of a [Security Context](#security-context) which ensures each action is subject to security checks against the rights allocated to a specific user account. Even if an API call does not require any specific security validation, behind the scenes, all API calls from all devices and API channels is still treated in this way. verified through a specific user account. 
 
 For security checks there are four types of account, these are: - 
 
@@ -15,11 +14,11 @@ __Portal Accounts__ are another special type of account which provide a security
 
 __Guest Accounts__ are not strictly "accounts" so warrant their own, more detailed explanation in the [Guest Accounts](#guest-accounts) section below.
 
-__System Accounts__ implicitly exist as part of the platform. System accounts cannot be logged into, interacted with or changed in any way. They are defined to allow the platform to perform background tasks and functions required to make the platform and applications operate in the areas where there is no interactive user. Typically, system tasks, background tasks and jobs, integrations and inter-process communications are all examples of where system accounts are used.  As a system administrator you really do not need to worry about these, its just useful to be aware they exist.  System accounts have an ID that always begins with SYS_xxx
+__System Accounts__ implicitly exist as part of the platform. System accounts cannot be logged into, interacted with or changed in any way. They are defined to allow the platform to perform background tasks and functions required to make the platform and applications operate in the areas where there is no interactive user. Typically, system tasks, background tasks and jobs, integrations and inter-process communications are all examples of where system accounts are used.  As a system administrator you really do not need to worry about these, it's just useful to be aware they exist.  System accounts have an ID that always begins with SYS_xxx
 
 
 ### Privilege Level
-The most fundamental security control applied to any account type is its Privilege Level. The following list shows the privilege level, ascending in access level:
+The most fundamental security control applied to any account type is its Privilege Level property. The following list shows the privilege level, ascending in increasing access level:
 
 |Privilege Level|Description|
 |:---|:---|
@@ -54,7 +53,7 @@ The second category of users are basic users, these are also typically employees
 |:---|---|---|
 |`user/full`|Service Provider<br><br>Consumer|This is the user type that would log into Hornbill and use it on a day to day basis as a tool and management system that enables them to provide/deliver the services being provided to others. When we talk about a `subscriber` to Hornbill, they are classed generally as a __user__ of the system. In a typical ESM setting, full users are also Consumers of services being provided|
 |`user/basic`|Consumer|This type of user account is equivalent to a normal 'user' account, but, with very reduced access to the features of the system.  A `basic` user can easily be promoted to a `full` user, and visa versa, the fundamental difference between a `full` user and a `basic` user is, a full user requires a subscription to use the main features of the Hornbill Platform and its applications, while a basic user does not require a specific subscription but only gets very limited access to the systems functionality. 
-|`user/portal`|Consumer|This is a special system account that cannot be logged into directly. This account type provides security access control to guests logging into, or accessingHornbill via a guest portal.  When accessing the Hornbill Platform via one of its guest portals or mobile applications, all guest logins get the same basic security controls applied to their session, that are defined by the portal account|
+|`user/portal`|Consumer|This is a special system account that cannot be logged into directly. This account type provides security access control to guests logging into, or accessingHornbill via a guest portal.  When accessing the Hornbill Platform via one of the guest portals, or mobile applications, all guest logins get the same basic security controls applied to their session, these controls are defined by the portal account|
 
 ## Guest Accounts
 

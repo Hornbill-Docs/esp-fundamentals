@@ -1,6 +1,6 @@
 # Hornbill Integrations
 
-Hornbill offers a wide range of integrations to enhance its platform's functionality and streamline workflows. These integrations connect Hornbill with various third-party tools and applications, enabling users to work seamlessly across different platforms and improving overall efficiency. 
+Hornbill includes a wide range of integrations to enhance our platform's functionality and streamline workflows. These integrations connect Hornbill with various third-party tools and applications, enabling seamless access and automation across different systems, improving overall efficiency. 
 
 <hr>
 

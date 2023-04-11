@@ -19,7 +19,7 @@ Consider familiarizing yourself with the fundamentals of the Hornbill Platform i
 - Customizing or building workflows and automations.
 - Developing integrations, apps, or other aspects of the Hornbill Platform.
 - Working with the Hornbill Platform itself (e.g., Hornbill Dev and Product teams).
-- New to Hornbill and interested in learning about its capabilities.
+- New to Hornbill and interested in learning about all of the platform capabilities.
 
 This guide is valuable for individuals working with (or considering the use of) Hornbill within their organization, including:
 
