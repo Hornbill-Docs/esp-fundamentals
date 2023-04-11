@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "audience": [
     "public"
   ],
@@ -125,16 +125,16 @@
           {
             "text": "Internationalization",
             "link": "esp-fundamentals/core-capabilities/internationalization"
-          }
-        ]
-      },
-      {
-        "text": "Productivity",
-        "expand": true,
-        "items": [
+          },
           {
-            "text": "Bookmarks",
-            "link": "esp-fundamentals/productivity/bookmarks"
+            "text": "Productivity Features",
+            "expand": true,
+            "items": [
+              {
+                "text": "Bookmarks",
+                "link": "esp-fundamentals/productivity/bookmarks"
+              }
+            ]
           }
         ]
       },
