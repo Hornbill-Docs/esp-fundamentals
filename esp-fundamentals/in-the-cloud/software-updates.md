@@ -20,6 +20,14 @@ Here's an explanation of the key aspects of software updates for our continuous 
 
 Overall, software updates in our SaaS continuous delivery model provides customers with an always-up-to-date, secure, and high-quality software experience, while allowing developers to respond quickly to user feedback and changing market demands.
 
+## Major Updates - No User Impact
+
+Major updates that have no user impact typically means, new features, additional modules, components, functions, behaviors or new UI elements, themes, layouts that __are not__ imposed and need to be "enabled" or "used for the first time" are considered non-impactful. These features we generally roll out without prior notice (save for release note content).  There are also major changes we will make from time to time under-the-hood that we expect to be non-impactful, so these types of changes also fall into this category. 
+
+
+## Major Updates - Material Impact
+
+Major updates that will have a material impact on users of our software without their choice would fall into this category.  Sometimes we want to improve the overall UI/user experience, may want to make significant UI layout changes or alter the way in which something works in order to improve, extend or enhance it or other related areas of the product.  If these changes are considered impactful to users on update, we will generally communicate this in advance, will propose mitigating/readiness advice and guidance before the update, and more often than not, will include a "switch to this new feature to try it out" directly inside the application.  In general we try not to undertake these types of changes and prefer an incremental improvement (little but often) model.  Sometimes though its unavoidable, and when this is the case, we treat these types of updated differently. 
 
 ## Roadmaps
 
