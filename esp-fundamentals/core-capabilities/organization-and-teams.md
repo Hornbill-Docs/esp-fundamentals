@@ -17,8 +17,6 @@ The following types of organizational units are available in Hornbill to help yo
 |OU Type|Assignable|Description|
 |:---|:---:|:---|
 |general|No|Where no other OU type fits, this type can be used as part of your organizational structure.  If you find yourself having to use this type, we encourage you to start a conversation on our community forums so we may consider expanding the available organizational unit types in Hornbill|
-|function|Yes|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
-|team|Yes|A group of individuals who work together to achieve a common goal, such as a project team, research team, or customer service team.|
 |department|No|A division of an organization responsible for a specific function or task, such as human resources, finance, marketing, or sales.|
 |costcenter|No|A cost center is an alternative type of department or unit within an organization that is responsible for incurring costs but does not directly generate revenue. The primary function of a cost center is to support the overall operations of the organization by providing essential services, such as IT, human resources, or administrative support.|
 |division|No|A larger unit of an organization that includes multiple departments or teams, often organized around a product line or geographic region.|
