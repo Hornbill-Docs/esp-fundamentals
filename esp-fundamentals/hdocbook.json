@@ -121,6 +121,10 @@
           {
             "text": "Collaboration",
             "link": "esp-fundamentals/core-capabilities/collaboration"
+          },
+          {
+            "text": "Internationalization",
+            "link": "esp-fundamentals/core-capabilities/internationalization"
           }
         ]
       },
