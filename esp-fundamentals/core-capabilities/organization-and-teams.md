@@ -21,20 +21,8 @@ There are many types of organizational structures in use today, each with its ow
 
 Each organizational structure has its pros and cons, and more often than not, each company will operate some hybrid of these. 
 
-
-### Functional Organizational Unit (OU) Types
-The following types of organizational units (OU Types) are available in Hornbill to help you define your organizational structure but, these functional types also define the functional grouping of users.  Functional OU's have additional "functional" behavior over and above General OU's, specifically, the assignment of tasks can be made to a functional OU, but not general OU types.  Other applications on the Hornbill Platform may also use functional OU types for assignment and other functional behaviors that are beyond the scope of the Hornbill platform itself.  For specific application behaviors around functional OUs, please refer to the applications specific documentation.  
-
-
-|OU Type|Assignable|Description|
-|:---|:---:|:---|
-|function|Yes|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
-|team|Yes|A group of individuals who work together to achieve a common goal, such as a project team, research team, or customer service team.|
-
-Please also see [Human Tasks](/esp-fundamentals/core-capabilities/human-tasks) for more details on how Functional OU types are used and how assignment relates to your Organizational and Groups structure
-
 ### General Organizational Unit (OU) Types
-The following types of organizational units are available in Hornbill to help you define your organizational structure
+The following types of organizational units are available in Hornbill to help you define your organizational structure. These general types are only used for organizing your users into a browsable structure, and have no specific functional purpose beyond that.  
 
 |OU Type|Assignable|Description|
 |:---|:---:|:---|
@@ -50,3 +38,12 @@ The following types of organizational units are available in Hornbill to help yo
 |subsidiary|No|A subsidiary is a separate legal entity that is owned and controlled by another company, known as the parent company. The subsidiary operates as an independent company with its own management, finances, and legal structure. The parent company may own all or a majority of the subsidiary's shares, giving it control over the subsidiary's operations.|
 
 
+### Functional Organizational Unit (OU) Types
+Functional Organizational Unit (OU) type are available in Hornbill, not only to help you define your organizational structure but they also define the functional grouping of users.  Functional OU's have additional "functional" behavior over and above General OU's, specifically, the assignment of tasks can be made to a functional OU, but not general OU types.  Other applications on the Hornbill Platform may also use functional OU types for assignment and other functional behaviors that are beyond the scope of the Hornbill platform itself.  For specific application behaviors around functional OUs, please refer to the applications specific documentation.  
+
+|OU Type|Assignable|Description|
+|:---|:---:|:---|
+|function|Yes|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
+|team|Yes|A group of individuals who work together to achieve a common goal, such as a project team, research team, or customer service team.|
+
+Please also see [Human Tasks](/esp-fundamentals/core-capabilities/human-tasks) for more details on how Functional OU types are used and how assignment relates to your Organizational and Groups structure
