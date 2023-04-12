@@ -31,7 +31,7 @@ How you organize your Functional/Assignment teams are important to the way in wh
 
 In the case where you are using Hornbill for workloads that support others within your organization, then setting up an Organizational structure that you can place your end (supported) users into, in order that your teams recognize your internal people and company structure.
 
-As a general rule, you should aim to keep your organizational and team structures as simple as possible, and favour flatness over a complicated hierarchy. It's not a requirement that you model your organizations actual structure in Hornbill, its only a requirement you model what makes sense to the way you want to work with Hornbill in the context of your organization.
+As a general rule, you should aim to keep your organizational and team structures as simple as possible, and favor flatness over a complicated hierarchy. It's not a requirement that you model your organizations actual structure in Hornbill, its only a requirement you model what makes sense to the way you want to work with Hornbill in the context of your organization.
 
 :::warning
 Once you have defined your organizational structure, many other parts Hornbill depend on that structure to function, and will data (assignment, ownership, sharing, access controls etc) that depends on that structure.  This structure is not easily malleable once locked in, and substantially changing this structure after the fact can be difficult, time consuming and error-prone. 
