@@ -21,24 +21,6 @@ There are many types of organizational structures in use today, each with its ow
 
 Each organizational structure has its pros and cons, and more often than not, each company will operate some hybrid of these. 
 
-## Deciding on your organization and team structure in Hornbill
-
-Generically, Organizational structures define the way in which an organization arranges its people, resources, and communication lines to achieve its goals.  Hornbill has the facility to model your entire organization structure if you wanted to, but, in most cases this will not be desirable as it will most likely over-complicate setting up Hornbill for your initial needs. 
-
-It is critical to understand your companies organizational structure (or part thereof) in the context of what you are using Hornbill for, especially in the context of how you will be using Hornbill to orchestrate and manage the flow of work in relation to your people. 
-
-How you organize your Functional/Assignment teams are important to the way in which you will work, and especially for the way in which you want your workflow automation's to work. 
-
-In the case where you are using Hornbill for workloads that support others within your organization, then setting up an Organizational structure that you can place your end (supported) users into, in order that your teams recognize your internal people and company structure.
-
-As a general rule, you should aim to keep your organizational and team structures as simple as possible, and favor flatness over a complicated hierarchy. It's not a requirement that you model your organizations actual structure in Hornbill, its only a requirement you model what makes sense to the way you want to work with Hornbill in the context of your organization.
-
-:::warning
-Once you have defined your organizational structure, many other parts Hornbill depend on that structure to function. Using that structure will store data (things like assignments, ownership, sharing, access controls etc) that all depend on that structure.  You should keep in mind that the structure you choose is not easily malleable once defined, and substantially changing this structure after the fact can be difficult, time consuming and error-prone, and things may not work as expected after poorly planned changes. 
-:::
-
-## Hornbill Organization Structure Configuration
-
 
 ### Functional Organizational Unit (OU) Types
 The following types of organizational units (OU Types) are available in Hornbill to help you define your organizational structure but, these functional types also define the functional grouping of users.  Functional OU's have additional "functional" behavior over and above General OU's, specifically, the assignment of tasks can be made to a functional OU, but not general OU types.  Other applications on the Hornbill Platform may also use functional OU types for assignment and other functional behaviors that are beyond the scope of the Hornbill platform itself.  For specific application behaviors around functional OUs, please refer to the applications specific documentation.  
