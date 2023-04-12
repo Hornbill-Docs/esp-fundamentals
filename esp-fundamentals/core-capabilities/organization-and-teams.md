@@ -19,7 +19,19 @@ There are many types of organizational structures in use today, each with its ow
 
 7. __Holacracy__: Holacracy is an alternative organizational structure that distributes authority and decision-making throughout self-organizing teams or circles. It is designed to promote transparency, adaptability, and employee empowerment. However, it may be challenging to implement and sustain, particularly in large, traditional organizations.
 
-Each organizational structure has its pros and cons, and more often than not, each company will operate some hybrid of these. 
+Each organizational structure approach has its pros and cons, in practice each company will adopt some hybrid combination of these approaches. 
+
+
+## Organizational Units (OU's)
+
+In Hornbill, an organizational structure is made up of a tree-like hierarchy of Organizational Units (OU's) where each node on the tree as an OU, and each OU can contain child OU's.  There are two types of OU's, which are General and Functional.   Users can be added as a member to one or more OU's providing the flexibility to build one or more organizational structures, for example, line of report/org chart, cross-functional teams, or you can model a simple flat structure of Team OU's and assignment OU's. 
+
+### User Assignment
+For the purpose of Hornbill's Organizational Structure, there are two types of users, Full Users and Basic Users. To find out more about these types of users and their differences please refer to [User Account Types](/esp-fundamentals/security/account-types#account-types)
+
+:::note
+When adding users as to your organizational structure, you can add any user as a member to any OU, with the one exception that basic users cannot be added as members to functional OU's 
+:::
 
 ### General Organizational Unit (OU) Types
 The following types of organizational units are available in Hornbill to help you define your organizational structure. These general types are only used for organizing your users into a browsable structure, and have no specific functional purpose beyond that.  
