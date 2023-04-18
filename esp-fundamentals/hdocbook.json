@@ -123,6 +123,10 @@
             "link": "esp-fundamentals/core-capabilities/collaboration"
           },
           {
+            "text": "Presence, Availability & Status",
+            "link": "esp-fundamentals/core-capabilities/presence-availability-status"
+          },
+          {
             "text": "Internationalization",
             "link": "esp-fundamentals/core-capabilities/internationalization"
           },
