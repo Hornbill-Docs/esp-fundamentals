@@ -1,8 +1,17 @@
-# Multi-Region Deployment Model
+# Multi-Region Deployment Strategy
 
-Hornbill's SaaS service is specifically designed to be deployed as a POD, which is a term used to describe a collection of computing resources and infrastructure components configured to support our entire software stack. Since a POD has limited capacity in terms of compute cycles, memory, disk space, and network bandwidth, we achieve horizontal scaling by adding more PODs as needed.
+Hornbill's SaaS service is specifically designed to be deployed in a POD architecture, which is a term used to describe a collection of computing resources and infrastructure components designed and configured to an exact specification, optimized to support software and application stack. 
 
-Each POD is located within a single physical data center, but we can deploy multiple PODs to a single data center to expand capacity. These data centers are situated in specific geographic locations and classified into regions. To comply with local data protection regulations, we align our regions with geopolitical boundaries, ensuring that customers' data transmission and storage are restricted to their chosen region(s).
+Many companies providing SaaS software choose to deploy their application atop of a major cloud platforms such as Amazon EC2, Microsoft Azure and numerous others typically described as Infrastructure as a Service (IaaS). One of the pitfalls of deploying to generic IaaS, apart from a significant loss of economies of scale, is the fact that IaaS by definition is very generic.  For Hornbill, we opted to build our own IaaS which is highly optimized for, and dedicated to our software and application stack, this is much harder to do than outsourcing the IaaS responsibility to a large scale cloud vendor, but the benefits are many
+
+- Cost & Economies of Scale
+- Hardware optimized for our specific needs
+- Network designed for our specific application
+- Full control over data storage, locations and storage types
+
+Since a POD has limited capacity in terms of compute cycles, memory, disk space, and network bandwidth, we achieve horizontal scaling by adding more PODs as needed.
+
+Each Hornbill POD is located within a single physical data center, but we can deploy multiple PODs to a single data center to expand capacity. These data centers are situated in specific geographic locations and classified into regions. To comply with local data protection regulations, we align our regions with geopolitical boundaries, ensuring that customers' data transmission and storage are restricted to their chosen region(s).
 
 - Our multi-region strategy empowers Hornbill customers with full control over their data's processing and storage locations. This is a growing concern for businesses worldwide, particularly in the EU.
 - Our multi-region strategy enhances performance for all customers by localizing API calls made by our frontend apps within their specific regions.
