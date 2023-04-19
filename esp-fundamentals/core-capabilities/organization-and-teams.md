@@ -48,6 +48,7 @@ The following types of organizational units are available in Hornbill to help yo
 |branch|No|A location of an organization that operates independently but is part of a larger entity, such as a bank branch or retail store.|
 |board|No|A group of individuals who oversee the strategic direction of an organization, often made up of external stakeholders or directors.|
 |subsidiary|No|A subsidiary is a separate legal entity that is owned and controlled by another company, known as the parent company. The subsidiary operates as an independent company with its own management, finances, and legal structure. The parent company may own all or a majority of the subsidiary's shares, giving it control over the subsidiary's operations.|
+|function|No|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
 
 
 ### Functional Organizational Unit (OU) Types
@@ -55,7 +56,6 @@ Functional Organizational Unit (OU) type are available in Hornbill, not only to 
 
 |OU Type|Assignable|Description|
 |:---|:---:|:---|
-|function|Yes|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
 |team|Yes|A group of individuals who work together to achieve a common goal, such as a project team, research team, or customer service team.|
 
 Please also see [Human Tasks](/esp-fundamentals/core-capabilities/human-tasks) for more details on how Functional OU types are used and how assignment relates to your Organizational and Groups structure
