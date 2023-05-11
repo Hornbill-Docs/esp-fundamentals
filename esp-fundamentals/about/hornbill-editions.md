@@ -17,7 +17,7 @@ The following feature list provides a side-by-side comparison of the two edition
 |Storage Configuration|RAID 5|RAID 5 + 0|
 |Activate Database Server|Single|Multiple|
 |GEO Replica DR|Single (remote DC)|Dual (Remote and Local)|
-|Collaboration, Application & Process Users|Up to 500 Active|No Limit|
+|Collaboration, Application & Process Users|Suitable for up to 500 Users|No Limit|
 
 ### Main Features 
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
