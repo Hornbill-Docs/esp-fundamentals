@@ -12,7 +12,6 @@ The following feature list provides a side-by-side comparison of the two edition
 ### Scalability & Architecture 
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
 |:--|:--:|:--:|
-|Scalability & Arch|
 |Compute Nodes/Memory Sharing|Up to 8 instances|Up to 4 instances|
 |Storage Technology|HDD|SSD|
 |Storage Configuration|RAID 5|RAID 5 + 0|
