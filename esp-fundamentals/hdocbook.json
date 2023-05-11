@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "0.0.45",
+  "version": "0.0.46",
   "audience": [
     "public"
   ],
@@ -26,11 +26,15 @@
             "link": "esp-fundamentals/about/what-is-hornbill"
           },
           {
+            "text": "Platform Editions",
+            "link": "esp-fundamentals/about/hornbill-editions"
+          },
+          {
             "text": "Hornbill Applications",
             "link": "esp-fundamentals/about/hornbill-applications"
           },
           {
-            "text": "Hornbill Integrations",
+            "text": "Integrations",
             "link": "esp-fundamentals/about/hornbill-integrations"
           }
         ]

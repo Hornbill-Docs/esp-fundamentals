@@ -22,4 +22,3 @@ Key features of the Hornbill Platform encompass:
 - Context-aware Information and Knowledge Sharing for seamless collaboration
 
 These platform capabilities (and many more unlisted) serve as our building blocks. Our [ready-made business applications](/esp-fundamentals/about/what-is-hornbill#hornbill-applications) (available in the App Store) combine these building blocks to create a diverse range of recipes, offering comprehensive workflows and automation's for employee, partner, and customer processes, as well as resource and document sharing and human task and work management capabilities.
-
