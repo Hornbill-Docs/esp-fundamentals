@@ -6,6 +6,16 @@ The Hornbill Platform is offered to customers in two specific editions, referred
 The compute resource configurations are not bespoke, we currently define two specific architectures (Standard and Enterprise), there is not a "menu" of options that customers can pick and choose from. 
 :::
 
+
+![Hornbill Platform Editions](/_books/esp-fundamentals/about/images/esp-editions.png)
+
+## Standard Edition Configuration/Architecture
+The the Standard Edition is the typical configuration for most customers using a single primary Hornbill application will be the Standard edition configuration.  Users access their applications data through the application logic and a database which is their primary database. The primary database (based on MariaDB) is single transactional relational database that serves both transactional as well as read queries.  For light-to medium loads, workflows and data sets, this configuration offers ample performance and reliability. 
+
+
+## Enterprise Edition Configuration/Architecture
+The Enterprise Edition is a more modular, horizontally scaled configuration, designed primarily to much greater transactional and query throughput, while also separating, balancing and tuning compute resources to more equally match individual customer instance workloads.  In addition to the configuration differences, there are a number of __additional features__ offered that require more compute resources to function adequately and are typically only demanded by enterprise organizations where higher levels of security, auditing, compliance and performance at scale are required. 
+
 ## Platform Edition Feature Matrix
 The following feature list provides a side-by-side comparison of the two editions to help you evaluate the differences between the two editions. 
 
@@ -57,20 +67,8 @@ The following feature list provides a side-by-side comparison of the two edition
 3. Provides more granular and lower level control over access to your instance, including mobile device and IP address restrictions and access controls
 :::
 
-## Standard Edition Configuration/Architecture
-The the Standard Edition is the typical configuration for most customers using a single primary Hornbill application will be the Standard edition configuration.  Users access their applications data through the application logic and a database which is their primary database. The primary database (based on MariaDB) is single transactional relational database that serves both transactional as well as read queries.  For light-to medium loads, workflows and data sets, this configuration offers ample performance and reliability. 
 
-![Standard Edition](/_books/esp-fundamentals/about/images/esp-editions-standard.png)
-
-## Enterprise Edition Configuration/Architecture
-The Enterprise Edition is a more modular, horizontally scaled configuration, designed primarily to much greater transactional and query throughput, while also separating, balancing and tuning compute resources to more equally match individual customer instance workloads.  In addition to the configuration differences, there are a number of __additional features__ offered that require more compute resources to function adequately and are typically only demanded by enterprise organizations where higher levels of security, auditing, compliance and performance at scale are required. 
-
-![Enterprise Edition](/_books/esp-fundamentals/about/images/esp-editions-enterprise.png)
-
-## Choosing the right platform edition
-
+## Choosing the right platform edition for your organization
 There is no one-size-fits-all answer to this question.  Its important to say that the Standard edition of the Hornbill platform is very robust and very capable, it scales really well for many hundreds, even a thousands of concurrently logged in an active users, and so for most needs is more than adequate.  However, in environments where you have large numbers of very active users, or, where you have many complex workflows, large data throughput, large transaction volume such as logging larger numbers of requests, handling large volumes of emails, orchestrating larger volumes of automation's and workflows, will all be driving factors of the Workload/Workflow axis. The point at which a customer will benefit from, or need the enterprise edition will be different for each customer, each instance and each situation. 
 
-![Edition Complexity](/_books/esp-fundamentals/about/images/edition-complexity.png)
-
-You may also require the Enterprise Edition if you need the more advanced security features or guarantees for faster/prioritized system recovery in the event of a DR situation. 
+You may also require the Enterprise Edition at a smaller scale if you need the more advanced security features, or the guarantees for faster/prioritized system recovery in the event of a DR situation. 
