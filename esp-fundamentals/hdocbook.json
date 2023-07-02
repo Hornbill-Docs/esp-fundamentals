@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "0.0.51",
+  "version": "0.0.52",
   "audience": [
     "public"
   ],
@@ -155,8 +155,12 @@
         "expand": true,
         "items": [
           {
-            "text": "Login and Account Types",
+            "text": "User Accounts",
             "link": "esp-fundamentals/security/account-types"
+          },
+          {
+            "text": "API Keys",
+            "link": "esp-fundamentals/security/api-keys"
           },
           {
             "text": "KeySafe",
@@ -179,6 +183,16 @@
           {
             "text": "Behind the Firewall",
             "link": "esp-fundamentals/system-requirements/behind-the-firewall"
+          }
+        ]
+      },
+      {
+        "text": "Best Practice Guides",
+        "expand": true,
+        "items": [
+          {
+            "text": "API Keys Best Practice",
+            "link": "esp-fundamentals/best-practice/api-keys"
           }
         ]
       },
