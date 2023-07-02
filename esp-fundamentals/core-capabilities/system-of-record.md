@@ -7,3 +7,5 @@
   - Contacts & Organizations
   - Sites
 
+[The Link](/esp-fundamentals/in-the-cloud/availability)
+
