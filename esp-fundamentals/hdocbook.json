@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "0.0.61",
+  "version": "0.0.62",
   "audience": [
     "public"
   ],
@@ -56,6 +56,7 @@
             "link": "esp-fundamentals/in-the-cloud/multi-region"
           },
           {
+            "draft": true,
             "text": "Subscription Model",
             "link": "esp-fundamentals/in-the-cloud/subscription-model"
           },
@@ -70,10 +71,12 @@
         "expand": true,
         "items": [
           {
+            "draft": true,
             "text": "System of Record",
             "link": "esp-fundamentals/core-capabilities/system-of-record"
           },
           {
+            "draft": true,
             "text": "System of Action",
             "link": "esp-fundamentals/core-capabilities/system-of-action"
           },
@@ -86,18 +89,22 @@
             "link": "esp-fundamentals/core-capabilities/human-tasks"
           },
           {
+            "draft": true,
             "text": "Authorizations",
             "link": "esp-fundamentals/core-capabilities/authorizations"
           },
           {
+            "draft": true,
             "text": "Business Rules",
             "link": "esp-fundamentals/core-capabilities/business-rules"
           },
           {
+            "draft": true,
             "text": "Workflow Orchestration",
             "link": "esp-fundamentals/core-capabilities/workflow-orchestration"
           },
           {
+            "draft": true,
             "text": "Workflow Automation",
             "link": "esp-fundamentals/core-capabilities/workflow-automation",
             "expand": true,
@@ -119,10 +126,12 @@
             ]
           },
           {
+            "draft": true,
             "text": "E-Mail Automation",
             "link": "esp-fundamentals/core-capabilities/email-automation"
           },
           {
+            "draft": true,
             "text": "Mobile Access",
             "link": "esp-fundamentals/core-capabilities/mobile-access"
           },
@@ -131,6 +140,7 @@
             "link": "esp-fundamentals/core-capabilities/collaboration"
           },
           {
+            "draft": true,
             "text": "Presence, Availability & Status",
             "link": "esp-fundamentals/core-capabilities/presence-availability-status"
           },
@@ -139,6 +149,7 @@
             "link": "esp-fundamentals/core-capabilities/internationalization"
           },
           {
+            "draft": true,
             "text": "Productivity Features",
             "expand": true,
             "items": [
@@ -169,6 +180,7 @@
         ]
       },
       {
+        "draft": true,
         "text": "System Requirements and Compatibility",
         "expand": true,
         "items": [
@@ -197,6 +209,7 @@
         ]
       },
       {
+        "draft": true,
         "text": "TODO..",
         "expand": false,
         "items": [
