@@ -14,11 +14,11 @@ When using API keys, security is an important consideration which should not be 
 
 The following guidance sets our Hornbill's recommendations for best practice when using API Keys with the Hornbill platform.
 
-### Always one user account for each API Key project
+### Use one account for each API Key function you deploy
 
-Because the Hornbill platform allows you to create multiple API keys associated with a single user account, its tempting to create one account and then create all of your API's on that account.  While this works, its generally not a good idea for a number of reasons.
+The Hornbill platform allows you to create multiple API keys associated with a single user account. It is tempting to create one account and then create all of your API's on that account, or, create API keys for integrations and/or automation's under one of your normal user accounts, or even, just create your API keys on the 'admin' account.  While this works, its generally not a good idea for a number of very good reasons.
 
-* The account you create would need a superset of all rights needed by all API keys/use cases.  
+* The account you create would need a superset of all rights needed by all API keys/use cases (automatic in the case of the 'admin' account)
 * You would lose the ability to maintain a traceable audit trail of activity carried out in the context of a specific API key because on the Hornbill platform, audits
 and trace logging is tied into the user account objects.
 * Following the best-practice principle of minimal required rights/privileges is impossible to achieve when you are effectively sharing one account amongst multiple API key use cases/projects. 
