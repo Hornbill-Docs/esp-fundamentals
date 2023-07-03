@@ -11,7 +11,7 @@ When using API keys, security is an important consideration which should not be 
 * Rotate your API keys periodically: The longer an API key is in use, the more known it may become. Its always a good idea to rotate your APi keys periodically by creating a new key beside the existing one, updating the integration/use of the key, and then deleting the old key. 
 * Set Expiry Dates on API Keys: Force key rotation by setting hard dates on the validity of the API key. 
 
-## Recommended Best Practice use of Hornbill Platform API Keys
+## Recommended Best Practice : Using Hornbill Platform API Keys
 
 The following guidance sets out Hornbill's recommendations for best practice when using API Keys to integrate with or profile tools or other systems with machine-to-machine access to your Hornbill instance.  The Hornbill platform is a very flexible system with a lot of possible configuration options, there are always exceptional edge-cases, but as a general rule we strongly recommend that you follow these guidelines as closely as possible to ensure you deploy secure and reliable machine-to-machine integrations, import tools and custom automation's. 
 
