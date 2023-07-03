@@ -10,11 +10,11 @@ When using API keys, security is an important consideration which should not be 
 * Delete unused API keys: To minimize your exposure to attack, delete any API keys that you no longer need.
 * Rotate your API keys periodically: The longer an API key is in use, the more known it may become. Its always a good idea to rotate your APi keys periodically by creating a new key beside the existing one, updating the integration/use of the key, and then deleting the old key. 
 
-## Recommended Best Practice use of API Keys with the Hornbill Platform
+## Recommended Best Practice use of Hornbill Platform API Keys
 
-The following guidance sets our Hornbill's recommendations for best practice when using API Keys with the Hornbill platform.
+The following guidance sets out Hornbill's recommendations for best practice when using API Keys to integrate with or profile tools or other systems with machine-to-machine access to your Hornbill instance.  The Hornbill platform is a very flexible system with a lot of possible configuration options, there are always exceptional edge-cases, but as a general rule we strongly recommend that you follow these guidelines as closely as possible to ensure you deploy secure and reliable machine-to-machine integrations, import tools and custom automation's. 
 
-### Use one account for each API Key function you deploy
+### 1. Use one account for each API Key function you deploy
 
 The Hornbill platform allows you to create multiple API keys associated with a single user account. It is tempting to create one account and then create all of your API's on that account, or, create API keys for integrations and/or automation's under one of your normal user accounts, or even, just create your API keys on the 'admin' account.  While this works, its generally not a good idea for a number of very good reasons.
 
@@ -25,7 +25,7 @@ and trace logging is tied into the user account objects.
 
 Sometimes there is a valid reason for having more than one API key on an account, especially when you have, for example multiple, related data imports.  You may want each one on a separate API key, but they are a group of import scripts/functions running as "the nightly import". However, it should be noted that the primary purpose of allowing more than one API key per account is to facilitate seamless API key cycling and testing etc. 
 
-### Always apply IP Address restriction rules.
+### 2. Always apply IP Address restriction rules.
 
 Almost every use case for an API key is for some form of integration, data import or automation and as a general rule you would know exactly where these processes/tools are running.  By limiting the use of the API key to a specific IP address (or group of IP addresses) you will be limited in the ability for the API key to be abused, even if the key its self has been compromised. 
 
@@ -33,15 +33,15 @@ Almost every use case for an API key is for some form of integration, data impor
   IP Address restriction rules are only available for platform build 3755 and above
   :::
 
-### Always create API Filter Rules to limit APIs that can be Invoked
+### 3. Always create API Filter Rules to limit APIs that can be Invoked
 
 Most integrations or tools that will make use of API keys will typically only need to invoke a very small handful of API methods on the Hornbill platform.  You should always create specific API Filter rules on each API key, limiting the ability for the API Key use case to invoke API methods you were not expecting. 
 
-### Never use the 'admin' account, or any user account that has super-user right granted for API Keys
+### 4. Never use the 'admin' account, or any user account that has super-user right granted for API Keys
 
 While its tempting to create API's on all-powerful user accounts, this is not recommended and should be avoided.  The default 'admin' account on your Hornbill instances is a very powerful account, the privilege level applied to these super-user accounts bypass a lot of security checks and other security controls.  While its technically possible to create one or more API keys on the 'admin' account, or other super-user designated account, even with the IP Address Rules and API Filter Rules in place, its simply not a good idea to make a non-interactive super-user account so easily accessible with a simple key.
 
-### Cycle your API keys.  
+### 5. Cycle your API keys.  
 
 You should consider cycling your API keys periodically.  Hornbill provides an option to have an API key expire on a future date you specify.  Its a good idea to set yourself a periodic reminder to achieve this.  This is especially true as individuals move in and out of your organization, make sure you cycle any API keys that person may have had site of, or cause to work with. 
 
