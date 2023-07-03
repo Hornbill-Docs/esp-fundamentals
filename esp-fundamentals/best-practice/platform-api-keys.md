@@ -1,4 +1,4 @@
-# Using API Keys Securely
+# API Keys Security Considerations
 
 When using API keys, security is an important consideration which should not be overlooked.  Its important that you keep your API keys secure, API keys in many respects should be treated like pass codes. Exposing API keys to an extended audience can result in the associated user account being compromised, which could lead to many security issues including unauthorized access and data theft/loss.  To keep your API keys secure, follow these best practices:
 
