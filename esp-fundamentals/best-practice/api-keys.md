@@ -10,7 +10,7 @@ When using API keys, security is an important consideration which should not be 
 * Delete unused API keys: To minimize your exposure to attack, delete any API keys that you no longer need.
 * Rotate your API keys periodically: The longer an API key is in use, the more known it may become. Its always a good idea to rotate your APi keys periodically by creating a new key beside the existing one, updating the integration/use of the key, and then deleting the old key. 
 
-## Recommended Hornbill Platform API Key Use
+## Recommended Best Practice use of API Keys with the Hornbill Platform
 
 The following guidance sets our Hornbill's recommendations for best practice when using API Keys with the Hornbill platform.
 
