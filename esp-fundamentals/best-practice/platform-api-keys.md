@@ -2,14 +2,14 @@
 
 When using API keys, security is an important consideration which should not be overlooked.  Its important that you keep your API keys secure, API keys in many respects should be treated like pass codes. Exposing API keys to an extended audience can result in the associated user account being compromised, which could lead to many security issues including unauthorized access and data theft/loss.  To keep your API keys secure, follow these best practices:
 
-* Do not embed API keys directly in code: API keys that are embedded in code can be accidentally exposed to the public, for example, if you forget to remove the keys from the code that you share. Instead of embedding your API keys in your applications, store them in environment variables or in files outside of your application's source tree.
-* Do not store API keys in files inside your application's source tree: If you store API keys in files, keep the files outside your application's source tree to help ensure your keys do not end up in your source code control system. This is particularly important if you use a public source code management system such as GitHub.
-* Do not show your API keys in videos, documents, or other shareable content. If you do need to show screens where your API key appears, use your graphics tools to redact the specific key identifiers. 
-* Restrict your API keys to be used by only the IP addresses that need them: By restricting the IP addresses that can use each key, you can significantly reduce the likelihood of API key misuse. You should specify the hosts and/or network ranges that are valid for each.
-* Restrict your API keys to be used only for specific APIs: If the use case for  your API requires a number of APIs, restrict the API key to only be able to invoke only those specific APIs.
-* Delete unused API keys: To minimize your exposure to attack, delete any API keys that you no longer need.
-* Rotate your API keys periodically: The longer an API key is in use, the more known it may become. It's always a good idea to rotate your API keys periodically by creating a new key beside the existing one, updating the integration/use of the key, and then deleting the old key. 
-* Set Expiry Dates on API Keys: Force key rotation by setting hard dates on the validity of the API key. 
+* __Do not embed API keys directly in code__: API keys that are embedded in code can be accidentally exposed to the public, for example, if you forget to remove the keys from the code that you share. Instead of embedding your API keys in your applications, store them in environment variables or in files outside of your application's source tree.
+* __Do not store API keys in files inside your application's source tree__: If you store API keys in files, keep the files outside your application's source tree to help ensure your keys do not end up in your source code control system. This is particularly important if you use a public source code management system such as GitHub.
+* __Do not show your API keys in videos, documents, or other shareable content__:. If you do need to show screens where your API key appears, use your graphics tools to redact the specific key identifiers. 
+* __Restrict your API keys to be used by only the IP addresses that need them__: By restricting the IP addresses that can use each key, you can significantly reduce the likelihood of API key misuse. You should specify the hosts and/or network ranges that are valid for each.
+* __Restrict your API keys to be used only for specific APIs__: If the use case for  your API requires a number of APIs, restrict the API key to only be able to invoke only those specific APIs.
+* __Delete unused API keys__: To minimize your exposure to attack, delete any API keys that you no longer need.
+* __Rotate your API keys periodically__: The longer an API key is in use, the more known it may become. It's always a good idea to rotate your API keys periodically by creating a new key beside the existing one, updating the integration/use of the key, and then deleting the old key. 
+* __Set Expiry Dates on API Keys__: Force key rotation by setting hard dates on the validity of the API key. 
 
 ## Recommended Best Practice: Using Hornbill Platform API Keys
 
