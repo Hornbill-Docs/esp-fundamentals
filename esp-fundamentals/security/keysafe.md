@@ -11,8 +11,8 @@ As well as the secure storage of credentials, Hornbill KeySafe also implements a
 ## Security
 Access to KeySafe is controlled by Hornbill system rights, which means you can configure and control access to KeySafe, locking down access to individuals, groups, teams etc... We have built in multiple layers of security into the KeySafe system to ensure the secret keys and other security assets stored in KeySafe remain safe and secure. 
 
-## KeySafe Record Access Controls
-Many pre-built integrations and import tools make use of KeySafe to store credentials, these integrations typically make use of API Keys on the Hornbill platform.  When creating a KeySafe entry, it is possible to restrict the use of individual KeySafe records to a specific user account(s) or API Key(s).
+## KeySafe Access Controls
+Many pre-built integrations and import tools make use of KeySafe to store credentials, these integrations typically make use of API Keys on the Hornbill platform.  When creating a KeySafe entry, it is possible to restrict the use of individual KeySafe records to a specific API Key(s).  It is required you apply these access controls whenever you create a KeySafe entry that will be used by any integration that makes use of an API key in order to give that API key permission to access that specific credential.
 
 ## Limited Security Surface
 As well as all KeySafe content being encrypted at rest, and in motion, KeySafe credentials are generally not available for viewing/observing through the administrative user interfaces either, setting a password on a identity record for example is a one-way operation, the administrator configuring the KeySafe entry can set a password credential, but cannot subsequently view it once set. The various integration points that make use of KeySafe entry's, credentials content is transmitted to the point of integration encrypted, we only decrypt and use the credentials at the exact point its needed, and we never store credentials on any local disk files or in any caches, making KeySafe very secure. 
