@@ -14,7 +14,7 @@ API keys can vary in complexity and format, but they are often alphanumeric stri
 
 For information on best practice guidance on using API keys within Hornbill, please see [Best Practice Use of API Keys in Hornbill](/esp-fundamentals/best-practice/platform-api-keys)
 
-## API Key Rules
+## API Key Security Controls
 
 If you create an API Key on a specific user account, by default the user of the API Key will have all of the same rights and privileges ast the user account the key is associated with, and this will generally mean the user of the API key will have access to a large number of API's.  For most use cases, API Key uses, such as integrations generally only need to use a small handful of API's, and you often want to make sure that your API key is being used from a known single, or set of source IP addresses.  To provide this more granular control you can use API Key Rules.
 
