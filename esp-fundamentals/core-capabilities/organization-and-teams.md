@@ -24,10 +24,10 @@ Each organizational structure approach has its pros and cons, in practice each c
 ## Organization Mode
 When configuring Hornbill to support your organization, you have a choice of two different modes to work with. 
 
-- __Simple__: The default (and generally recommended) mode defines a single top-level Company under which there is a flat list of cost centers, departments and teams
+- __Simple__: The default (and generally recommended) mode defines a single top-level Company defined with a reserved ID of ___ORG___, as well as a flat list cost centers, departments and assignment teams.
 - __Hierarchical__: For organizations that have complex, multi-level company/divisional and organizational structure with the full range of organizational types and an unlimited depth hierarchical structure, the this more advanced mode would the the right choice. 
 
-This is an important choice you really need to make early on when deploying Hornbill into your organization, please ensure you read our [Best Practice Guide for Defining Your Org Structre](/esp-fundamentals/best-practice/org-structure) before making your choice.
+This is an important choice you really need to make early on when deploying Hornbill into your organization, please ensure you read our [Best Practice Guide for Defining Your Org Structure](/esp-fundamentals/best-practice/org-structure) before making your choice.
 
 
 ## Organizational Units (OU's)
