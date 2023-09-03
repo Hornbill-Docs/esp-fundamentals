@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "audience": [
     "public"
   ],
@@ -207,7 +207,7 @@
             "link": "esp-fundamentals/best-practice/platform-api-keys"
           },
           {
-            "text": "Defining You Organizational Structure",
+            "text": "Organizational Structure Best Practice",
             "link": "esp-fundamentals/best-practice/org-structure"
           }
         ]
