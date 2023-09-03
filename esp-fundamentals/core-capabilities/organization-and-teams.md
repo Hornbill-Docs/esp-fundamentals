@@ -21,22 +21,20 @@ There are many types of organizational structures in use today, each with its ow
 
 Each organizational structure approach has its pros and cons, in practice each company will adopt some hybrid combination of these approaches. 
 
-## Organization Mode
-When configuring Hornbill to support your organization, you have a choice of two different org structure approaches. 
+## Organization Structure Implementation Strategy
+When configuring Hornbill to support your organization, you have a choice of two different approaches to defining your organizational structure in Hornbill. 
 
-- __Flat__: This mode you avoid using child items, meaning you define everything you need at the top-level of your organization. You define a single top-level Company OU, and then define a flat list cost centers, departments and assignment teams also at that top level. 
-- __Hierarchical__: For organizations that have complex, multi-level company/divisional and organizational structure with the full range of organizational types and an unlimited depth hierarchical structure, the this more advanced approach would the the right choice. 
+- __Flat__: With this approach you simply avoid using child items, meaning you define everything you need at the top-level of your organization structure. You define a single top-level Company OU, and then define a flat list of cost centers, departments and assignment teams also all at that top level. 
+- __Hierarchical__: For organizations that have complex, multi-level company/divisional and organizational structure with the full range of organizational unit (OU) types and an unlimited depth hierarchical structure, then this more advanced approach may well be the the right choice. 
 
-This is an important choice you really need to make early on when deploying Hornbill into your organization, please ensure you read our [Best Practice Guide for Defining Your Org Structure](/esp-fundamentals/best-practice/org-structure) before making your choice.
+This is an important choice you really need to make early on when deploying Hornbill into your organization, please ensure you read our [Best Practice Guide for Defining Your Org Structure](/esp-fundamentals/best-practice/org-structure) before making your choice. Its worth remembering that just because you can do something does not mean you always should, and this applies when it comes to mapping your organizational structure in Hornbill. 
 
 
 ## Organizational Units (OU's)
-
 In Hornbill, an organizational structure is made up of a tree-like hierarchy of Organizational Units (OU's) where each node on the tree as an OU, and each OU can contain child OU's.  There are two types of OU's, which are General and Functional.   Users can be added as a member to one or more OU's providing the flexibility to build one or more organizational structures, for example, line of report/org chart, cross-functional teams, or you can model a simple flat structure of Team OU's and assignment OU's. 
 
 ### User Assignment
 For the purpose of Hornbill's Organizational Structure, there are two types of users, Full Users and Basic Users. To find out more about these types of users and their differences please refer to [User Account Types](/esp-fundamentals/security/account-types#account-types)
-
 
 ### General Organizational Unit (OU) Types
 The following types of organizational units are available in Hornbill to help you define your organizational structure. These general types are only used for organizing your users into a browsable structure, and have no specific functional purpose beyond that.  
