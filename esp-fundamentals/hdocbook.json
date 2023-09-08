@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "audience": [
     "public"
   ],
@@ -108,6 +108,7 @@
               {
                 "text": "Workflow Automation",
                 "expand": true,
+                "draft": true,
                 "items": [
     
                   {
