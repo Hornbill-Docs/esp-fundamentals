@@ -24,9 +24,7 @@ There are two types of API Key rules you can use in Hornbill
 
 - __API Filter Rules__: You can limit an API Key from accessing most API's and limit to just the API's the integration or use case where the API Key is being used.  If you do not specify API Rules, then the API Key user can invoke any API that the user account associated with the API key has permissions to.
 
-  :::warning
-  IP Address Rules for API's are only available on service build 3756 or later. 
-  :::
+- __WebDAV Filter Rules__: You can limit an API Key from accessing any WebDAV resource to restrict both the operation (GET, PUT, PORPFIND, DELETE etc...) and a resource path, including a right match wildcard option.  If you do not specify WebDAV Filter Rules, then the API Key user can access/use all resources accessible to the account session related to the API key without restriction.
 
 Here are some examples of both IP Address and API Rules and how to define them.  
 
@@ -34,6 +32,9 @@ Here are some examples of both IP Address and API Rules and how to define them.
 |:--|:--|
 |`ip=142.250.200.46`|Will allow API calls using this API key from the specified address|
 |`ip=142.250.200.0/24`|Will allow API calls using this API key from the specified network address 142.250.200.x where we are using the CIDR representation of the network mask, in this example /24|
+|`dav=GET session/*`|Will allow the caller to do GET operation on any file in the session folder|
+|`dav=PUT session/*`|Will allow the caller to do a PUT operation and upload a file into the session folder|
+|`dav=* session/*`|Will allow the caller to perform any supported WebDAV operation|
 |`session:*`|Allows any API in the session service|
 |`session:getSessionInfo`|Will allow this API. You can specify multiple individual API calls when more than one API call should be allowed|
 |`session:get*`|Allow any API with a name that starts with 'get' within the session service|
@@ -41,5 +42,3 @@ Here are some examples of both IP Address and API Rules and how to define them.
 |`apps/com.hornbill.core:addHistory`| Allow the Core application defined global API addHistory
 |`apps/com.hornbill.core/Achievement:addAchievement`|Allows the application defined for entity Achievement|
 |`apps/com.hornbill.core/Achievement:*`|Allows the application defined for entity Achievement's API's|
-
-
