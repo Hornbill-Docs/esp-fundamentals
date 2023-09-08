@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "audience": [
     "public"
   ],
@@ -113,17 +113,17 @@
                   {
                     "draft": true,
                     "text": "IT Automation",
-                    "link": "esp-fundamentals/core-capabilities/it-automaton"
+                    "link": "esp-fundamentals/core-capabilities/workflow-it-automaton"
                   },
                   {
                     "draft": true,
                     "text": "Cloud System Integrations",
-                    "link": "esp-fundamentals/core-capabilities/cloud-integration"
+                    "link": "esp-fundamentals/core-capabilities/workflow-cloud-integration"
                   },
                   {
                     "draft": true,
                     "text": "Behind the Firewall Integrations",
-                    "link": "esp-fundamentals/core-capabilities/behind-the-firewall-integration"
+                    "link": "esp-fundamentals/core-capabilities/workflow-behind-the-firewall-integration"
                   }
                 ]
               }
