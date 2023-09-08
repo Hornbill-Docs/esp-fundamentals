@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "audience": [
     "public"
   ],
@@ -90,39 +90,43 @@
           },
           {
             "draft": true,
-            "text": "Authorizations",
-            "link": "esp-fundamentals/core-capabilities/authorizations"
-          },
-          {
-            "draft": true,
             "text": "Business Rules",
             "link": "esp-fundamentals/core-capabilities/business-rules"
           },
           {
-            "draft": true,
-            "text": "Workflow Orchestration",
-            "link": "esp-fundamentals/core-capabilities/workflow-orchestration"
-          },
-          {
-            "draft": true,
-            "text": "Workflow Automation",
-            "link": "esp-fundamentals/core-capabilities/workflow-automation",
+            "text": "Workflow",
             "expand": true,
             "items": [
-
               {
-                "text": "IT Automation",
-                "link": "esp-fundamentals/core-capabilities/it-automaton"
+                "text": "Workflow Orchestration",
+                "link": "esp-fundamentals/core-capabilities/workflow-orchestration"
               },
               {
-                "text": "Cloud System Integrations",
-                "link": "esp-fundamentals/core-capabilities/cloud-integration"
+                "text": "Workflow Approvals",
+                "link": "esp-fundamentals/core-capabilities/workflow-approvals"
               },
               {
-                "text": "Behind the Firewall Integrations",
-                "link": "esp-fundamentals/core-capabilities/behind-the-firewall-integration"
-              }
+                "text": "Workflow Automation",
+                "expand": true,
+                "items": [
     
+                  {
+                    "draft": true,
+                    "text": "IT Automation",
+                    "link": "esp-fundamentals/core-capabilities/it-automaton"
+                  },
+                  {
+                    "draft": true,
+                    "text": "Cloud System Integrations",
+                    "link": "esp-fundamentals/core-capabilities/cloud-integration"
+                  },
+                  {
+                    "draft": true,
+                    "text": "Behind the Firewall Integrations",
+                    "link": "esp-fundamentals/core-capabilities/behind-the-firewall-integration"
+                  }
+                ]
+              }
             ]
           },
           {

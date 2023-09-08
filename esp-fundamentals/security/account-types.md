@@ -1,4 +1,4 @@
-# Hornbill Platform Security Model
+# Hornbill Platform Account Types
 Hornbill is designed to be used within enterprise organizations, a key capability is a security model that delivers data and system security features that are flexible enough to support the most stringent of security controls to support any organization.
 
 ## Security Controls
