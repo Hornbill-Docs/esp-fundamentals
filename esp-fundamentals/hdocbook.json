@@ -70,6 +70,10 @@
         "expand": true,
         "items": [
           {
+            "text": "Collaboration",
+            "link": "esp-fundamentals/core-capabilities/collaboration"
+          },
+          {
             "draft": true,
             "text": "System of Record",
             "link": "esp-fundamentals/core-capabilities/system-of-record"
@@ -137,10 +141,6 @@
             "draft": true,
             "text": "Mobile Access",
             "link": "esp-fundamentals/core-capabilities/mobile-access"
-          },
-          {
-            "text": "Collaboration",
-            "link": "esp-fundamentals/core-capabilities/collaboration"
           },
           {
             "draft": true,
