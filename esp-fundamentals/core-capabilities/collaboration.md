@@ -1,6 +1,12 @@
 # Collaboration
 
-Hornbill's collaboration capabilities are designed to foster effective communication and teamwork within organizations. These features facilitate seamless collaboration between team members, departments, and sometimes external stakeholders. Some of the key collaboration capabilities provided by Hornbill include:
+Hornbill's collaboration capabilities are designed to foster effective communication and teamwork within organizations. These features facilitate seamless collaboration between team members, departments, and sometimes external stakeholders. 
+
+
+![Workflow](/_books/esp-fundamentals/core-capabilities/images/collab.png)
+
+
+Some of the key collaboration capabilities provided by Hornbill include:
 
 1. __Activity Streams__: Activity streams provide real-time updates on tasks, projects, and other relevant information. They enable users to stay informed about what's happening within their teams and across the organization. Users can also comment on activities, ask questions, and share updates, fostering communication and collaboration.
 
