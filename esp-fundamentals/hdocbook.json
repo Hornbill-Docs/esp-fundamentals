@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "audience": [
     "public"
   ],
@@ -97,27 +97,26 @@
             "expand": true,
             "items": [
               {
-                "text": "Workflow Orchestration",
+                "text": "Orchestration",
                 "link": "esp-fundamentals/core-capabilities/workflow-orchestration"
               },
               {
-                "text": "Workflow Approvals",
+                "text": "Approvals",
                 "link": "esp-fundamentals/core-capabilities/workflow-approvals"
               },
               {
-                "text": "Workflow Automation",
+                "text": "Automation",
                 "expand": true,
                 "draft": true,
                 "items": [
-    
                   {
                     "draft": true,
-                    "text": "IT Automation",
+                    "text": "IT Systems Automation",
                     "link": "esp-fundamentals/core-capabilities/workflow-it-automaton"
                   },
                   {
                     "draft": true,
-                    "text": "Cloud System Integrations",
+                    "text": "Cloud Systems Integrations",
                     "link": "esp-fundamentals/core-capabilities/workflow-cloud-integration"
                   },
                   {
