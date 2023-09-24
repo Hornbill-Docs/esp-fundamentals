@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "audience": [
     "public"
   ],
@@ -56,7 +56,6 @@
             "link": "esp-fundamentals/in-the-cloud/multi-region"
           },
           {
-            "draft": true,
             "text": "Subscription Model",
             "link": "esp-fundamentals/in-the-cloud/subscription-model"
           },
