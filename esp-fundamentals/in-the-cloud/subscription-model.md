@@ -1,11 +1,8 @@
 # Subscription Model
-
 Hornbill is a collection of cloud-based work management, productivity and collaboration tools offered by Hornbill. Running through all applications there is a common theme running throughout the entire Hornbill product suite that is focused on Workflow, Orchestration, Automation and Integration. Hornbill includes applications like Service Manager, Collaboration, Board Manager, Document Manager, Customer Manager, and others, along with all of the cloud storage and various capabilities that enable communication, collaboration, and productivity.
 
-
-## Enterprise Pricing Complexity
-The subscription model for Hornbill can be complex because it is designed to for Enterprise organizations of all sizes, and has to cater to a wide range of users, who have a wide range of needs within any enterprise, which can in some cases lead to complex pricing, that must consider the following: -
-
+## Subscription Pricing
+The subscription pricing model for Hornbill can appear complex because it is designed to for Enterprise organizations of all sizes, and has to cater to a wide range of users, who have a wide range of needs within any enterprise, which can in some cases lead to complex pricing, and in others can be very simple, but our subscription and pricing model must consider the following: -
 
 |Consideration|Description|
 |:--|:--|
@@ -18,7 +15,7 @@ The subscription model for Hornbill can be complex because it is designed to for
 |__Geographical Considerations__|Microsoft offers different plans and pricing for different regions, taking into account variations in market demands and economic factors.|
 |__Compliance and Security__|Organizations with specific compliance and security requirements may need to opt for premium plans that include advanced security and compliance features. These plans are often more costly but necessary for organizations in regulated industries.|
 
-In summary, the subscription model for Hornbill can be complex, especially as your requirements become more complex, because it offers a vast array of options and configurations to cater to the diverse needs of individual users and organizations. This complexity allows for a high degree of customization and cost optimization, ensuring that users and organizations can select the precise combination of services and features that best meet their requirements while controlling costs effectively.
+In summary, the subscription model for Hornbill can seem complex, especially as your requirements become more comprehensive, because Hornbill offers a vast array of options and configurations to cater to the diverse needs of individual users and organizations. This complexity allows for a high degree of customization and cost optimization, ensuring that users and organizations can select the precise combination of services and features that best meet their requirements while controlling costs effectively.
 
 
 ## Subscription Model In Principle
