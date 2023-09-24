@@ -23,7 +23,7 @@ In essence, Hornbill empowers non-technical business process designers to simpli
 
 Using Hornbill to automate your workflows offers numerous business benefits compared to manually processed workflows, or using systems that require a lot of coding and programming to meet your workflow and automation needs. 
 
-Here are some of the key key benefits:
+Here are some of the key business benefits:
 
 |Benefit|Description|
 |:--|:--|
