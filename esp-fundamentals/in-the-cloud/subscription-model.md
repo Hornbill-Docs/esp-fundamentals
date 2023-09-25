@@ -38,7 +38,7 @@ The general guiding principles we apply when setting subscription requirements a
 
 ## Subscription Extensions
 
-The Hornbill platform provides a base level of functionality to any subscribed user. A Hornbill platform user subscription will allow the user to log in and have access to a set of core capabilities that allow them to participate in workflows, even if the platform user does not have a subscription to specifically access the application that owns the workflow.  
+The Hornbill platform provides a base level of functionality to any subscribed user. A Hornbill platform user subscription will allow the user to log in securely, and have access to a set of core capabilities that allow them to participate in workflows, even if the platform user does not have a subscription to specifically access the application that owns the workflow.  
 
 There are two classes of platform user, known as __Basic__ and __User__, click to read more about [Hornbill Platform User Accounts](/esp-fundamentals/security/account-types).  While both types are user accounts on the platform, the __Basic__ user account does not require a subscription, but has very limited access to the platforms capabilities. The primary reason for the __Basic__ user account is to provide end users access to the Employee Portal is free to use for your entire organization and is typically where your end-users would get access to the services and knowledge and other information you have given them access to, so they may browse and subscribe to services, raise requests, seek help or self-serve help and/or documentation.  
 
