@@ -38,18 +38,24 @@ The general guiding principles we apply when setting subscription requirements a
 
 ## Subscription Extensions
 
-Hornbill is a platform the provides a base level of functionality to any subscribed user. Hornbill platform user subscription gets the user access to a number of core capabilities that allow them to participate in workflows, even if the user does not have a subscription to the application that owns the workflow.  
+Hornbill is a platform the provides a base level of functionality to any subscribed user. A Hornbill platform user subscription will allow the user to log in and have access to a set of core capabilities that allow them to participate in workflows, even if the platform user does not have a subscription to specifically access the application that owns the workflow.  
 
-As a subscribed platform user, you get: -
+There are two classes of platform user, known as __Basic__ and __User__, click to read more about [Hornbill Platform User Accounts](/esp-fundamentals/security/account-types).  While both types are user accounts on the platform, the __Basic__ user account does not require a subscription, but has very limited access to the platforms capabilities. The primary reason for the __Basic__ user account is to provide end users access to the Employee Portal is free to use for your entire organization and is typically where your end-users would get access to the services and knowledge and other information you have given them access to, so they may browse and subscribe to services, raise requests, seek help or self-serve help and/or documentation.  
 
-- Secure Access to the platform User and Mobile applications
-- Notifications
-- Email / Shared Mailboxes
-- Tasks and Authorizations
-- Productivity Tools and Features
-- Your User Profile and company wide Co-Worker Directory
-- News Feed
-- The ability to be given access to, and use, other Hornbill applications that have been deployed on your companies Hornbill instance. 
+The following table shows which platform features each type of user has access to
+
+|Feature/Module|Basic|User|
+|:--|:--:|:--:|
+|Employee Portal / Service Catalog|Yes|Yes|
+|Secure access to the platform User and Mobile applications|No|Yes|
+|Desktop and Mobile Notifications|No|Yes|
+|Email / Shared Mailboxes|No|Yes|
+|Tasks and Authorizations|No|Yes|
+|Productivity Tools and Features|No|Yes|
+|Your User Profile and company wide Co-Worker Directory|No|Yes|
+|News Feed|No|Yes|
+|Hornbill Applications (as User)|No|Yes| 
+
 
 You can (and should) think of each application on the Hornbill Platform as an application in its own right, an application that builds on the foundation of the Hornbill Platform.  Each application has the option of requiring an application or a per-user subscription, this is defined on an application-by-application on a commercial basis at the time of design. Applications often focus on a very specific market or function, and pricing is generally aligned with market expectation and defined on the basis of business value delivered. 
 
