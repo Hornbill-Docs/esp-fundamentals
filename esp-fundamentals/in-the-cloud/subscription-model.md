@@ -17,8 +17,7 @@ The subscription pricing model for Hornbill can appear complex because it is des
 
 In summary, the subscription model for Hornbill can seem complex, especially as your requirements become more comprehensive, because Hornbill offers a vast array of options and configurations to cater to the diverse needs of individual users and organizations. This complexity allows for a high degree of customization and cost optimization, ensuring that users and organizations can select the precise combination of services and features that best meet their requirements while controlling costs effectively.
 
-
-a## Subscription Model In Principle
+## Subscription Model In Principle
 Hornbill's subscription pricing strategy is deeply rooted in our commitment to delivering substantial business value to all. At the core of Hornbill's value proposition, you'll find a suite of robust productivity and workflow automation tools meticulously designed with the service provider and service requester model at the forefront of our approach.
 
 Within the realm of Hornbill, we draw a clear distinction between two pivotal roles: "users" who actively leverage our productivity and workflow capabilities to streamline services for their colleagues, and "customers" who reap the benefits of these services. This fundamental differentiation underpins our precise subscription allocation methodology.
@@ -36,6 +35,27 @@ The general guiding principles we apply when setting subscription requirements a
 - Our customers customers should not need to pay a subscription to benefit from Hornbill web portals/mobile devices that enhance their service experience. 
 - Pricing should always reflect the business value from productivity, enablement or automation possibilities delivered to the organization.
 - Offer limited free-tier access to otherwise subscribable apps/modules/options within the Hornbill ecosystem in order to allow customers to touch/see/evaluate capabilities to determine the business value they may be able to derive from the subscription to that capability. 
+
+## Subscription Extensions
+
+Hornbill is a platform the provides a base level of functionality to any subscribed user. Hornbill platform user subscription gets the user access to a number of core capabilities that allow them to participate in workflows, even if the user does not have a subscription to the application that owns the workflow.  
+
+As a subscribed platform user, you get: -
+
+- Secure Access to the platform User and Mobile applications
+- Notifications
+- Email / Shared Mailboxes
+- Tasks and Authorizations
+- Productivity Tools and Features
+- Your User Profile and company wide Co-Worker Directory
+- News Feed
+- The ability to be given access to, and use, other Hornbill applications that have been deployed on your companies Hornbill instance. 
+
+You can (and should) think of each application on the Hornbill Platform as an application in its own right, an application that builds on the foundation of the Hornbill Platform.  Each application has the option of requiring an application or a per-user subscription, this is defined on an application-by-application on a commercial basis at the time of design. Applications often focus on a very specific market or function, and pricing is generally aligned with market expectation and defined on the basis of business value delivered. 
+
+While some applications on the Hornbill platform are free for platform users to use, other applications do charge a subscription that is independent of, and in addition to, the platform subscription.  Generally speaking the pricing strategy for applications take into account the base cost of a platform subscription. 
+
+You should review the subscription model(s) for the Hornbill Application(s) you are considering, each application will clearly set out its subscription model and how it extends/builds on the Hornbill Platform Subscription Model. 
 
 
 ## Frequently Asked Questions
