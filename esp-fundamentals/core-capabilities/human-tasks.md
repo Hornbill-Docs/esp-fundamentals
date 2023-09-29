@@ -119,7 +119,7 @@ In simpler use cases where an Approval only requires a single individual (or nom
 
 ## Task Ownership
 
-The ownership of a task is distinct from assignment.  In the case of a manually created task, for example, a manager creating a task for one odf their team, the manager is said to be "the owner" while the individual or team who have been "assigned" the responsibility of completing the task is the "assignee".  While it is often the case that the terms are used interchangeably, in Hornbill we would say the "assignee" is "assigned the responsibility" to complete the task, while the owner of the task is typically the task originator. 
+The ownership of a task is distinct conceptually from the assignment of the task.  In the case of a manually created task, for example, a manager creating a task that needs to be done, but will be assigned to one of their team to get done, the manager is said to be "the owner" of the task, while the individual or team who has been "assigned" the responsibility of completing the task is the "assignee" of the task.  While it is often the case that the terms are used interchangeably, in Hornbill we would say the "assignee" is "assigned the responsibility" to complete the task, while the owner of the task is typically the task originator. 
 
 ## Task Assignment
 
