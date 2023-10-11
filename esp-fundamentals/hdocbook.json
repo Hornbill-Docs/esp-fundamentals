@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "audience": [
     "public"
   ],
@@ -198,6 +198,16 @@
           {
             "text": "Behind the Firewall",
             "link": "esp-fundamentals/system-requirements/behind-the-firewall"
+          }
+        ]
+      },
+      {
+        "text": "Reference Guides",
+        "expand": true,
+        "items": [
+          {
+            "text": "ExpressLogic Guide",
+            "link": "esp-fundamentals/reference-guides/express-logic"
           }
         ]
       },
