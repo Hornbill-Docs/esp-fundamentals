@@ -57,9 +57,6 @@ Number literals should support the decimal format, no scientific notation is req
 ## ExpressLogic Null Literal Value
 The NULL value should be expressed as NULL and I case-insensitive so (Null, NULL, null etc are all valid),  as it is in SQL statements.  NULL values will support the = (==) and != operators for comparison.  NULL is only ever equal to the literal NULL or a variable (identifier) that contains a NULL value.  A NULL value is one that is present but has not been assigned any value. In the case of a String value, NULL and empty string do not equate to the same thing.
 
-## ExpressLogic Comparison Operators
-When comparing two values, it’s likely that in some cases the user writing the expression might compare a string to a number.  Rather than fail in this case, what the expression evaluation will do is attempt to convert the string value to a number, but only if the string only contains characters that can be converted to a number, and then do a numeric comparison.  If the string contains characters that are not numerals, then the number value is converted to a string, and a string comparison is performed instead. The reasoning behind this behavior is to make the expressions as easy as possible to use.
-
 ## ExpressLogic Logical Connectives
 |Operator|Operator Priority|Description|
 |:--|:--|:--|
@@ -81,6 +78,10 @@ When comparing two values, it’s likely that in some cases the user writing the
 |LIKE|SQL-style LIKE operator in expressions.  An example would be: -<br><br>`a LIKE b`<br>`‘a’ LIKE ‘b’`<br><br>The like operation should support the SQL style % prefix and postfix wildcard, so ‘a%’ starts with,  or ‘%a’ ends with. Matches should be case-insensitive|
 |IN|SQL-style IN operator, for example<br><br>`‘a’ IN (‘b’, ‘c’, ‘d’)`<br><br>The IN operation should do checks in an case-insensitive form.|
 |NOT|SQL-style NOT operator in expressions.  Examples would be <br><br>`a NOT LIKE b`<br>`NOT 1`<br>`1 NOT IN (1,2,3)`<br><br>The NOT operator will invert the logical result of the expression to its right. 
+
+## ExpressLogic Data Types Comparison Behavior
+When comparing two values, it’s likely that in some cases the user writing the expression might compare a string to a number.  Rather than fail in this case, what the expression evaluation will do is attempt to convert the string value to a number, but only if the string only contains characters that can be converted to a number, and then do a numeric comparison.  If the string contains characters that are not numerals, then the number value is converted to a string, and a string comparison is performed instead. The reasoning behind this behavior is to make the expressions as easy as possible to use.
+
 
 ## ExpressLogic Functions
 Functions can take any number of arguments and will a single return value.  Arguments can be literal values, identifier (variable) values or the return value from another function.  For example:- 
