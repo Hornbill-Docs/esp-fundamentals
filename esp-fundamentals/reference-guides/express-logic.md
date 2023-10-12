@@ -60,36 +60,26 @@ The NULL value should be expressed as NULL and I case-insensitive so (Null, NULL
 ## ExpressLogic Logical Connectives
 |Operator|Operator Priority|Description|
 |:--|:--|:--|
-|AND (or && or ‘and’ or ‘And’)|1|Logical AND connective|
-|OR (or \|\| or ‘or’ or ‘Or’)|2|Logical OR connective|
+|`AND` (or && or ‘and’ or ‘And’)|1|Logical AND connective|
+|`OR` (or \|\| or ‘or’ or ‘Or’)|2|Logical OR connective|
 
 ## ExpressLogic Logical Operators
-|Operator|Description|
+|Operator&nbsp;&nbsp;&nbsp;|Description|
 |:--|:--|
-|=|Equality operator: checks of l-Value and r-Value are equal, irrespective of case. This is typical in SQL systems.<br><br>`(’Harry’ = ‘HARRY’) = true`|
-|==|Same behavior as the Single Equals Equality operator but in the case of a string, this will be a case-sensitive comparison<br><br>`(’Harry’ == ‘HARRY’) = false`<br><br>`(’HARRY’ == ‘HARRY’) = true`|
-|<|Less than operator|
-|>|Greater than operator|
-|<=|Less than or equal to operator|
-|>=|Greater than or equal to operator|
-|<> (or !=)|Not equal to operator|
-|()|Operator precedence, nestable to any number of levels, follow normal rules found in SQL<br><br>`a = b OR (c = d AND (1 < 4 OR 2 > 5))`|
-|LIKE|SQL-style LIKE operator in expressions.  An example would be: -<br><br>`a LIKE b`<br>`‘a’ LIKE ‘b’`<br><br>The like operation should support the SQL style % prefix and postfix wildcard, so ‘a%’ starts with,  or ‘%a’ ends with. Matches should be case-insensitive|
-|IN|SQL-style IN operator, for example<br><br>`‘a’ IN (‘b’, ‘c’, ‘d’)`<br><br>The IN operation should do checks in an case-insensitive form.|
-|NOT|SQL-style NOT operator in expressions.  Examples would be <br><br>`a NOT LIKE b`<br>`NOT 1`<br>`1 NOT IN (1,2,3)`<br><br>The NOT operator will invert the logical result of the expression to its right. 
-
-__String Comparison Return Values:__ will return an integer value indicating the relationship between the strings:
-|Return Value|Meaning|
-|:--|:--|
-|<0|The first character that does not match has a lower value in l-Value than in r-Value|
-|0|The contents of both strings are equal
-|>0|The first character that does not match has a greater value in l-Value than in r-Value|
-
-
+|`=`|Equality operator: checks of l-Value and r-Value are equal, irrespective of case. This is typical in SQL systems.<br><br>`(’Harry’ = ‘HARRY’) = true`<br><br>`(’HARRY’ == ‘HARRY’) = true`|
+|`==`|Same behavior as the Single Equals Equality operator but in the case of a string, this will be a case-sensitive comparison<br><br>`(’Harry’ == ‘HARRY’) = false`<br><br>`(’HARRY’ == ‘HARRY’) = true`|
+|`<`|Less than operator|
+|`>`|Greater than operator|
+|`<=`|Less than or equal to operator|
+|`>=`|Greater than or equal to operator|
+|`<> (or !=)`|Not equal to operator|
+|`()`|Operator precedence, nestable to any number of levels, follow normal rules found in SQL<br><br>`a = b OR (c = d AND (1 < 4 OR 2 > 5))`|
+|`LIKE`|SQL-style LIKE operator in expressions.  An example would be: -<br><br>`a LIKE b`<br>`‘a’ LIKE ‘b’`<br><br>The like operation should support the SQL style % prefix and postfix wildcard, so ‘a%’ starts with,  or ‘%a’ ends with. Matches should be case-insensitive|
+|`IN`|SQL-style IN operator, for example<br><br>`‘a’ IN (‘b’, ‘c’, ‘d’)`<br><br>The IN operation should do checks in an case-insensitive form.|
+|`NOT`|SQL-style NOT operator in expressions.  Examples would be <br><br>`a NOT LIKE b`<br>`NOT 1`<br>`1 NOT IN (1,2,3)`<br><br>The NOT operator will invert the logical result of the expression to its right. 
 
 ## ExpressLogic Data Types Comparison Behavior
 When comparing two values, it’s likely that in some cases the user writing the expression might compare a string to a number.  Rather than fail in this case, what the expression evaluation will do is attempt to convert the string value to a number, but only if the string only contains characters that can be converted to a number, and then do a numeric comparison.  If the string contains characters that are not numerals, then the number value is converted to a string, and a string comparison is performed instead. The reasoning behind this behavior is to make the expressions as easy as possible to use.
-
 
 ## ExpressLogic Functions
 Functions can take any number of arguments and will a single return value.  Arguments can be literal values, identifier (variable) values or the return value from another function.  For example:- 
@@ -114,7 +104,7 @@ Here are a list of basic functions supported by ExpressLogic.  Please be aware t
 |CONCAT|Takes any number of arguments and concatenates them all together returning a string.<br><br>For example: -<br><br>`CONCAT(‘The’, ‘ ‘, 'Dog') = 'The Dog'`|
 |REGEX_MATCH|Returns a true/false depending on the outcome of the regular expression match against the supplied string.<br><br>`REGEX_MATCH('String to match', 'regex to test')`<br><br>This function is based on Perl compatible regular expressions. Please see the following site for more information: [https://www.pcre.org/](https://www.pcre.org/)<br><br>Example of a routing rule matching a request reference in the email subject:<br><br>`REGEX_MATCH(subject, '.*\b[a-zA-Z]{2}[0-9]{8}\b.*')`|
 |REGEX_SUBSTR|Returns a substring of the provided ‘string’ based on the provided regular expression.<br><br>`REGEX_SUBSTR(''string'', ''regex'')`<br><br>This function is based on Perl compatible regular expressions. Please see the following site for more information: [https://www.pcre.org/](https://www.pcre.org/)|
-|STRING_REPLACE|Replaces all occurrences of needle in haystack and returns the resultant string: <br><br>`STRING_REPLACE(''needle'', ''haystack'', ''string'')`|
+|STRING_REPLACE|Replaces all occurrences of needle with haystack and returns the resultant string: <br><br>`STRING_REPLACE(''needle'', ''haystack'', ''string'')`|
 |CONTAINS|Checks to see if a string contains another string: <br><br>`CONTAINS(''needle'', ''haystack'')`|
 |TIME|Returns an IS08601 formatted string representing either the current date time, or the date/time based on an EPOCH value.  <br><br>`TIME()` returns the current time</br><br>`TIME(12345678)` returns the ISO8601 formatted date time based on the supplied EPOCH time|
 |EPOCH|The inverse of the TIME() function, will take the time in ISO8601 format and return an EPOCH time.  If no time specified, then returns the current time.   <br><br>`EPOCH()` returns the current time</br><br>`EPOCH('2020-04-05 12:22:33')` returns the EPOCH time based on the supplied ISO8601 formatted date time|
