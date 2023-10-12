@@ -66,18 +66,26 @@ The NULL value should be expressed as NULL and I case-insensitive so (Null, NULL
 ## ExpressLogic Logical Operators
 |Operator|Description|
 |:--|:--|
-|=|Equality operator: checks of l-Value and r-Value are equal, irrespective of case. This is typical in SQL systems.<br><br>`(’Harry’ == ‘HARRY’) = true`|
-|==|Same behavior as the Single Equals Equality operator but in the case of a string, this will be a case-sensitive comparison<br><br>`(’Harry’ === ‘HARRY’) = true`|
-|<|Less than operator, in the case of string, same behavior as strcmp()|
-|>|Greater than operator, in the case of string, same behavior as strcmp()|
-|<=|Less than or equal to operator, in the case of string, same behavior as strcmp()|
-|>=|Greater than or equal to operator, in the case of string, same behavior as strcmp()|
-|!=|Not equal to operator, in the case of string, same behavior as strcmp()|
-|<>|Not equal to operator, in the case of string, same behavior as strcmp() so returns a value of 0 for equality or +/- value for if there is not an exact match.|
+|=|Equality operator: checks of l-Value and r-Value are equal, irrespective of case. This is typical in SQL systems.<br><br>`(’Harry’ = ‘HARRY’) = true`|
+|==|Same behavior as the Single Equals Equality operator but in the case of a string, this will be a case-sensitive comparison<br><br>`(’Harry’ == ‘HARRY’) = false`<br><br>`(’HARRY’ == ‘HARRY’) = true`|
+|<|Less than operator|
+|>|Greater than operator|
+|<=|Less than or equal to operator|
+|>=|Greater than or equal to operator|
+|<> (or !=)|Not equal to operator|
 |()|Operator precedence, nestable to any number of levels, follow normal rules found in SQL<br><br>`a = b OR (c = d AND (1 < 4 OR 2 > 5))`|
 |LIKE|SQL-style LIKE operator in expressions.  An example would be: -<br><br>`a LIKE b`<br>`‘a’ LIKE ‘b’`<br><br>The like operation should support the SQL style % prefix and postfix wildcard, so ‘a%’ starts with,  or ‘%a’ ends with. Matches should be case-insensitive|
 |IN|SQL-style IN operator, for example<br><br>`‘a’ IN (‘b’, ‘c’, ‘d’)`<br><br>The IN operation should do checks in an case-insensitive form.|
 |NOT|SQL-style NOT operator in expressions.  Examples would be <br><br>`a NOT LIKE b`<br>`NOT 1`<br>`1 NOT IN (1,2,3)`<br><br>The NOT operator will invert the logical result of the expression to its right. 
+
+__String Comparison Return Values:__ will return an integer value indicating the relationship between the strings:
+|Return Value|Meaning|
+|:--|:--|
+|<0|The first character that does not match has a lower value in l-Value than in r-Value|
+|0|The contents of both strings are equal
+|>0|The first character that does not match has a greater value in l-Value than in r-Value|
+
+
 
 ## ExpressLogic Data Types Comparison Behavior
 When comparing two values, it’s likely that in some cases the user writing the expression might compare a string to a number.  Rather than fail in this case, what the expression evaluation will do is attempt to convert the string value to a number, but only if the string only contains characters that can be converted to a number, and then do a numeric comparison.  If the string contains characters that are not numerals, then the number value is converted to a string, and a string comparison is performed instead. The reasoning behind this behavior is to make the expressions as easy as possible to use.
