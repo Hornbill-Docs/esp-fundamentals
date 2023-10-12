@@ -3,24 +3,24 @@ Hornbill ExpressLogic as a generalized expression language for matching data, th
 
 Data matching and querying are central to the efficient management and utilization of data and workflows, especially in complex, data-rich environments that Hornbill is designed for. The ability to quickly and efficiently query and analyze data at scale with high throughput is crucial for system performance, especially when large transactional volume and scale is required. Hornbill ExpressLogic is a custom developed expression evaluation engine designed to work with in-memory datasets, removing the need to use more typical complex processing and expression evaluating systems such as full blown languages and even database servers.  
 
-Hornbill ExpressLogic is data matching query language meticulously crafted to facilitate customer-definable logical decisions, often used to handle things like triggers, actions, rules and other decision-driven processing. The ExpressionLogic syntax is heavily influenced by SQL’s intuitive syntax, ExpressLogic expressions are written in a familiar syntax very much like what you would find on the right side of a WHERE clause in general SQL languages, offering simplicity, familiarity and supporting from simple, to very complex queries.
+Hornbill ExpressLogic is data matching query language specifically developed by Hornbill to facilitate customer-definable logical decisions, often used to handle things like triggers, actions, rules and other decision-driven rules processing. The ExpressionLogic syntax is heavily influenced by SQL’s intuitive syntax, ExpressLogic expressions are written in a familiar syntax, very similar to what you would find on the right-hand side of a WHERE clause in general SQL languages, offering simplicity, familiarity and supporting simple to very complex queries.
 
 Here’s some of the goals that drive the development of the ExpressLogic language:
 
 * __Precision and Performance:__
-    Hornbill ExpressLogic is written in modern C++, ensuring a clean, modern implementation that is highly optimized workloads with unusually high throughput and lock-free concurrency capabilities. 
+    Hornbill ExpressLogic is written in modern, native C++, ensuring a clean and efficient implementation that is highly optimized for workloads with unusually high throughput and lock-free concurrent operation. 
 
 * __Robust and Reliable:__
     Hornbill ExpressLogic is built with a priority on performance and reliability. 
    
 * __Designed to be Familiar:__
-    The language syntax, inspired by the ubiquitous Structured Query Language (SQL), makes it a familiar and intuitive tool for data professionals.
+    The query language syntax is inspired by the ubiquitous Structured Query Language (SQL), makes it a familiar and intuitive tool for data professionals to use and understand
 
 * __Advanced Error Handling:__
-    Errors and exceptions are handled gracefully, offering friendly guidance at design time to help users validate, diagnose and resolve issues. Hornbill ExpressLogic is designed to be robust, with internal safeguards ensuring that your data querying and matching operations proceed without a hitch.
+    Errors and exceptions are handled gracefully, offering friendly guidance at design time to help users validate, diagnose and resolve issues. Hornbill ExpressLogic is designed to be robust, with internal safeguards ensuring that your data querying and matching operations proceed without a hitch. The system design favours service reliability over absolute syntax correctness. 
 
 * __Rich and Expressive:__
-    With support for a rich set of operators and useful functions, Hornbill ExpressLogic caters to the widest possible data querying needs. Whether you’re handling numbers, strings, or even null values, or employing logical operators and connectives, ExpressLogic offers the tools to craft precise, efficient queries, from the most simple to the most complex.
+    With support for a rich set of operators and numerous useful functions, Hornbill ExpressLogic caters to the widest possible data querying and evaluation needs. Whether you’re evaluating numbers, strings, or even null values, or employing complex logical constructs, ExpressLogic has the capability to enable precise, efficient queries, from the most simple to the most complex.
 
 ## Supported Syntax/Grammar
 The ExpressLogic language is a declarative syntax designed for the sole purpose of querying data to find a logical match against a set of logical rules, those rules are expressed in the syntax that ExpressLogic processor understands. 
