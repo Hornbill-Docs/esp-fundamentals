@@ -102,12 +102,15 @@ Here are a list of basic functions supported by ExpressLogic.  Please be aware t
 |MID|Same as SUBSTRING()|
 |SUBSTRING|Return a substring starting from the specified position.<br><br>`SUBSTRING(string, pos)`<br><br>`SUBSTRING (string, pos, length)`<br><br>For example:<br><br>`SUBSTRING('The Dog', 5) = 'Dog'`<br><br>`SUBSTRING('The Dog', 5, 2) = 'Do'`|
 |RIGHT|Returns the rightmost ‘length’ characters from the ‘string’<br><br>`RIGHT(string, length)`<br><br>For example: -<br><br>`RIGHT('The Dog', 2) = 'og'`|
-|TOKEN|Assumes that whitespace is a token separator, this function will return the token specified. The line and token values are zero based, so to obtain the first word in the first line, line=0 and token=0<br><br>`TOKEN(string, line, token)`|
+|TOKEN|Assumes that whitespace is a token separator, this function will return the token specified. The line and token values are zero based, so to obtain the first word in the first line, line=0 and token=0<br><br>`TOKEN(string, line, token_pos)`|
 |CONCAT|Takes any number of arguments and concatenates them all together returning a string.<br><br>For example: -<br><br>`CONCAT(‘The’, ‘ ‘, 'Dog') = 'The Dog'`|
 |REGEX_MATCH|Returns a true/false depending on the outcome of the regular expression match against the supplied string.<br><br>`REGEX_MATCH('String to match', 'regex to test')`<br><br>This function is based on Perl compatible regular expressions. Please see the following site for more information: [https://www.pcre.org/](https://www.pcre.org/)<br><br>Example of a routing rule matching a request reference in the email subject:<br><br>`REGEX_MATCH(subject, '.*\b[a-zA-Z]{2}[0-9]{8}\b.*')`|
 |REGEX_SUBSTR|Returns a substring of the provided ‘string’ based on the provided regular expression.<br><br>`REGEX_SUBSTR(''string'', ''regex'')`<br><br>This function is based on Perl compatible regular expressions. Please see the following site for more information: [https://www.pcre.org/](https://www.pcre.org/)|
 |STRING_REPLACE|Replaces all occurrences of needle in haystack and returns the resultant string: <br><br>`STRING_REPLACE(''needle'', ''haystack'', ''string'')`|
-|MESSAGE_HEADER|**Only Available When Processing Email Auto Responder rules**<br><br>Return the value of one message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`<br><br>Available in platform build 3801 onwards|
+|CONTAINS|Checks to see if a string contains another string: <br><br>`CONTAINS(''needle'', ''haystack'')`|
+|TIME|Returns an IS08601 formatted string representing either the current date time, or the date/time based on an EPOCH value.  <br><br>`TIME()` returns the current time</br><br>`TIME(12345678)` returns the ISO8601 formatted date time based on the supplied EPOCH time|
+|EPOCH|The inverse of the TIME() function, will take the time in ISO8601 format and return an EPOCH time.  If no time specified, then returns the current time.   <br><br>`EPOCH()` returns the current time</br><br>`EPOCH('2020-04-05 12:22:33')` returns the EPOCH time based on the supplied ISO8601 formatted date time|
+|BITCHECK|Returns true if the specified bit, in the bits number is set. <br><br>`BITCHECK(bits, bit_position)`<br><br>`BITCHECK(15, 1)` returns true|
 
 ## ExpressLogic Identifiers
 Identifiers	always evaluate to a (named) value.  An identifier is functionally equivalent to a variable in a typical programming language.
