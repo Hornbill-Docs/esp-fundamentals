@@ -5,6 +5,11 @@ Webhooks are a way for different applications or services to communicate with ea
 
 ## How Webhooks Work
 
+The following diagram shows the data flow of a typical record-oriented data transaction, with the blue boxes indicating where WebHooks are able to plug into the transactional data flow. 
+
+![Webhook Transaction](/_books/esp-fundamentals/core-capabilities/images/webhook.svg)
+
+
 * __The Event Triggers__:  Webhooks are triggered by specific events, such as creating a new database record, updating a user etc. 
 
 * __Event Rules__:  webhook rules are evaluated, and if a match if found, the webhook event is fired. 
@@ -20,10 +25,6 @@ Webhooks are widely used due to their efficiency, real-time processing capabilit
 
 ## Events
 Entity events originate before and after general database operations related to entities when the operations are record-oriented. It is possible to plug in your own custom pre-and-post handlers using expressive rules that enabled you to extend and customize the way in which simple database operations work. There are two classes of webhook events, referred to as __pre__ and __post__ which indicates when in the transaction the webhook is fired.  In addition to the two classes of events, there are different types of event, including __create__, __update__ and __delete__ which unsurprisingly are fired when a database record is being created, updated or deleted. 
-
-The following diagram shows the data flow of a typical record-oriented data transaction, with the blue boxes indicating where WebHooks are able to plug into the transactional data flow. 
-
-![Webhook Transaction](/_books/esp-fundamentals/core-capabilities/images/webhook.svg)
 
 The concepts of pre and post events are important. Pre-events allow you to act on the event *before* anything is committed to the database.  The classic use case for this type of webhook would be to provide customized input data validation.  For example, supposed you hooked the event for adding a customer record, you could create a custom WebHook that may, for example, look up some of the details that have been provided by the user in another system, for example, your CRM system, and verify the input data quality or some other means. For pre-event hooks, your WebHook script can return a non-200 HTTP response code which will prevent the database action from taking place, returning the error you throw back to the user.  For pre-event hooks, the event includes a number of properties including access to the incoming data. 
 
