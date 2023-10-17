@@ -45,7 +45,7 @@ The table lists the event names that are available as webhook events
 
 
 ## WebHook Expressions
-WebHook expressions make use of Hornbills ExpressLogic rules engine. In addition to the common ExpressLogic functions, the properties of the __onEntityEvent__ payload (see below) are accessible for your expressions to determine when you want to fire a WebHook. 
+WebHook expressions make use of [Hornbills ExpressLogic](/esp-fundamentals/reference-guides/express-logic) expression engine. In addition to the common ExpressLogic functions, the properties of the __onEntityEvent__ payload (see below) are accessible for your expressions to determine when you want to fire a WebHook. 
 
 For example, if you were hooking the __create__ event when adding a Contact and wanted to make sure that if the Users first name started with 'G' and an email address was not being provided, you could write an expression like...
 
