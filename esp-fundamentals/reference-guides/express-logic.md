@@ -17,7 +17,7 @@ Here’s some of the goals that drive the development of the ExpressLogic langua
     The query language syntax is inspired by the ubiquitous Structured Query Language (SQL), makes it a familiar and intuitive tool for data professionals to use and understand
 
 * __Advanced Error Handling:__
-    Errors and exceptions are handled gracefully, offering friendly guidance at design time to help users validate, diagnose and resolve issues. Hornbill ExpressLogic is designed to be robust, with internal safeguards ensuring that your data querying and matching operations proceed without a hitch. The system design favours service reliability over absolute syntax correctness. 
+    Errors and exceptions are handled gracefully, offering friendly guidance at design time to help users validate, diagnose and resolve issues. Hornbill ExpressLogic is designed to be robust, with internal safeguards ensuring that your data querying and matching operations proceed without a hitch. The system design favors service reliability over absolute syntax correctness. 
 
 * __Rich and Expressive:__
     With support for a rich set of operators and numerous useful functions, Hornbill ExpressLogic caters to the widest possible data querying and evaluation needs. Whether you’re evaluating numbers, strings, or even null values, or employing complex logical constructs, ExpressLogic has the capability to enable precise, efficient queries, from the most simple to the most complex.

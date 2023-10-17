@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "audience": [
     "public"
   ],
@@ -97,6 +97,28 @@
             "link": "esp-fundamentals/core-capabilities/business-rules"
           },
           {
+            "text": "Integration",
+            "expand": true,
+            "draft": true,
+            "items": [
+              {
+                "text": "iBridge",
+                "draft": true,
+                "link": "esp-fundamentals/core-capabilities/integration/ibridge"
+              },
+              {
+                "text": "IT Operations Management (ITOM)",
+                "draft": true,
+                "link": "esp-fundamentals/core-capabilities/integration/itom"
+              },
+              {
+                "text": "Web Hooks",
+                "draft": true,
+                "link": "esp-fundamentals/core-capabilities/integration/web-hooks"
+              }
+            ]
+          },
+          {
             "text": "Workflow",
             "expand": true,
             "items": [
@@ -156,6 +178,10 @@
             "text": "Productivity Features",
             "expand": true,
             "items": [
+              {
+                "text": "AI Assist",
+                "link": "esp-fundamentals/productivity/ai-assist"
+              },
               {
                 "text": "Bookmarks",
                 "link": "esp-fundamentals/productivity/bookmarks"
