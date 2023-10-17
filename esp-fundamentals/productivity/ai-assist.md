@@ -8,7 +8,10 @@ AI Assist is in the early stages of development as we consider, observe and bett
 
 
 #### Can the AI Assist feature be disabled globally? ###
-> Yes, there is a system setting which can disable it
+> Yes, there is a global system setting which can be used to enable/disable this feature (just search in admin for __integration.openai.enable__ to locate the setting)
+
+#### Who is paying for the OpenAI service?
+> For now, Hornbill is picking up the bill for this, so for all customers, the usage of this feature is free of charge.  It is possible for individual customers to provide an API key for their own OpenAI account should they want to track/manage usage via the OpenAI system, you can simply create an OpenAI API key and set it here (search admin for __integration.openai.apiKey__), once set, your instance will use this key for OpenAI related API calls. 
 
 #### Can AI Assist be restricted to defined groups of users?__ ###
 > No, its either on or off for all full users on your instance, this is not presented to any basic user or contact via the end user portals. 
