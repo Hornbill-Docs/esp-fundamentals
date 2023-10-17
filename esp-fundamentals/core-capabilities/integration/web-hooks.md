@@ -1,6 +1,22 @@
 # Web Hooks
+Webhooks provide you a way to customize the database record operations relating to entities on the platform. The idea is, you can intercept and act on specific events, for example adding or updating a database record, you are able to write your own custom script and have the Hornbill platform call that script. 
 
-Webhooks...
+Webhooks are a way for different applications or services to communicate with each other in real time via HTTP callbacks. They provide a mechanism for one service to notify another about a specific event that has occurred, allowing the receiving service to immediately react to the event.
+
+## How Webhooks Work
+
+* __The Event Triggers__:  Webhooks are triggered by specific events, such as creating a new database record, updating a user etc. 
+
+* __Event Rules__:  webhook rules are evaluated, and if a match if found, the webhook event is fired. 
+
+* __WebHok Call__: Once the event occurs, the Hornbill service sends an HTTP request to the URL specified for the webhook. 
+
+* __Custom Application__: Your custom web application that receives the webhook can then take action based on the data received in real-time.  Webhooks deliver relevant data to other applications, meaning you get data immediately. The endpoints (URLs) are specific to each webhook and are registered to receive callbacks.
+
+* __Real Time__: WebHooks enable enables real-time processing and reactions to events as they allow applications to get real-time data without relying on any time of polling mechanisms. Webhooks are more efficient than polling, where an application would need to continually check for new data.
+
+* __Secure__: Webhooks should ensure that data is encrypted during transit using HTTPS to maintain data confidentiality.
+Webhooks are widely used due to their efficiency, real-time processing capabilities, and ease of implementation. They are crucial in enabling integrations between disparate systems in today's highly connected digital ecosystem.
 
 ## Events
 Entity events originate before and after general database operations related to entities when the operations are record-oriented. It is possible to plug in your own custom pre-and-post handlers using expressive rules that enabled you to extend and customize the way in which simple database operations work. There are two classes of webhook events, referred to as __pre__ and __post__ which indicates when in the transaction the webhook is fired.  In addition to the two classes of events, there are different types of event, including __create__, __update__ and __delete__ which unsurprisingly are fired when a database record is being created, updated or deleted. 
