@@ -14,7 +14,7 @@ The following diagram shows the data flow of a typical record-oriented data tran
 
 * __Event Rules__:  webhook rules are evaluated, and if a match if found, the webhook event is fired. 
 
-* __WebHok Call__: Once the event occurs, the Hornbill service sends an HTTP request to the URL specified for the webhook. 
+* __WebHook Call__: Once the event occurs, the Hornbill service sends an HTTP request to the URL specified for the webhook. 
 
 * __Custom Application__: Your custom web application that receives the webhook can then take action based on the data received in real-time.  Webhooks deliver relevant data to other applications, meaning you get data immediately. The endpoints (URLs) are specific to each webhook and are registered to receive callbacks.
 
