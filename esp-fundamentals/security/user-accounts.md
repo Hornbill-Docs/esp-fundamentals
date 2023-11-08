@@ -16,7 +16,6 @@ __Guest Accounts__ are not strictly "accounts" so warrant their own, more detail
 
 __System Accounts__ implicitly exist as part of the platform. System accounts cannot be logged into, interacted with or changed in any way. They are defined to allow the platform to perform background tasks and functions required to make the platform and applications operate in the areas where there is no interactive user. Typically, system tasks, background tasks and jobs, integrations and inter-process communications are all examples of where system accounts are used.  As a system administrator you really do not need to worry about these, it's just useful to be aware they exist.  System accounts have an ID that always begins with SYS_xxx
 
-
 ### Privilege Level
 The most fundamental security control applied to any account type is its Privilege Level property. The following list shows the privilege level, ascending in increasing access level:
 
