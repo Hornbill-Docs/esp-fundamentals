@@ -34,7 +34,7 @@ This is an important choice you really need to make early on when deploying Horn
 In Hornbill, an organizational structure is made up of a tree-like hierarchy of Organizational Units (OU's) where each node on the tree as an OU, and each OU can contain child OU's.  There are two types of OU's, which are General and Functional.   Users can be added as a member to one or more OU's providing the flexibility to build one or more organizational structures, for example, line of report/org chart, cross-functional teams, or you can model a simple flat structure of Team OU's and assignment OU's. 
 
 ### User Assignment
-For the purpose of Hornbill's Organizational Structure, there are two types of users, Full Users and Basic Users. To find out more about these types of users and their differences please refer to [User Account Types](/esp-fundamentals/security/account-types#account-types)
+For the purpose of Hornbill's Organizational Structure, there are two types of users, Full Users and Basic Users. To find out more about these types of users and their differences please refer to [User Account Types](/esp-fundamentals/security/user-accounts#account-types)
 
 ### General Organizational Unit (OU) Types
 The following types of organizational units are available in Hornbill to help you define your organizational structure. These general types are only used for organizing your users into a browsable structure, and have no specific functional purpose beyond that.  
