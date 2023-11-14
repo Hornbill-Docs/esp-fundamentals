@@ -23,7 +23,7 @@ The following feature list provides a side-by-side comparison of the two edition
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
 |:--|:--:|:--:|
 |Compute Nodes/Memory Sharing|Up to 8 instances|Up to 4 instances|
-|Storage Technology|HDD|SSD|
+|Storage Technology|SSD|NVME|
 |Storage Configuration|RAID 5|RAID 5 + 0|
 |Activate Database Server|Single|Multiple|
 |GEO Replica DR|Single (remote DC)|Dual (Remote and Local)|
