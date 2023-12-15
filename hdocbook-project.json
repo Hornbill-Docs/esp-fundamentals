@@ -8,6 +8,6 @@
     "exclude_links": []
   },
   "redirects": [
-    { "url": "/esp-fundamentals/security/account-types", "location": "/esp-fundamentals/security/user-accounts", "code": 301 }
+    { "url": "/esp-fundamentals/security/account-types", "location": "/esp-fundamentals/security/user-accountsz", "code": 308 }
   ]
 }
