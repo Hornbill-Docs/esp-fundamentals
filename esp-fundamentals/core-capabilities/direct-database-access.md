@@ -1,5 +1,5 @@
 # Direct Database Access
-The Direct Database Access capability is a feature of the [Enterprise Edition](/esp-fundamentals/about/hornbill-editions) of the Hornbill platform, providing customers with direct read-only access to an optimized for reporting, transactional data. This access is provided via a dedicated SQL server instance with secure, encrypted private access. 
+The Direct Database Access capability is a feature of the [Enterprise Edition](/esp-fundamentals/about/hornbill-editions) of Hornbill, providing customers with direct read-only access to an optimized for reporting, transactional data. This access is provided via a dedicated SQL server instance with secure, encrypted private access. 
 
 ## Background
 Hornbill ESP is a self-contained fully functional transactional system giving you everything you need out of the box including a range of reporting capabilities including standard reporting, analytics, trending and dashboards and in-app dynamic reporting and dashboard features.  For many customers what the Hornbill platform provides out of the box is comprehensive and more than sufficient for their needs when reporting on Hornbill data is stand-alone. 
@@ -44,7 +44,34 @@ The Direct Database Access service provided by Hornbill offers several business 
 Overall, Direct Database Access addresses the challenges of accessing and reporting on complex, large-scale business data, making it a valuable tool for organizations with advanced data analytics and reporting needs.
 
 
+## Frequently Asked Questions
 
 
+__How Can I connect to the Direct Database Access service?__
+Your subscription must be for the [Enterprise Edition](/esp-fundamentals/about/hornbill-editions) of Hornbill and you are required to request this be setup and enabled for your instance.  Once this is done, you will be given the connection and login credentials, as well as instructions on how to test your connectivity to the staging database server.
+
+__What Software Do I need to connect to the Direct Database Access service?__ You can use any software that supports the standard, and ubiquitous MySQL wire protocol, including any ODBC drivers that support the same. 
+
+__How can I be sure the connection is secure?__
+One of the reasons why we ask you to explicitly request this service is to make sure that we set it up in a way, and you use it in a way that is secure.  All connections are encrypted, password protected and generally not on the standard TCP/IP port.  We also recommend where possible that we set up an TCP/IP address whitelist so we only allow access to your Direct Access Database staging server from a specific IP address. 
+
+__Can I control what data gets replicated to the Direct Access Database?__ No, the ETL replication and transform mapping is defined and maintained by Hornbill.  We will always take suggestions as to additional data that you may find useful, but like any other feature request, we will consider each request on its own merit.  We aim to make all useful data available, while at the same time hide all the metadata, runtime queues and other types of database content that is not relevant to any reporting needs. 
+
+__Why is the Direct Database Access service only available to Enterprise customers?__ To ensure that performance is not impacted, enterprise edition subscription run on different clusters of compute resources that already include multi-database master-slave replication.  We perform ETL sync operations generally on one of the slave databases in order to minimize impact on the primary application/transactional database. The ETL driven Direct Database Access is really just an extension of the Enterprise Platform architecture, its not a simple bolt-on to any instance. 
+
+__Can I have a trial of the Direct Database Access service?__
+In order to provide direct database access your instance needs to be running on our Enterprise platform edition, which would mean you will have automatic right to use the DAS if you require.  In order to provide a trial for non-Enterprise platform customers we would have to migrate your instance, which would include some planning and downtime, making it impractical for us to provide a trial of Direct Database Access.  As an alternative, we can provide you with access to one of our demo systems Direct Database Access database, where you will have the opportunity to connect and review the demo data through direct access. 
+
+__Can I run hard-hitting complex queries on the Direct Database Access staging server?__
+Yes you can, these servers are isolated so you will not create a problem for your Hornbill instance.  However, we encourage you to use the Direct Access Database server as a staging table and replicate that data to your own database and/or data warehouse platform where you can optimize your systems for whatever levels query complexity you require.  We would also advise that if you place a great deal of load on the staging server, then the ETL replication process will slow down, and, in that case you could suffer severe lags in time between your live data and replicated data. There is no one approach fits all, so we encourage you to keep and open mind and test with your particular environment to find the optimum way of making use of the data you can access directly. 
+
+__Who controls the database schema on the Direct Database Access database?__
+We do, as we develop/evolve our products we will ensure that any reporting-relevant data is included in the DAS database
+
+__Can I add my own data to the Direct Access Database server/database?__
+Simple answer here is no, you cannot.  Direct Access Database is read-only, your login credentials will not have any permissions on the database other than read. 
+
+__What if there is data in Hornbill that I want to report on that is not in the Direct Access Database?__
+Just ask us, we will consider all reasonable requests for additional data.  Keep in mind, this is much like asking for a product feature or a new API. Any changes we make to the ETL/replication mapping will be made globally on our platform
 
 
