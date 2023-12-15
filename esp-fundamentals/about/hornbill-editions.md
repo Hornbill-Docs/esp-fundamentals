@@ -41,6 +41,7 @@ The following feature list provides a side-by-side comparison of the two edition
 |Reporting & Scheduling|Y|Y|
 |Advanced Analytics|$|Y|
 |Advanced Reporting & Delivery|-|Y|
+|[Direct Database Access](/esp-fundamentals/core-capabilities/direct-database-access)|-|Y|
 
 ### Integration
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
