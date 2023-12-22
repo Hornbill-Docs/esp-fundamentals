@@ -58,14 +58,15 @@ The following feature list provides a side-by-side comparison of the two edition
 |Data Encryption At Rest (AES-256)|Y|Y|
 |IP Access Controls|-|Y|
 |Advanced Security Compliance <sup>(Note 1)</sup>|-|Y|
-|Advanced DR (priority recovery)|-|Y|
-|Security Audit Reports & Extended Audit Storage <sup>(Note 2)</sup>|-|Y|
-|Extended Mobile Access Controls <sup>(Note 3)</sup>|-|Y|
+|Advanced DR (priority recovery)<sup>(Note 2)</sup>|-|Y|
+|Security Audit Reports & Extended Audit Storage <sup>(Note 3)</sup>|-|Y|
+|Extended Mobile Access Controls <sup>(Note 4)</sup>|-|Y|
 
 :::note
 1. __Advanced Security Compliance__: extends our standard platform by facilitating deeper and more bespoke individual support for security-related needs, including additional service features to provide you with more find-grained controls over IP and mobile access etc. In addition, we provide more personalized support for security audits, and where appropriate, can facilitate you reviewing Hornbill' own ISM and compliance stats (charges generally apply)
-2. Instances running on the Enterprise Edition of our platform include a Hot Backup replica database running in the same physical location as the primary and replica databases.  This means in the event of a system failure that requires a database/storage rebuild, your data is already in the physical location, so mean time to recovery is significantly faster than that on Standard edition, where the data is available in a remote data center and will need copying back to the primary DC for restoration.  The transfer of data can take many hours for large data sets.
-3. Provides more granular and lower level control over access to your instance, including mobile device and IP address restrictions and access controls
+2. __Priority DR Time__: Instances running on the Enterprise Edition of our platform include a Hot Backup replica database running in the same physical location as the primary and replica databases.  This means in the event of a system failure that requires a database/storage rebuild, your data is already in the physical location, so mean time to recovery is significantly faster than that on Standard edition, where the data is available in a remote data center and will need copying back to the primary DC for restoration.  The transfer of data can take many hours for large data sets.
+3. More comprehensive and granular security auditing, logging and reporting capabilities generally required in enterprise organizations. 
+4. Provides more granular and lower level control over access to your instance, including mobile device and IP address restrictions and access controls.
 :::
 
 
