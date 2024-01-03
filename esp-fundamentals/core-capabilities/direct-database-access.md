@@ -43,6 +43,8 @@ The Direct Database Access service provided by Hornbill offers several business 
 
 Overall, Direct Database Access addresses the challenges of accessing and reporting on complex, large-scale business data, making it a valuable tool for organizations with advanced data analytics and reporting needs.
 
+## Data Requests
+Your data is yours to control and own. The authoritative contact for a Hornbill instance can request a complete extract of the data (Database and File Attachments) once every 90 days which will be provided via Secure FTP in encrypted format. If you require more frequent access then the Hornbill ETL Service.
 
 ## Frequently Asked Questions
 
