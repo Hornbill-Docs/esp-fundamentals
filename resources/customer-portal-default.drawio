@@ -1,0 +1,230 @@
+<mxfile host="app.diagrams.net" modified="2024-02-07T15:48:25.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="95hNwgCGA8gj4iYLtrRG" version="22.1.21" type="device" pages="2">
+  <diagram name="Page-1" id="e0iJqbVawJMwF9Dr6PBd">
+    <mxGraphModel dx="1564" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=4;fontColor=#858585;strokeColor=#828282;" parent="1" source="Qzpklr-ywFZGnQnEP8zE-2" target="Qzpklr-ywFZGnQnEP8zE-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/bitsies/128/Application-128.png" parent="1" vertex="1">
+          <mxGeometry x="150" y="330" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;fontColor=#858585;strokeColor=#828282;" parent="1" target="Qzpklr-ywFZGnQnEP8zE-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="394" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-5" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" parent="1" vertex="1">
+          <mxGeometry x="750" y="319" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-9" value="Web Browser" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#828282;" parent="1" vertex="1">
+          <mxGeometry x="184" y="278" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-10" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#3a80cb;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=k_proxy" parent="1" vertex="1">
+          <mxGeometry x="450" y="324" width="145.83" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-11" value="Front End Proxy Services" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#828282;" parent="1" vertex="1">
+          <mxGeometry x="442.92" y="469" width="160" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-12" value="Origin Server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#828282;" parent="1" vertex="1">
+          <mxGeometry x="740" y="278" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-14" value="SSL: *.hornbill.com" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#828282;" parent="1" vertex="1">
+          <mxGeometry x="610" y="410" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-15" value="SSL: *.hornbill.com" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#828282;" parent="1" vertex="1">
+          <mxGeometry x="320" y="410" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="480" as="sourcePoint" />
+            <mxPoint x="120" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="sourcePoint" />
+            <mxPoint x="310" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="480" as="sourcePoint" />
+            <mxPoint x="610" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="480" as="sourcePoint" />
+            <mxPoint x="890" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-22" value="Your Customer Portal User" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#878787;" parent="1" vertex="1">
+          <mxGeometry x="144" y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="260" as="sourcePoint" />
+            <mxPoint x="120" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qzpklr-ywFZGnQnEP8zE-25" value="Hornbill Origin Servers" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#878787;" parent="1" vertex="1">
+          <mxGeometry x="680" y="209" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k23ZDoN9Q337AnpMpF-1-1" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=61;fontColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="185" y="149" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k23ZDoN9Q337AnpMpF-1-2" value="2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=61;fontColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="435" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k23ZDoN9Q337AnpMpF-1-3" value="3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=61;fontColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="720" y="149" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BhbZMBMpCcrd_O0oHLyH-1" value="" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.dns;" vertex="1" parent="1">
+          <mxGeometry x="339" y="309" width="65.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BhbZMBMpCcrd_O0oHLyH-2" value="" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.dns;" vertex="1" parent="1">
+          <mxGeometry x="632.25" y="309" width="65.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BhbZMBMpCcrd_O0oHLyH-3" value="Hornbill DNS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#828282;" vertex="1" parent="1">
+          <mxGeometry x="317.25" y="278" width="109" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="BhbZMBMpCcrd_O0oHLyH-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.076;exitY=0.657;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BhbZMBMpCcrd_O0oHLyH-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529" y="578" as="sourcePoint" />
+            <mxPoint x="278" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BhbZMBMpCcrd_O0oHLyH-5" value="Hornbill DNS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#828282;" vertex="1" parent="1">
+          <mxGeometry x="611" y="278" width="109" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="BhbZMBMpCcrd_O0oHLyH-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.912;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.034;exitY=0.671;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="BhbZMBMpCcrd_O0oHLyH-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529" y="608" as="sourcePoint" />
+            <mxPoint x="583" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18rW2Bz5MX6qdplTCGLK-1" value="Front End Services, SSL Hosting and DNS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#7A7A7A;" vertex="1" parent="1">
+          <mxGeometry x="365" y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="o5HljhhdwKU8IjdqJJ3T" name="Page-2">
+    <mxGraphModel dx="1564" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=4;fontColor=#858585;strokeColor=#828282;" edge="1" parent="1" source="c8HKCaFDpiRmlSBbnHrU-2" target="c8HKCaFDpiRmlSBbnHrU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="441" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/bitsies/128/Application-128.png" vertex="1" parent="1">
+          <mxGeometry x="151" y="316" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;fontColor=#858585;strokeColor=#828282;" edge="1" parent="1" target="c8HKCaFDpiRmlSBbnHrU-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="601" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="751" y="305" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-5" value="Web Browser" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#828282;" vertex="1" parent="1">
+          <mxGeometry x="185" y="264" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-6" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#10a866;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=k_proxy" vertex="1" parent="1">
+          <mxGeometry x="451" y="310" width="145.83" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-7" value="Front End &lt;br&gt;Proxy Services" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#828282;" vertex="1" parent="1">
+          <mxGeometry x="437.0000000000001" y="264" width="160" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-8" value="Origin Server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#828282;" vertex="1" parent="1">
+          <mxGeometry x="741" y="264" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-9" value="SSL: *.hornbill.com" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#828282;" vertex="1" parent="1">
+          <mxGeometry x="611" y="396" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-10" value="SSL: *.yourdomain.com" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#828282;" vertex="1" parent="1">
+          <mxGeometry x="321" y="396" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121" y="476" as="sourcePoint" />
+            <mxPoint x="121" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="311" y="476" as="sourcePoint" />
+            <mxPoint x="311" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="597.83" y="476" as="sourcePoint" />
+            <mxPoint x="597.83" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="891" y="476" as="sourcePoint" />
+            <mxPoint x="891" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-15" value="Your Customer Portal User" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#7A7A7A;" vertex="1" parent="1">
+          <mxGeometry x="145" y="196" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#828282;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="891" y="246" as="sourcePoint" />
+            <mxPoint x="121" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-17" value="Front End Services, SSL Hosting and DNS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#7A7A7A;" vertex="1" parent="1">
+          <mxGeometry x="360" y="196" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c8HKCaFDpiRmlSBbnHrU-18" value="Hornbill Origin Servers" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#7A7A7A;" vertex="1" parent="1">
+          <mxGeometry x="670" y="196" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDzw4-02KsJTTwtYXOAr-1" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=61;fontColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="185" y="137" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDzw4-02KsJTTwtYXOAr-2" value="2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=61;fontColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="437" y="137" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDzw4-02KsJTTwtYXOAr-3" value="3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=61;fontColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="709" y="137" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp9wlKIpDadDx-CeE9wh-1" value="" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.dns;" vertex="1" parent="1">
+          <mxGeometry x="340" y="292" width="65.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp9wlKIpDadDx-CeE9wh-2" value="" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.dns;" vertex="1" parent="1">
+          <mxGeometry x="633.25" y="292" width="65.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp9wlKIpDadDx-CeE9wh-3" value="Your DNS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#828282;" vertex="1" parent="1">
+          <mxGeometry x="318.25" y="261" width="109" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp9wlKIpDadDx-CeE9wh-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.076;exitY=0.657;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Hp9wlKIpDadDx-CeE9wh-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="561" as="sourcePoint" />
+            <mxPoint x="279" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hp9wlKIpDadDx-CeE9wh-6" value="Hornbill DNS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#828282;" vertex="1" parent="1">
+          <mxGeometry x="612" y="261" width="109" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp9wlKIpDadDx-CeE9wh-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.912;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.034;exitY=0.671;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="Hp9wlKIpDadDx-CeE9wh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="591" as="sourcePoint" />
+            <mxPoint x="583.99696" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
