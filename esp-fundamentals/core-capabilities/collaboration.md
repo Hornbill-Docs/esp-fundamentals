@@ -31,7 +31,7 @@ Hornbill's collaboration capabilities are designed to empower organizations to w
 
 ## The Role of Targeted Communication
 
-The concept of targeted communication within the Hornbill Platform, as described, refers to a specialized feature designed to enhance interaction and focus within applications and collaboration workspaces. Here's an expanded explanation of how this works and its significance:
+The concept of targeted communication within the Hornbill Platform, as described, refers to a specialized feature designed to enhance interaction and focus within applications and collaboration workspaces between people.  Here's an expanded explanation of how this works and its significance in Hornbill:
 
 __Collaborative TimeLines:__ 
 > The Hornbill Platform integrates collaborative TimeLines within its ecosystem. These TimeLines are interactive spaces that facilitate the sharing of information, updates, and discussions among users. They act as a central hub for collaboration, where team members can post updates, share insights, and communicate on project-related activities.
