@@ -147,7 +147,7 @@ Items that are not met - Explanation
 | Guideline | Description | Level | Result |
 |--|--|:--:|:--:|
 | 2.5.1     | Pointer Gestures _(Added in 2.1)_               | A     | <span class="text-success">Fully Met</span> |
-| 2.5.2     | Pointer Cancellation _(Added in 2.1)_           | A     | <span class="text-success">Fully Met</span> |
+| 2.5.2     | Pointer Cancelation _(Added in 2.1)_            | A     | <span class="text-success">Fully Met</span> |
 | 2.5.3     | Label in Name _(Added in 2.1)_                  | A     | <span class="text-success">Fully Met</span> |
 | 2.5.4     | Motion Actuation _(Added in 2.1)_               | A     | <span class="text-success">Fully Met</span> |
 | 2.5.5     | Target Size (Enhanced) _(Added in 2.1)_         | AAA   | <span class="text-danger">Not met</span> |
