@@ -37,6 +37,11 @@
             "text": "Integrations",
             "link": "esp-fundamentals/about/hornbill-integrations"
           }
+          ,
+          {
+            "text": "Accessibility Report (WCAG)",
+            "link": "esp-fundamentals/about/accessibility-report-wcag-2-2.md"
+          }
         ]
       },
       {
