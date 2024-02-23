@@ -26,7 +26,7 @@ We recognize that we do not understand how these unaddressed issues might be app
 ## 5. Summary and Recommended Actions
 
 ### Overall
-There are 85 checks in total. 67 are fully met. 6 are partially met, 6 are not and 6 are not applicable.
+There are 85 checks in total. 67 are fully met. 6 are partially met, 5 are not and 7 are not applicable.
 
 ### Results for Level 1 (A)
 There are 30 checks in total for Level 1  
@@ -41,7 +41,7 @@ There are 24 checks in total for Level 2
 ### Results for Level 3 (AAA)
 There are 31 checks in total for Level 3  
 
-16 are fully met. 6 are partially met, 5 are not met and 4 are not applicable.
+16 are fully met. 6 are partially met, 4 are not met and 5 are not applicable.
 
 ### General
 Items that are not met - Explanation
@@ -51,7 +51,6 @@ Items that are not met - Explanation
 | 2.2.6     | Timeouts _(Added in 2.1)_       | AAA   | <span class="text-danger">Not met</span> | There is no warning about data loss when the session is about to expire |
 | 2.5.5     | Target Size (Enhanced) _(Added in 2.1)_         | AAA   | <span class="text-danger">Not met</span> | Some target elements are smaller than 44 pixels |
 | 2.5.7     | Dragging Movements _(Added in 2.2)_             | AA    | <span class="text-danger">Not met</span> | In some areas, drag and drop requires a mouse device. |
-| 3.1.5     | Reading Level                     | AAA   | <span class="text-danger">Not met</span> | There is no alternative text for lower education level. This might not be applicable for this type of product |
 | 3.1.6     | Pronunciation                     | AAA   | <span class="text-danger">Not met</span> | There is no mechanism to identify specific pronunciation |
 
 ## Checklist
@@ -163,7 +162,7 @@ Items that are not met - Explanation
 | 3.1.2     | Language of Parts                 | AA    | <span class="text-success">Fully Met</span> |
 | 3.1.3     | Unusual Words                     | AAA   | <span class="text-warning">Partially Met</span> |
 | 3.1.4     | Abbreviations                     | AAA   | <span class="text-success">Fully Met</span> |
-| 3.1.5     | Reading Level                     | AAA   | <span class="text-danger">Not met</span> |
+| 3.1.5     | Reading Level                     | AAA   | <span class="text-secondary">N/A</span> |
 | 3.1.6     | Pronunciation                     | AAA   | <span class="text-danger">Not met</span> |
 
 #### Guideline 3.2 – Predictable
