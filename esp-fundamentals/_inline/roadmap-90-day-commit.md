@@ -1,0 +1,3 @@
+title: 90-Day Commit
+------------
+Any item in this lane means the item is in the Hornbill development teams planning window. As well as scheduling, development team discussions, more detailed design specifications and even prototypes are all things that happen in these 90 days.  However, as the title of this lane suggests, we are committing to getting actual development work underway within 90-days of the item entering this lane. 
