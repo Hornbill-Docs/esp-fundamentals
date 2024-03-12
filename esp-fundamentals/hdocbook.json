@@ -38,6 +38,10 @@
             "link": "esp-fundamentals/about/hornbill-integrations"
           },
           {
+            "text": "Hornbill Roadmap",
+            "link": "esp-fundamentals/about/about-roadmap"
+          },
+          {
             "text": "Accessibility Report (WCAG)",
             "link": "esp-fundamentals/about/accessibility-report-wcag-2-2"
           }
