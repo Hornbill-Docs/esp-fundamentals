@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.85",
+  "version": "1.0.86",
   "audience": [
     "public"
   ],
@@ -190,7 +190,6 @@
             "link": "esp-fundamentals/core-capabilities/internationalization"
           },
           {
-            "draft": true,
             "text": "Productivity Features",
             "expand": true,
             "items": [
@@ -199,6 +198,7 @@
                 "link": "esp-fundamentals/productivity/ai-assist"
               },
               {
+                "draft": true,
                 "text": "Bookmarks",
                 "link": "esp-fundamentals/productivity/bookmarks"
               }
@@ -234,14 +234,17 @@
         "expand": true,
         "items": [
           {
+            "draft": true,
             "text": "Browser Support",
             "link": "esp-fundamentals/system-requirements/browser-compatibility"
           },
           {
+            "draft": true,
             "text": "Device Support",
             "link": "esp-fundamentals/system-requirements/device-support"
           },
           {
+            "draft": true,
             "text": "Behind the Firewall",
             "link": "esp-fundamentals/system-requirements/behind-the-firewall"
           }
