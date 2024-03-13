@@ -16,19 +16,19 @@ Each roadmap is presented as a visual Kanban-inspired board containing a fixed s
 
 __Incoming:__
 
-> [[INCLUDE /esp-fundamentals/_inline/roadmap-incoming.md]]
+> [[INCLUDE /esp-fundamentals/_inline/content-incoming.md]]
 
 __90-Day Commit:__
 
-> [[INCLUDE /esp-fundamentals/_inline/roadmap-90-day-commit.md]]
+> [[INCLUDE /esp-fundamentals/_inline/content-90-day-commit.md]]
 
 __In Progress:__
 
-> [[INCLUDE /esp-fundamentals/_inline/roadmap-in-progress.md]]
+> [[INCLUDE /esp-fundamentals/_inline/content-in-progress.md]]
 
 __Completed:__
 
-> [[INCLUDE /esp-fundamentals/_inline/roadmap-completed.md]]
+> [[INCLUDE /esp-fundamentals/_inline/content-completed.md]]
 
 
 ## Roadmap Timelines for Feature Development
