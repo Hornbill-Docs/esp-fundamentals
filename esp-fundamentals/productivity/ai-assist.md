@@ -8,12 +8,12 @@ AI Assist is in the early stages of development as we consider, observe and bett
 
 
 #### Can the AI Assist feature be disabled globally? ###
-> Yes, there is a global system setting which can be used to enable/disable this feature (just search in admin for __integration.openai.enable__ to locate the setting)
+> Yes, there is a global system setting which can be used to enable/disable this feature (just search in admin for `integration.openai.enable` to locate the setting)
 
 #### Who is paying for the OpenAI service?
 > For now, Hornbill is picking up the bill for this, so for all customers, the usage of this feature is free of charge.  It is possible for individual customers to provide an API key for their own OpenAI account should they want to track/manage usage via the OpenAI system, you can simply create an OpenAI API key and set it here (search admin for __integration.openai.apiKey__), once set, your instance will use this key for OpenAI related API calls. 
 
-#### Can AI Assist be restricted to defined groups of users?__ ###
+#### Can AI Assist be restricted to defined groups of users?
 > No, its either on or off for all full users on your instance, this is not presented to any basic user or contact via the end user portals. 
 
 #### What is the backend system that is powering this AI Assist feature?
@@ -28,8 +28,8 @@ AI Assist is in the early stages of development as we consider, observe and bett
 #### Has any consideration be given for what might happen if personal data is inputted and processed?
 > We do not feel there is a problem based on OpenAI current terms of use, but we recognize thad individual customers may well take a different view.  This is why we provide the ability for individual customers to turn this feature off
 
-#### Can we get any technical documentation and any other statements that Hornbill might have prepared to allay any of the numerous concerns of these types
+#### Can we get any technical documentation and any other statements that Hornbill might have prepared to allay any of the numerous concerns of these types?
 > This is in the very early stages of development, today is very simple and does not warrant any significant documentation in its own right, its just a nicely done integration to an existing AI GenAI service. We are still deciding on exactly how this applies and will be used in the long term, we have limited internal technical documentation that would be customer-friendly, so at this time we do not. We would refer you to the [OpenAI API]( https://openai.com/product) documentation which will give you a lot more insight into how the GenAI system works.
 
 #### Does the feature offer insight into any of our Business-Specific process models and offer our users insight into how we can better use the Hornbill product?
-> No not at this time, its purely there as an assistive tool to help with generalized writing, grammar and general/generic knowledge access'''
+> No not at this time, its purely there as an assistive tool to help with generalized writing, grammar and general/generic knowledge access
