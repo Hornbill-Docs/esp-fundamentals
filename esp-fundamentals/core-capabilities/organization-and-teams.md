@@ -19,13 +19,14 @@ There are many types of organizational structures in use today, each with its ow
 
 7. __Holacracy__: Holacracy is an alternative organizational structure that distributes authority and decision-making throughout self-organizing teams or circles. It is designed to promote transparency, adaptability, and employee empowerment. However, it may be challenging to implement and sustain, particularly in large, traditional organizations.
 
-Each organizational structure approach has its pros and cons, in practice each company will adopt some hybrid combination of these approaches. 
+Each organizational structure approach has its pros and cons, the different approaches give you different levels of complexity, the more complex you make it, the more significant the planning, maintenance, and changes will be. 
 
 ## Organization Structure Implementation Strategy
-When configuring Hornbill to support your organization, you have a choice of two different approaches to defining your organizational structure in Hornbill. 
+When configuring Hornbill to support your organization, you have a choice of a number of different approaches to defining your organizational structure in Hornbill.  Different solutions will more precisely define the exact approach, what we are describing here is the Hornbill ESP platform capabilities. 
 
-- __Flat__: With this approach you simply avoid using child items, meaning you define everything you need at the top-level of your organization structure. You define a single top-level Company OU, and then define a flat list of cost centers, departments and assignment teams also all at that top level. 
-- __Hierarchical__: For organizations that have complex, multi-level company/divisional and organizational structure with the full range of organizational unit (OU) types and an unlimited depth hierarchical structure, then this more advanced approach may well be the the right choice. 
+- __Single Company__: With this approach you define a simple top-level OU of type "company", and avoid using child OU items, and instead just define a single list of teams. You define a single top-level Company OU, and then define a flat list of assignment teams beneath the top-level company. 
+- __Hierarchical__: For organizations that have more complex, multi-level team structures, in this mode, you can define one or more top-level company OU's and, beneath each company OU, you can define any number of teams within that company, and teams can optionally have child teams as required. 
+- __Organizational__: For organizations that have really complex, multi-level company/divisional and organizational structures where you want to represent the organizational structure making use of the full range of organizational unit (OU) types and an unlimited depth hierarchical structure, where you can inter-mix non-functional OU's and teams as you need, then this more advanced approach may well be the the right choice. 
 
 This is an important choice you really need to make early on when deploying Hornbill into your organization, please ensure you read our [Best Practice Guide for Defining Your Org Structure](/esp-fundamentals/best-practice/org-structure) before making your choice. Its worth remembering that just because you can do something does not mean you always should, and this applies when it comes to mapping your organizational structure in Hornbill. 
 
