@@ -1,4 +1,4 @@
-# AI Assist
+# Text Assist (AI Assist)
 
 In Hornbill there are numerous places you might be writing textual content.  AI Assist is a productivity feature powered by OpenAI that brings generative AI capabilities to your fingertips to help with improving on or expanding your written content, as well as providing you access to non-company-specific generalized knowledge.  These features enhance your ability to write with great clarity, expand on common topics where required and access generic knowledge available to the underlying language model.
 
@@ -20,10 +20,10 @@ AI Assist is in the early stages of development as we consider, observe and bett
 > This is being powered by the [OpenAI Service](https://openai.com/), this is the same generative AI system that powers ChatGPT
 
 #### Where is the data being processed?
-> The data is being processed on the OpenAI servers, which is why we have provided the ability to disable this if thats not acceptable to your organization.
+> For Text Assist (previously AI Assist), the data is being processed on the OpenAI servers is the data the user types in, and/or selects when selecting the assist option, which is why we have provided the ability to disable this if thats not acceptable to your organization. 
 
 #### What assurances do we have that the data isn’t being stored?
-> You have the same assurances that we do, via the [OpenAI Terms Of Use](https://openai.com/policies/terms-of-use/)
+> You have the exact same assurances that we do, via the [OpenAI Terms Of Use](https://openai.com/policies/terms-of-use/)
 
 #### Has any consideration be given for what might happen if personal data is inputted and processed?
 > We do not feel there is a problem based on OpenAI current terms of use, but we recognize thad individual customers may well take a different view.  This is why we provide the ability for individual customers to turn this feature off
