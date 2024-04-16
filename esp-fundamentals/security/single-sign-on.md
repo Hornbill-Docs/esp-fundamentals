@@ -7,7 +7,7 @@ __Security Assertion Markup Language__ (__SAML__, pronounced "sam-el") is the in
 
 Here are some useful external references: -
 
-- [SAML at Oasis-Open.org](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security)
+- [SAML at Oasis-Open.org](https://www.oasis-open.org/standard/saml/)
 - [SAML at Wikipedia](http://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)
 
 ## SAML and Hornbill
@@ -20,27 +20,27 @@ While SSO must be set up to utilize auto-provisioning, the auto-provisioning of 
 :::
 
 ## How it Works
-There are three key actors in any SAML implementation for Single Sign-On, these are the __user__ trying to access the Hornbill Application (via their Web Browser), the __Identity Provider (idP)__ which knows, and has already, or will identify the user, and the application/service provider (Hornbill Cloud Service) which provides the application and/or resources that the user wishes to access. Your Hornbill instance is the service provider, and typically your enterprise directory system, very often Microsoft Active Directory Federated Services (ADFS) or Azure Directory Services acts as your identity provider.
+There are three key actors in any SAML implementation for Single Sign-On, these are the __user__ trying to access the Hornbill Application (via their Web Browser), the __Identity Provider (IdP)__ which knows, and has already, or will identify the user, and the application/service provider (Hornbill Cloud Service) which provides the application and/or resources that the user wishes to access. Your Hornbill instance is the service provider, and typically your enterprise directory system, very often Microsoft Active Directory Federated Services (ADFS) or Azure Directory Services acts as your identity provider.
 
 ![SAML Flow](/_books/esp-fundamentals/security/images/saml-flow.png)
 
-Once SSO is configured, when an unauthenticated user navigates to your Hornbill instance via one of the Hornbill URLs, the browser will be re-directed to the identity provider with the information needed to request access to the service, this is known as a SAML AuthnRequest. The idP will look at the AuthnRequest and if the user is authorized will return an Assertion back to the browser with a redirect to the service provider (in this case the Hornbill Instance). The Hornbill instance will validate the Assertion checking its authenticity against a known Hornbill SSO profile and if valid will create a session and allow the user to access Hornbill as required.
+Once SSO is configured, when an unauthenticated user navigates to your Hornbill instance via one of the Hornbill URLs, the browser will be re-directed to the identity provider with the information needed to request access to the service, this is known as a SAML AuthnRequest. The IdP will look at the AuthnRequest and if the user is authorized will return an Assertion back to the browser with a redirect to the service provider (in this case the Hornbill Instance). The Hornbill instance will validate the Assertion checking its authenticity against a known Hornbill SSO profile and if valid will create a session and allow the user to access Hornbill as required.
 
 ## SSO Realms
 In Hornbill, there are different types of [user accounts](/esp-fundamentals/security/user-accounts), these users access Hornbill through different user interfaces.  For SSO, users logging in through the main user application and/or employee portal can be authenticated using SAML, and external users accessing Hornbill via the customer portal can also (if required) authenticate on the portal using SSO - although this is an unusual use case.
 
 Its important to understand there is a difference between these Realms, because the configuration parameters for each realm are different. 
 
-### Multi-IDP Environments
+### Multi-IdP Environments
 There is one more complex use case for SSO, often found in larger enterprise companies, where users of a single Hornbill instance, my be on a network where more than one active Identity Provider is being used.   Its possible on Hornbill to configure more than one SSO Profile against the same real which will change the login experience for users.  In the case where there is more than one Identity provider configured, the user will be required to select which Identity Profile to use for authentication, so if this is the configuration you need, you should be mindful of the names you attribute to the SSO Profiles in Hornbill, as these are the names that will be presented to the user when they first log in, so the names should be meaningful to them.
 
-## SSO Metadata
-Configuring an IDP and Service Provider can be complicated, but is made simpler by both system accepting some standard format metadata that essentially caries the information required for the other party to be correctly configured.  Both IDP and Service Provider party's will have some way of providing  you with either metadata or the key information needed by the other party for configuration.  When [configuring SSO](/esp-config/security/sso/single-sign-on) for Hornbill, you will need to follow a processes and do things in a specific order.  The exact method of configuring SSO will be different depending on both the IDP you are using, and the way in which your IDP is set up and configured for your organization.
+## SAML Metadata
+Configuring an IdP and Service Provider can be complicated, but is made simpler by both system accepting some standard format metadata that essentially caries the information required for the other party to be correctly configured.  Both IdP and Service Provider party's will have some way of providing  you with either metadata or the key information needed by the other party for configuration.  When [configuring SSO](/esp-config/security/sso/single-sign-on) for Hornbill, you will need to follow a processes and do things in a specific order.  The exact method of configuring SSO will be different depending on both the IdP you are using, and the way in which your IdP is set up and configured for your organization.
 
 You can access the required metadata and/or key configuration parameters required by going to the __SSO Profiles__ screen in the Hornbill Platform Configuration area of the product.  See [configuring SSO](/esp-config/security/sso/single-sign-on) for more information.
 
 ## Interoperability
-The Hornbill platform is built on open standards, and our enterprise SSO implementation is no exception. While we do not act as a support function for any third-party IDP system, the following identity providers are known to have been configured and work with the Hornbill platform (we will expand this list as we integrate successfully with other systems).
+The Hornbill platform is built on open standards, and our enterprise SSO implementation is no exception. While we do not act as a support function for any third-party IdP system, the following identity providers are known to have been configured and work with the Hornbill platform (we will expand this list as we integrate successfully with other systems).
 
 - [Microsoft Active Directory Federation Services (ADFS 2.0)](http://msdn.microsoft.com/en-GB/library/bb897402.aspx)
 - [Microsoft Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/single-sign-on-saml-protocol)
@@ -49,12 +49,12 @@ The Hornbill platform is built on open standards, and our enterprise SSO impleme
 - [Shibboleth Identity Provider](https://shibboleth.atlassian.net/wiki/spaces/IDP4/overview)
 - [OpenAthens (EduServ)](http://www.openathens.net/)
 
-As you might expect, different vendors may well use different terminology to describe the configuration required in the IDP but typical examples would be __Service Provider Profile__ or __Relying Party Trust__ (see below for Example IDP configurations and references). It is likely that you will need an entry in your IdP to represent each of the Hornbill Realms Service URL's (i.e. user and customer), depending on what you want to configure SSO for.
+As you might expect, different vendors may well use different terminology to describe the configuration required in the IdP but typical examples would be __Service Provider Profile__ or __Relying Party Trust__ (see below for Example IdP configurations and references). It is likely that you will need an entry in your IdP to represent each of the Hornbill Realms Service URL's (i.e. user and customer), depending on what you want to configure SSO for.
 
-:::warning
-Although Hornbill does have expertise around our own platform and its SAML 2.0 implementation, configuration, and behavior, we use the generic language associated with the SAML 2.0 specification and not the language/terminology adopted by any specific vendors identity provider platforms.  Hornbill's technical staff are __NOT__ experts with the specifics of the various identity provider technologies and platforms in common use, or even IDPs that are known to work with Hornbill.  It is important to understand that Hornbill complies the SAML 2.0 specification to the letter, so if your IDP supports SAML 2.0 then it should work with Hornbill without issue.
+:::warning "DDD" 
+Although Hornbill does have expertise around our own platform and its SAML 2.0 implementation, configuration, and behavior, we use the generic language associated with the SAML 2.0 specification and not the language/terminology adopted by any specific vendors identity provider platforms.  Hornbill's technical staff are __NOT__ experts with the specifics of the various identity provider technologies and platforms in common use, or even IdPs that are known to work with Hornbill.  It is important to understand that Hornbill complies the SAML 2.0 specification to the letter, so if your IdP supports SAML 2.0 then it should work with Hornbill without issue.
 
-Each organization's identity provider implementation, and its configuration will be unique to their organization. When configuring SSO with Hornbill it will be necessary for you to have someone internally within your own organization who has the requisite knowledge and expertise, as well as a working knowledge of your own identity provider and its configuration within your organization, on hand. This is typically someone that has access to your iDP and the authority to make changes to it in order to configure Hornbill as an application your IDP with authenticate for.  You should refer your technical expert to this document, as well as other related configuration documentation which will provide them with the detailed technical information they will need in order to facilitate the planning and configuration of Single Sign-On for your organization.
+Each organization's identity provider implementation, and its configuration will be unique to their organization. When configuring SSO with Hornbill it will be necessary for you to have someone internally within your own organization who has the requisite knowledge and expertise, as well as a working knowledge of your own identity provider and its configuration within your organization, on hand. This is typically someone that has access to your IdP and the authority to make changes to it in order to configure Hornbill as an application your IdP with authenticate for.  You should refer your technical expert to this document, as well as other related configuration documentation which will provide them with the detailed technical information they will need in order to facilitate the planning and configuration of Single Sign-On for your organization.
 :::
 
 ## SSO Digital Certificates
@@ -63,10 +63,12 @@ Digital certificates generated and used by your Identity Provider typically have
 ### How the Schedule Works
 The reminder schedule will send email notifications to your registered Primary and Secondary technical contacts, and will follow a schedule defined in “days before expiry” here: -
 
-::* 30 Days – a courtesy notification letting you know that your certificate will expire in 30 days, subject of the message will be “Your Single Sign-On Certificate will expire in 30 days”
-::* 15 Days – first reminder, subject of the message will be “ATTENTION: Your Single Sign-On Certificate will expire in 15 days” 
-::* 7 Days – second reminder, subject of the message will be “WARNING: Your Single Sign-On Certificate will expire in 7 days”
-::* 1 Day – final reminder, subject of the message will be “URGENT: Your Single Sign-On Signing Certificate will expire tomorrow”
+|Notice|Description|
+|:--|:--|
+|__30 Days__|A courtesy notification letting you know that your certificate will expire in 30 days, subject of the message will be <br><br>__Your Single Sign-On Certificate will expire in 30 days__|
+|__15 Days__|First reminder, subject of the message will be <br><br>__ATTENTION: Your Single Sign-On Certificate will expire in 15 days__|
+|__7 Days__|Second reminder, subject of the message will be <br><br>__WARNING: Your Single Sign-On Certificate will expire in 7 days__|
+|__1 Day__|Final reminder, subject of the message will be <br><br>__URGENT: Your Single Sign-On Signing Certificate will expire tomorrow__|
 
 At any point during this 30-day schedule, your SSO Profile(s) certificates are updated with new ones, this schedule will be reset and you will not receive any further notifications.
 
@@ -86,6 +88,6 @@ When configuring Hornbill to use SSO, one of the things you are required to do a
 If this is URL is accessible to the Hornbill instance, our servers will periodically look for new certificates from this trusted URL, and a match is found to any registered SSO profile on your instance, and if there are new public key(s), these will be automatically imported into the Hornbill SSO profile, allowing a seamless switch-over from an existing to a new certificate without any service disruption.  Conversely, expired certificates are automatically removed from your SSO profile(s) once they are no longer in use.  Certificate use counters are maintained in order to facilitate this. 
 
 ## User Account Auto Provisioning
-One of the features of Single Sing-On is user account auto-provisioning.  When a user authenticates via an IDP using SSO, the identity provider (IDP) can optionally provide additional information about the user logging into the service provider (Hornbill in our case). Information including first name, last name and e-mail address, but through configuration of the IDP and depending on what information is held in the customers directory service, any other information can also be provided.  Hornbill has the ability to use this information, and the fact that the authentication is trusted and verified using a digital certificate, to subsequently create the required user account in Hornbill on first login.  This can be a useful capability that can simplify the process of onboarding users onto the Hornbill platform.
+One of the features of Single Sing-On is user account auto-provisioning.  When a user authenticates via an IdP using Single Sign-On, the identity provider (IdP) can optionally provide additional information about the user logging into the service provider (Hornbill in our case). Information including first name, last name and e-mail address, but through configuration of the IdP and depending on what information is held in the customers directory service, any other information can also be provided.  Hornbill has the ability to use this information, and the fact that the authentication is trusted and verified using a digital certificate, to subsequently create the required user account in Hornbill on first login.  This can be a useful capability that can simplify the process of onboarding users onto the Hornbill platform.
 
-The Hornbill SSO implementation is an enterprise grade, sophisticated capability ensuring almost any SSO need can be met.  The implementation in Hornbill provides a seamless user experience to your Hornbill users once set up correctly, Hornbill SSO implementation is maintenance free, is very reliable and secure way of handling user authentications on Hornbill. 
+The Hornbill Single Sign-On implementation is an enterprise grade capability ensuring almost any SSO need can be met.  The implementation in Hornbill provides a seamless user experience to your Hornbill users once set up correctly, Hornbill SSO implementation is maintenance free, is very reliable and secure way of handling user authentications on Hornbill. 
