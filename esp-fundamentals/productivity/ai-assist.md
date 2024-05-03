@@ -19,11 +19,14 @@ AI Assist is in the early stages of development as we consider, observe and bett
 #### What is the backend system that is powering this AI Assist feature?
 > This is being powered by the [OpenAI Service](https://openai.com/), this is the same generative AI system that powers ChatGPT
 
+#### Do you have a Data Processing Agreement with OpenAI?
+> Yes a signed copy of the Data Processing Agreement between Hornbill and OpenAI is available upon request through customer success.
+
 #### Where is the data being processed?
 > For Text Assist (previously AI Assist), the data is being processed on the OpenAI servers is the data the user types in, and/or selects when selecting the assist option, which is why we have provided the ability to disable this if thats not acceptable to your organization. 
 
-#### What assurances do we have that the data isn’t being stored?
-> You have the exact same assurances that we do, via the [OpenAI Terms Of Use](https://openai.com/enterprise-privacy/)
+#### What assurances do we have that the data being stored?
+> You have the exact same assurances that we do, via the [OpenAI Terms Of Use](https://openai.com/enterprise-privacy/), specificly the section on Data Retention, Open AI stored user input and outputs are deleted after 30 days. 
 
 #### Has any consideration be given for what might happen if personal data is inputted and processed?
 > We do not feel there is a problem based on OpenAI current terms of use, but we recognize thad individual customers may well take a different view.  This is why we provide the ability for individual customers to turn this feature off
