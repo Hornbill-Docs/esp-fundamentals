@@ -25,7 +25,7 @@ AI Assist is in the early stages of development as we consider, observe and bett
 #### Where is the data being processed?
 > For Text Assist (previously AI Assist), the data is being processed on the OpenAI servers is the data the user types in, and/or selects when selecting the assist option, which is why we have provided the ability to disable this if thats not acceptable to your organization. 
 
-#### What assurances do we have that the data being stored?
+#### What assurances do we have arround data being stored?
 > You have the exact same assurances that we do, via the [OpenAI Terms Of Use](https://openai.com/enterprise-privacy/), specificly the section on Data Retention, Open AI stored user input and outputs are deleted after 30 days. 
 
 #### Has any consideration be given for what might happen if personal data is inputted and processed?
