@@ -18,6 +18,6 @@ Hornbill's applications are designed to adhere to modern standards and are brows
 |Linux|Hornbill applications work with Mozilla Firefox, Opera, Google Chrome and most other modern Chromium or webkit based browsers will work|
 
 :::warning
-Hornbill's applications and services do not support Internet Explorer 11 since August 2021. Internet Explorer 11 is end of life and no longer supported by Microsoft, please use Microsoft Edge browser which is Chromium based, or any other modern browser instead (see below).
+Hornbill's applications and services DO NOT support Microsoft's Internet Explorer 11, support has been dropped since August 2021. Microsoft's Internet Explorer 11 is end of life and no longer supported by Microsoft, please use the new Microsoft Edge browser which is Chromium based [Internet Explorer Edge](https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/), or any other modern browser instead.
 :::
 
