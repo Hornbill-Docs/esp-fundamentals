@@ -63,6 +63,7 @@ This policy applies to all products and services developed and maintained by our
 1. __Approval and Scheduling:__ The Product Steering Committee will make final decisions on the inclusion and scheduling of roadmap items.
 1. __Communication:__ Approved roadmap items will be communicated to all stakeholders, including teams and customers, through appropriate channels, adding these items where needed to the __Incoming__ Lane in the appropriate roadmap. 
 
+
 ### Updating Hornbill Roadmaps
 Roadmaps are dynamic documents that will be reviewed and updated regularly to reflect progress, changing priorities, and new insights.  You can view our published Roadmaps at any time to see the latest development activity that applies. 
 
