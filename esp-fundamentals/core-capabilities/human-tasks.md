@@ -102,22 +102,22 @@ Some common aspects of human task outcomes include:
 
 While manually created tasks are either open or complete, automatically created tasks typically have one or more outcomes. In the context of Workflow Orchestration, outcomes are a very important and powerful capability as the outcome of a task can be used to drive the direction and flow of a workflow.  There are a number of key capabilities with regards to task outcomes.  These are: 
 
-- __Outcome Options__: A human task can provide up to 8 unique outcomes, with a single outcome being selected upon task completion. These outcome choices are typically presented as 1-8 buttons for the user to choose from when completing the task. These outcomes are fully customizable, even down to each individual task if needs be, allowing the individual user completing the task to provide precise and highly relevant completion outcome.
+- __Outcome options__: A human task can provide up to 8 unique outcomes, with a single outcome being selected upon task completion. These outcome choices are typically presented as 1-8 buttons for the user to choose from when completing the task. These outcomes are fully customizable, even down to each individual task if needs be, allowing the individual user completing the task to provide precise and highly relevant completion outcomes.
 
-- __Required Information__: Any task can be configured to capture additional information from the person completing the task.  This additional information can be captured using any number of custom fields, text inputs, drop-downs and other form-style input options.  Fields can be mandatory or optional, as well as enforce data quality using input validation.
+- __Required information__: Any task can be configured to capture additional information from the person completing the task.  This additional information can be captured using any number of custom fields, text inputs, drop-downs and other form-style input options. Fields can be mandatory or optional, and they can enforce data quality using input validation.
 
-- __Outcome-Specific Required Information__: You can also require additional information on a per-outcome basis, meaning that each individual outcome can request extra, outcome-specific information. This allows for a more granular approach in gathering data during task completion. Similar to the general task configuration, these outcome-specific fields can be designated as either optional or mandatory, and input validation can be applied to ensure data quality before the task is marked as completed. This feature provides an even more thorough understanding of the outcome-based nuances in the task completion process.
+- __Outcome-specific required information__: You can also require additional information on a per-outcome basis, meaning that each individual outcome can request extra, outcome-specific information. This allows for a more granular approach in gathering data during task completion. Similar to the general task configuration, these outcome-specific fields can be designated as either optional or mandatory, and input validation can be applied to ensure data quality before the task is marked as completed. This feature provides an even more thorough understanding of the outcome-based nuances in the task completion process.
 
 Outcomes and additional information collected can all be used by the workflow orchestrator to drive the flow and direction of the workflow's onwards path. 
 
 
 ## Approvals
 
-On the Hornbill platform, an Approval is a special type of human task, specifically tailored to obtain approval or authorization within a workflow orchestration. These differ from general human tasks that are completed by a single individual,  Approvals often involve more than one person, can require consensus and can better deal with the complexities of individual availability and authority levels.
+On the Hornbill platform, an Approval is a special type of human task, specifically tailored to obtain approval or authorization within a workflow orchestration. These differ from general human tasks that are completed by a single individual. Approvals often involve more than one person, can require consensus, and can better deal with the complexities of individual availability and authority levels.
 
 Approvals not only possess a more defined set of outcomes but also offer additional functionality to facilitate approval through voting, consensus weighting, or individual authority. This enables a more versatile and adaptive approach to securing approval in various situations.
 
-In simpler use cases where an Approval only requires a single individual (or nominated delegate(s)) to complete, a standard Human Task is simpler to configure and may be perfectly sufficient. This flexibility allows organizations to manage and streamline approval processes within their workflows.
+In simpler use cases where an Approval only requires a single individual (or nominated delegate) to complete, a standard human task is simpler to configure and may be perfectly sufficient. This flexibility allows organizations to manage and streamline approval processes within their workflows.
 
 ## Task Ownership
 
