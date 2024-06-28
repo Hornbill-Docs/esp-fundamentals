@@ -174,9 +174,6 @@ When a user is being added to an assignment team, each user is given a role with
 |Can Assign Task To Another Team|No|No|Yes|
 |Can Edit Task Configuration|No|No|Yes|
 
-### Role User Association & Task Assignment Controls
-TODO: ... confusing area of the product currently, possibly look to get rid of assignment roles altogether, as they only add an additional layer of complexity for customers to wrap their heads around.  We currently have no task options or membership role definable for roles (unlike assignment groups), so something needs to evolve/change (hopefully simplify here)..??
-
 
 
 ## Defining Your Task Assignment Architecture
