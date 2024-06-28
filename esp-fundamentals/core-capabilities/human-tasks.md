@@ -4,21 +4,21 @@ Human tasks refer to specific steps or actions within a workflow that requires s
 
 Human tasks are essential components of a workflow because they:
 
-1. __Bring human expertise and judgment into the process__: Certain tasks demand human insight, critical thinking, or subjective evaluation, which cannot be effectively automated. Human tasks ensure that the necessary human element is incorporated into the workflow.
+- __Bring human expertise and judgment into the process__: Certain tasks demand human insight, critical thinking, or subjective evaluation, which cannot be effectively automated. Human tasks ensure that the necessary human element is incorporated into the workflow.
 
-2. __Facilitate approvals and authorizations__: In many business processes, approvals and authorizations from specific individuals or departments are necessary. The workflow system enable human tasks and approvals to be integrated seamlessly into the workflow, ensuring that the process adheres to organizational policies and guidelines.
+- __Facilitate approvals and authorizations__: In many business processes, approvals and authorizations from specific individuals or departments are necessary. The workflow system enables human tasks and approvals to be integrated seamlessly into the workflow, ensuring that the process adheres to organizational policies and guidelines.
 
-3. __Enhance collaboration and communication__: Human tasks can foster collaboration and communication among team members by assigning tasks to specific individuals, prompting them to contribute to the process or review and provide feedback on the work of others.
+- __Enhance collaboration and communication__: Human tasks can foster collaboration and communication among team members by assigning tasks to specific individuals, prompting them to contribute to the process or review and provide feedback on the work of others.
 
-4. __Manage exceptions and contingencies__: In cases where an workflow encounters an exception or unforeseen circumstance, a human task can be used to alert relevant personnel, who can then assess the situation and take appropriate action.
+- __Manage exceptions and contingencies__: In cases where a workflow encounters an exception or unforeseen circumstance, a human task can be used to alert relevant personnel, who can then assess the situation and take appropriate action.
 
-5. __Provide flexibility and adaptability__: As business needs and processes evolve, human tasks allow for the easy adaptation of workflows, making it simple to add, modify, or remove steps that require human involvement.
+- __Provide flexibility and adaptability__: As business needs and processes evolve, human tasks allow for the easy adaptation of workflows, making it simple to add, modify, or remove steps that require human involvement.
 
 Human tasks play a vital role in workflow automation by bridging the gap between automation and human expertise. They ensure that processes run smoothly and effectively while still leveraging the benefits of automation for efficiency and productivity gains.
 
 ## Human Task Core Capabilities
 
-A human task on the Hornbill platform has a significant number of capabilities that cater for various use cases and workflow requirements.  By design, Human tasks are flexible in order to provide support and usefulness to the widest range of needs. 
+A human task on the Hornbill platform has a significant number of capabilities that cater for various use cases and workflow requirements.  By design, human tasks are flexible in order to provide support and usefulness to the widest range of needs. 
 
 Human task core capabilities include:
 
@@ -37,11 +37,11 @@ Human task core capabilities include:
 - And more...
 
 
-There are two major categories of human task. 
+There are two major categories of human task: manually created and automatically created.
 
 ### Manually Created Human Tasks
 
-A manually created human task, is, as its name would suggest, is a task that is created manually by an individual, in order to assign a task to someone.  This can be as simple as you creating a task for yourself, such as a reminder to carry out a specific task at some point in the future. Or, as a team leader, you many want to create a task for someone else to get something done. Manually created tasks are commonly found in all sorts of applications, from stand-alone TODO type tools, or tasks in Microsoft OUtlook,  or tasks in project management tools.  The Hornbill platform allows you to manually create ans assign tasks to individual users or teams. 
+A manually created human task, is, as its name would suggest, a task that is created manually by an individual, in order to assign a task to someone.  This can be as simple as you creating a task for yourself, such as a reminder to carry out a specific task at some point in the future. Or, as a team leader, you many want to create a task for someone else to get something done. Manually created tasks are commonly found in all sorts of applications, from stand-alone to-do type tools, or tasks in Microsoft Outlook, or tasks in project management tools. The Hornbill platform allows you to manually create and assign tasks to individual users or teams. 
 
 __Advantages:__
 
@@ -52,23 +52,23 @@ __Advantages:__
 __Disadvantages:__
 
 - Will be time-consuming, and even wholely impractical, especially for large projects or workflows with numerous tasks.
-- Prone to human errors, such as typos or inconsistencies in task descriptions and assignments.
+- Prone to human error, such as typos or inconsistencies in task descriptions and assignments.
 - Lacks efficiency in handling repetitive tasks (beyond repetitive scheduling) or processes that follow a pattern.
 
 
 ### Automatically Created Human Tasks
 
-Automatic task creation, involves the automatic generation of tasks within a workflow or project through predefined rules, triggers, or conditions within an automation system or workflow management tool. This method is typically employed for processes that are repetitive and/or predictable, that are part of a larger, well-defined and specific pattern or sequence of activity. 
+Automatic task creation, involves the automatic generation of tasks within a workflow or project through predefined rules, triggers, or conditions in an automation system or workflow management tool. This method is typically employed for processes that are repetitive and/or predictable or that are part of a larger, well-defined, and specific pattern or sequence of activities. 
 
 __Advantages:__
 
 - Saves time and effort by automating the creation of repetitive or predictable tasks.
-- Reduces the likelihood of human errors and inconsistencies in task definitions.
+- Reduces the likelihood of human error and inconsistencies in task definitions.
 - Streamlines processes and enhances overall productivity and efficiency.
 
 __Disadvantages:__
 
-- May not be suitable in all cases, for tasks requiring human judgment, customization, or unique input.
+- May not be suitable in some cases, such as for tasks requiring human judgment, customization, or unique input.
 - Could lead to rigidity in task creation if the automation rules or conditions are not flexible or adaptable.
 - May require initial setup time and effort to configure automation rules, triggers, or conditions.
 
@@ -78,13 +78,15 @@ A crucial difference between manually created and automatically created human ta
 
 ### Automatic Task Creation Origins
 
-Automatic task creation on Hornbill can originate from numerous sources. 
+Automatic task creation in Hornbill can originate from numerous sources. 
 
-Individual applications, for example Project Manager will create and assign human tasks as part of running a project.  These tasks are said to "belong" to the project, but are assigned to individual(s) humans for completion. 
+Individual applications, for example Project Manager, will create and assign human tasks as part of running a project. These tasks are said to "belong" to the project, but are assigned to one or more humans for completion. 
 
-Hornbill's workflow orchestration is the primary source of human task generation. Read more about [Hornbill Workflow Orchestration](/esp-fundamentals/core-capabilities/workflow-orchestration).  In summary, workflow orchestration is the process of coordinating, organizing, and managing various tasks, resources, and systems within a business process to achieve a desired outcome. It involves automating tasks, sequencing activities, orchestrating human activity, and integrating tools, systems and applications to ensure seamless execution and delivery of the workflow.
+Hornbill's workflow orchestration is the primary source of human task generation. (Read more about [Hornbill Workflow Orchestration](/esp-fundamentals/core-capabilities/workflow-orchestration).) In summary, workflow orchestration is the process of coordinating, organizing, and managing various tasks, resources, and systems within a business process to achieve a desired outcome. It involves automating tasks, sequencing activities, orchestrating human activity, and integrating tools, systems and applications to ensure seamless execution and delivery of the workflow.
 
-One of the primary characteristics of human tasks that originate from workflow orchestration in Hornbill is the notion of 'Outcomes'. In general terms, human task outcomes refer to the results or consequences that emerge from the completion of tasks requiring human intervention within a workflow. These outcomes are typically characterized by the decisions, actions, or judgments made by individuals while performing their assigned tasks. Human task outcomes play a critical role in shaping the overall progression, flow and outcomes of a workflow.  Some common aspects of human task outcomes include:
+One of the primary characteristics of human tasks that originate from workflow orchestration in Hornbill is the notion of *outcomes*. In general terms, human task outcomes refer to the results or consequences that emerge from the completion of tasks requiring human intervention within a workflow. These outcomes are typically characterized by the decisions, actions, or judgments made by individuals while performing their assigned tasks. Human task outcomes play a critical role in shaping the overall progression, flow, and outcomes of a workflow. 
+
+Some common aspects of human task outcomes include:
 
 - __Decision-making__: Human task outcomes often involve making decisions, such as approvals, rejections, or choosing between multiple options. These decisions can directly impact the subsequent steps in a workflow and determine the final outcome.
 
