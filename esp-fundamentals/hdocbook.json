@@ -114,6 +114,10 @@
             "expand": true,
             "items": [
               {
+                "text": "HAi Services",
+                "link": "esp-fundamentals/core-capabilities/integration/hai-services"
+              },
+              {
                 "text": "iBridge",
                 "draft": true,
                 "link": "esp-fundamentals/core-capabilities/integration/ibridge"
@@ -193,10 +197,6 @@
             "text": "Productivity Features",
             "expand": true,
             "items": [
-              {
-                "text": "HAi Assist",
-                "link": "esp-fundamentals/productivity/ai-assist"
-              },
               {
                 "draft": true,
                 "text": "Bookmarks",

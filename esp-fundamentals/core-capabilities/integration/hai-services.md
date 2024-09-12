@@ -1,8 +1,24 @@
-# Text Assist (HAi Assist)
+# HAi Services
 
-In Hornbill there are numerous places you may be writing textual content.  HAi Assist is a productivity feature that brings generative AI capabilities to your fingertips to help with improving or expanding your written content, as well as providing you access to non-company-specific generalized AI knowledge.  These features enhance your users ability to write with great clarity, expand on common topics where required and access generic knowledge available to the underlying AI language models.
+The Hornbill ESP Platform provides seamless integration with available AI Service Providers, including OpenAI and Azure AI. Hornbill ESP's integration layer makes AI services available to applications and features in Hornbill in a way that is abstracted from any specific service provider.  This allows each customer to choose specific AI services providers and in some cases even specific AI models.  The Hornbill ESP platform makes integration with AI service providers a simple point and click exercise, we implement real time result streaming providing modern real-time service integrations for optimal user experience when making use of HAi features.  
 
-HAi Assist is in the early stages of development as we consider, observe and better understand how customers make use of this as well as how we might further use Generative AI technologies to enhance the user experience and productivity when using Hornbill. 
+The Following HAi Service Providers are currently available (as of 09/2024): 
+
+|Provider|Usage|Description|
+|:--|:--|:--|
+|OpenAI (US International)|Free|Data is processed on OpenAI's international servers, which basically means in the US data centers. Hornbill picks up the bill for all usage for this service provider option|
+|OpenAI (Customer Provided)|Premium|You can choose to provide credentials to your own registered OpenAI account, which gives you full access to the OpenAI services reporting, statistics and usage restrictions controls that the OpenAI service provides.|
+|Microsoft Azure (UK)|Premium|Integration with AI Services provided by Microsoft, with all data processing done UK data centers operated by Microsoft. Hornbill picks up the bill for all usage for this service provider option|
+|Microsoft Azure (US)|Premium|Integration with AI Services provided by Microsoft, with all data processing done in US data centers operated by Microsoft. Hornbill picks up the bill for all usage for this service provider option|
+|Microsoft Azure (EU)|Premium|Integration with AI Services provided by Microsoft, with all data processing done in EU data centers operated by Microsoft. Hornbill picks up the bill for all usage for this service provider option|
+|Microsoft Azure (Customer Provided)|Premium|You can choose to provide credentials to your own registered Microsoft Azure account, which gives you full access to the Microsoft Azure AI services reporting, statistics and usage restrictions controls that the Microsoft Azure AI service provides.|
+
+:::note
+HAi Premium services are available for free on request while the HAi Services and features are are in the beta program, please talk to your account manager
+:::
+
+### HAi Text Assist
+In Hornbill there are numerous places you may be writing textual content.  HAi Text Assist is a set of productivity feature that brings generative AI capabilities to your fingertips to help with improving or expanding your written content, as well as providing you access to non-company-specific generalized AI knowledge.  These features enhance your users ability to write with great clarity, expand on common topics where required and access generic knowledge available to the underlying HAi Service Provider language models.
 
 
 ## Frequently Asked Questions
@@ -10,7 +26,7 @@ HAi Assist is in the early stages of development as we consider, observe and bet
 #### Can the HAi Assist feature be disabled globally? ###
 > Yes, in the Platform Administration area, under Integration there is an option to disable HAi services on your instance, or choose from one of the available AI Service Providers. 
 
-#### Who is paying for the OpenAI services available?
+#### Who is paying for the HAi Service Provider services available?
 > For now, Hornbill is picking up the bill for these services, so for all customers, the usage of this feature is free of charge when using the OpenAI service provider. For HAi Premium option, it is possible to choose regional services from Microsoft Azure, we have UK, EU and USA service providers available for you to choose form.  It is also possible for individual customers to provide an API/Credentials/Settings ror their own OpenAI or Azure account should they wish to track/manage usage via the AI Services independently of Hornbills own tracking.
 
 #### Can AI Assist be restricted to defined groups of users?
