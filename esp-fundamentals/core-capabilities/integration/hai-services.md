@@ -40,14 +40,14 @@ HAi Premium services (upcoming) will available for free, on request, only while 
 > Yes we have supplier agreements in place, generally speaking the service providers terms of service directly pass through to you as a Hornbill customer using these services.  
 
 #### Where is the data being processed?
-> For HAi Text Assist, the data is being processed on the back end HAi Service Providers servers is the data the user types in, and/or selects when selecting and AI powered assistance features, which is why we have provided the ability to disable this if thats not acceptable to your organization. 
+> For any use of HAi Services, the related data is being processed on the back end HAi Service Providers servers. The specific data centers/regions depend on the specific HAi Service Provider selected. 
 
 #### What assurances do we have around data being stored?
 > You have the exact same assurances that we do, via the selected service providers Terms of Use agreement that applies to the selected service provider. A link to these terms will be available in the administration area when you select your chosen HAi service provider. 
 
 #### Has any consideration be given for what might happen if personal data is inputted and processed?
-> We do not feel there is a problem based on the currently supported HAi Service Providers, but we recognize thad individual customers may well take a different view.  This is why we provide the ability for individual customers to turn the HAi Services off.
+> We do not feel there is a data processing problem based on the currently supported HAi Service Providers, but we do recognize thad individual customers may well take a different view.  For this reason, we provide the ability for individual customers to turn HAi Services off for their instance.
 
 #### Can we get any technical documentation and any other statements that Hornbill might have prepared to allay any of the numerous concerns of these types?
-> This is in the very early stages of development, today is very simple and does not warrant any significant documentation in its own right.  Hornbill is simply providing a nicely done integration to existing Generative AI service providers. We are still deciding on exactly how this applies and will be used in the long term, we have limited internal technical documentation that would be customer-friendly, so at this time we do not. We would refer you to the relevant documentation of the specific HAi Service provider you choose to use.
+> HAi Services and their use is in the very early stages of development, today is very simple and does not warrant any significant documentation in its own right.  Hornbill is simply providing a nicely done integration to existing Generative AI service providers. We are still deciding on exactly how this applies and will be used in the long term, we have limited internal technical documentation that would be customer-friendly, so at this time we do not. We would refer you to the relevant documentation of the specific HAi Service provider you choose to use.
 
