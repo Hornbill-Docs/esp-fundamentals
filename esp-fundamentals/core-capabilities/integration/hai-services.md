@@ -17,13 +17,12 @@ The Following HAi Service Providers are currently available (as of 09/2024):
 HAi Premium services (upcoming) will available for free, on request, only while the HAi Services and features are available in the beta program, please talk to your account manager when these services become available.
 :::
 
-### HAi Text Assist
-In Hornbill there are numerous places you may be writing textual content.  HAi Text Assist is a set of productivity feature that brings generative AI capabilities to your fingertips to help with improving or expanding your written content, as well as providing you access to non-company-specific generalized AI knowledge.  These features enhance your users ability to write with great clarity, expand on common topics where required and access generic knowledge available to the underlying HAi Service Provider language models.
-
-
 ## Frequently Asked Questions
 
-#### Can the HAi Assist feature be disabled globally? ###
+> #### What is Text Assist?
+In Hornbill there are numerous places you may be writing textual content.  Text Assist is a set of productivity feature powered by HAi Services that brings generative AI capabilities to your fingertips to help with improving or expanding your written content, as well as providing you access to non-company-specific generalized AI knowledge.  These features enhance your users ability to write with great clarity, expand on common topics where required and access generic knowledge available to the underlying HAi Service Provider language models.
+
+#### Can the HAi Assist feature be disabled globally? 
 > Yes, in the Platform Administration area, under Integration there is an option to disable HAi services on your instance, or choose from one of the available AI Service Providers. 
 
 #### Who is paying for the HAi Service Provider services available?
@@ -32,8 +31,8 @@ In Hornbill there are numerous places you may be writing textual content.  HAi T
 #### Can AI Assist be restricted to defined groups of users?
 > No, at the platform level, your instance is configured to use an HAi Service Provider or not.  However, individual applications on the Hornbill Platform may provide more granular per user/per group access controls for specific HAi features.
 
-#### What is the backend system that is powering this AI Assist feature?
-> We currently support two specific back end service providers, being [OpenAI](https://openai.com/), which is the same generative AI system that powers ChatGPT, and Microsoft Azure AI Services [Microsoft Azure AI](https://azure.microsoft.com/en-us/solutions/ai/v).  
+#### What is the underpinning service that is powering this HAi Services capability?
+> We currently support two specific back endHAi service providers, being [OpenAI](https://openai.com/), which is the same generative AI system that powers ChatGPT, and Microsoft Azure AI Services [Microsoft Azure AI](https://azure.microsoft.com/en-us/solutions/ai/v).  
 
 #### Do you have a Data Processing Agreement with the back end AI service providers?
 > Yes we have supplier agreements in place, generally speaking the service providers terms of service directly pass through to you as a Hornbill customer using these services.  
