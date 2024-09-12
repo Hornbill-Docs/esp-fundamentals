@@ -24,13 +24,13 @@ HAi Premium services (upcoming) will available for free, on request, only while 
 #### What is Text Assist?
 > In Hornbill there are numerous places you may be writing textual content.  Text Assist is a set of productivity feature powered by HAi Services that brings generative AI capabilities to your fingertips to help with improving or expanding your written content, as well as providing you access to non-company-specific generalized AI knowledge.  These features enhance your users ability to write with great clarity, expand on common topics where required and access generic knowledge available to the underlying HAi Service Provider language models.
 
-#### Can the HAi Assist feature be disabled globally? 
+#### Can HAi Services feature be disabled globally? 
 > Yes, in the Platform Administration area, under Integration there is an option to disable HAi services on your instance, or choose from one of the available AI Service Providers. 
 
 #### Who is paying for the HAi Service Provider services available?
 > For now, Hornbill is picking up the bill for these services, so for all customers, the usage of this feature is free of charge when using the OpenAI service provider. For HAi Premium option, it is possible to choose regional services from Microsoft Azure, we have UK, EU and USA service providers available for you to choose form.  It is also possible for individual customers to provide an API/Credentials/Settings ror their own OpenAI or Azure account should they wish to track/manage usage via the AI Services independently of Hornbills own tracking.
 
-#### Can AI Assist be restricted to defined groups of users?
+#### Can HAi Features be restricted to specific groups of users?
 > No, at the platform level, your instance is configured to use an HAi Service Provider or not.  However, individual applications on the Hornbill Platform may provide more granular per user/per group access controls for specific HAi features.
 
 #### What is the underpinning service that is powering this HAi Services capability?
