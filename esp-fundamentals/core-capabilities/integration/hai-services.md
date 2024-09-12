@@ -2,6 +2,8 @@
 
 The Hornbill ESP Platform provides seamless integration with available AI Service Providers, including OpenAI and Azure AI. Hornbill ESP's integration layer makes AI services available to applications and features in Hornbill in a way that is abstracted from any specific service provider.  This allows each customer to choose specific AI services providers and in some cases even specific AI models.  The Hornbill ESP platform makes integration with AI service providers a simple point and click exercise, we implement real time result streaming providing modern real-time service integrations for optimal user experience when making use of HAi features.  
 
+## HAi Service Providers
+
 The Following HAi Service Providers are currently available (as of 09/2024): 
 
 |Provider|Usage|Description|
