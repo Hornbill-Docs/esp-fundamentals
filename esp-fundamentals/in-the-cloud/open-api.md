@@ -11,5 +11,9 @@ The key characteristics of Hornbill's API are:
 ## API Documentation
 The following API reference guides are available for customer and third-party integration developers: -
 
-- [Hornbill Platform API Reference](/esp-api-api/welcome)
-- More to follow...
+- [Platform API Reference](/esp-api-api/welcome)
+- [Core API Reference](/core-api-api/welcome)
+- [Document Manager API Reference](/docmanager-api-api/welcome)
+- [Service Manaher API Reference](/servicemanager-api-api/welcome)
+- [Supplier Manager API Reference](/suppliermanager-api-api/welcome)
+
