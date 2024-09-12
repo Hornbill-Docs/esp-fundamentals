@@ -1,6 +1,6 @@
 # HAi Services
 
-The Hornbill ESP Platform provides seamless integration with available AI Service Providers, including OpenAI and Azure AI. Hornbill ESP's integration layer makes AI services available to applications and features in Hornbill in a way that is abstracted from any specific service provider.  This allows each customer to choose specific AI services providers and in some cases even specific AI models.  The Hornbill ESP platform makes integration with AI service providers a simple point and click exercise, we implement real time result streaming providing modern real-time service integrations for optimal user experience when making use of HAi features.  
+The Hornbill ESP Platform provides seamless integration with available AI Service Providers, including OpenAI and Azure AI. Hornbill ESP's integration layer makes AI services available to applications and features in Hornbill in a way that is abstracted from any specific AI service provider.  This allows each customer to choose specific AI services providers and in some cases even specific AI models.  The Hornbill ESP platform makes integration with AI service providers a simple point and click exercise, we implement real time result streaming providing modern real-time service integrations for optimal user experience when making use of HAi features.  
 
 ## HAi Service Providers
 
@@ -21,8 +21,8 @@ HAi Premium services (upcoming) will available for free, on request, only while 
 
 ## Frequently Asked Questions
 
-> #### What is Text Assist?
-In Hornbill there are numerous places you may be writing textual content.  Text Assist is a set of productivity feature powered by HAi Services that brings generative AI capabilities to your fingertips to help with improving or expanding your written content, as well as providing you access to non-company-specific generalized AI knowledge.  These features enhance your users ability to write with great clarity, expand on common topics where required and access generic knowledge available to the underlying HAi Service Provider language models.
+#### What is Text Assist?
+> In Hornbill there are numerous places you may be writing textual content.  Text Assist is a set of productivity feature powered by HAi Services that brings generative AI capabilities to your fingertips to help with improving or expanding your written content, as well as providing you access to non-company-specific generalized AI knowledge.  These features enhance your users ability to write with great clarity, expand on common topics where required and access generic knowledge available to the underlying HAi Service Provider language models.
 
 #### Can the HAi Assist feature be disabled globally? 
 > Yes, in the Platform Administration area, under Integration there is an option to disable HAi services on your instance, or choose from one of the available AI Service Providers. 
