@@ -14,7 +14,7 @@ The Following HAi Service Providers are currently available (as of 09/2024):
 |Microsoft Azure (Customer Provided)|Premium|You can choose to provide credentials to your own registered Microsoft Azure account, which gives you full access to the Microsoft Azure AI services reporting, statistics and usage restrictions controls that the Microsoft Azure AI service provides.|
 
 :::note
-HAi Premium services are available for free on request while the HAi Services and features are are in the beta program, please talk to your account manager
+HAi Premium services (upcoming) will available for free, on request, only while the HAi Services and features are available in the beta program, please talk to your account manager when these services become available.
 :::
 
 ### HAi Text Assist
