@@ -56,7 +56,7 @@ The following feature list provides a side-by-side comparison of the two edition
 |TLS encryption|Y|Y|
 |Single sign-on (SAML 2.0)|Y|Y|
 |Data encryption at rest (AES-256)|Y|Y|
-|IP access controls|-|Y|
+|IP access controls|Y (added Sept 24)|Y|
 |Advanced security compliance <sup>(Note 1)</sup>|-|Y|
 |Advanced DR (priority recovery)<sup>(Note 2)</sup>|-|Y|
 |Security audit reports and extended audit storage <sup>(Note 3)</sup>|-|Y|
