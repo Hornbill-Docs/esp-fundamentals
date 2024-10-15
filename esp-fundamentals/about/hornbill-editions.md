@@ -41,6 +41,7 @@ The following feature list provides a side-by-side comparison of the two edition
 |Advanced Analytics|$|&#x2705;|
 |Advanced Reporting & Delivery|-|&#x2705;|
 |[Direct Database Access](/esp-fundamentals/core-capabilities/direct-database-access)|-|&#x2705;|
+|[Multi-Client/MSP Capabilities](/esp-fundamentals/core-capabilities/multi-client-msp)|-|$|
 
 ### Integration
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
