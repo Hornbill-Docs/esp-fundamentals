@@ -129,7 +129,7 @@ Task assignment is a critical capability when working with human tasks as part o
 
 Task assignment is flexible. A task can be assigned to:
 
-- __an individual user__: Any full user (see [User Account Types](/esp-fundamentals/security/user-accounts#user-account-types) to read more about account types) can have tasks assigned to them. It should be noted that it's possible for a user to be a member of more than one Assignment Team and/or Assignment Role. Therefore when assigning a task to an individual user, it may be required that you assign the task to the user, _in the context of_ a specific team or role. Why you might need to do this is discussed in further detail below in [Assignment Context](/esp-fundamentals/core-capabilities/human-tasks#task-assignment-context).
+- __an individual user__: Any full user (see [User Account Types](/esp-fundamentals/security/user-accounts#user-account-types) to read more about account types) can have tasks assigned to them. It should be noted that it's possible for a user to be a member of more than one Assignment Team and/or Assignment Role. Therefore when assigning a task to an individual user, it may be required that you assign the task to the user, _in the context of_ a specific team or role. Why you might need to do this is discussed in further detail below in [Assignment Context](/esp-fundamentals/core-capabilities/human-tasks#assignment-context).
 
 - __a team__: When a team is defined with the _Allow Task Assignment_ option set, you have created an "Assignment Team" making it possible for a task to be assigned to this team. Each team will have zero, one, or more associated users. When associating a user to a team, there are a number of task-related controls that can be applied to each user within the context of that team. See [Team User Association & Task Controls](/esp-fundamentals/core-capabilities/human-tasks#team-user-association-and-task-assignment-controls).
 
@@ -155,7 +155,7 @@ A suitable example of this concept can be found in the case of team assignment. 
 There are many other variations on how task assignment can be applied, so it's important to grasp the concept in Hornbill that when assigning a task, it's possible, and quite typical, that the task will be assigned to an individual in the "context" of an assignment team or role. 
 
 
-### Team User Association & Task Assignment Controls
+### Team User Association and Task Assignment Controls
 :::note
 A team that works with tasks must have the '''Allow Task Assignment''' option enabled. 
 :::

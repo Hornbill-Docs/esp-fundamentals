@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.124",
+  "version": "1.0.125",
   "audience": [
     "public"
   ],
@@ -87,16 +87,6 @@
         "expand": true,
         "items": [
           {
-            "draft": true,
-            "text": "System of Record",
-            "link": "esp-fundamentals/core-capabilities/system-of-record"
-          },
-          {
-            "draft": true,
-            "text": "System of Action",
-            "link": "esp-fundamentals/core-capabilities/system-of-action"
-          },
-          {
             "text": "Organizational & Teams Structure",
             "link": "esp-fundamentals/core-capabilities/organization-and-teams"
           },
@@ -114,6 +104,10 @@
             "expand": true,
             "items": [
               {
+                "text": "Web Hooks",
+                "link": "esp-fundamentals/core-capabilities/integration/web-hooks"
+              },
+              {
                 "text": "iBridge",
                 "draft": true,
                 "link": "esp-fundamentals/core-capabilities/integration/ibridge"
@@ -122,10 +116,6 @@
                 "text": "Operations Automation (ITOM)",
                 "draft": true,
                 "link": "esp-fundamentals/core-capabilities/integration/itom"
-              },
-              {
-                "text": "Web Hooks",
-                "link": "esp-fundamentals/core-capabilities/integration/web-hooks"
               }
             ]
           },
@@ -203,6 +193,16 @@
                 "link": "esp-fundamentals/productivity/bookmarks"
               }
             ]
+          },
+          {
+            "draft": true,
+            "text": "System of Record",
+            "link": "esp-fundamentals/core-capabilities/system-of-record"
+          },
+          {
+            "draft": true,
+            "text": "System of Action",
+            "link": "esp-fundamentals/core-capabilities/system-of-action"
           }
         ]
       },
