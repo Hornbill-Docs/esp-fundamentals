@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.125",
+  "version": "1.0.141",
   "audience": [
     "public"
   ],
@@ -108,6 +108,10 @@
                 "link": "esp-fundamentals/core-capabilities/integration/web-hooks"
               },
               {
+                "text": "HAi Services",
+                "link": "esp-fundamentals/core-capabilities/integration/hai-services"
+              },
+              {
                 "text": "iBridge",
                 "draft": true,
                 "link": "esp-fundamentals/core-capabilities/integration/ibridge"
@@ -176,6 +180,11 @@
             "link": "esp-fundamentals/core-capabilities/direct-database-access"
           },
           {
+            "draft": false,
+            "text": "MSP Multi-Client Capabilities",
+            "link": "esp-fundamentals/core-capabilities/multi-client-msp"
+          },
+          {
             "text": "Internationalization",
             "link": "esp-fundamentals/core-capabilities/internationalization"
           },
@@ -183,10 +192,6 @@
             "text": "Productivity Features",
             "expand": true,
             "items": [
-              {
-                "text": "AI Assist",
-                "link": "esp-fundamentals/productivity/ai-assist"
-              },
               {
                 "draft": true,
                 "text": "Bookmarks",

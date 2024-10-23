@@ -32,35 +32,35 @@ The following feature list provides a side-by-side comparison of the two edition
 ### Main features 
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
 |:--|:--:|:--:|
-|Collaboration|Y|Y|
-|Task Management|Y|Y|
-|Free applications|Y|Y|
-|Premium applications|Y|Y|
-|Shared mailboxes|Y|Y|
-|Document Management|Y|Y|
-|Reporting & Scheduling|Y|Y|
-|Advanced Analytics|$|Y|
-|Advanced Reporting & Delivery|-|Y|
-|[Direct Database Access](/esp-fundamentals/core-capabilities/direct-database-access)|-|Y|
+|Task Management|&#x2705;|&#x2705;|
+|Free applications|&#x2705;|&#x2705;|
+|Premium applications|&#x2705;|&#x2705;|
+|Shared mailboxes|&#x2705;|&#x2705;|
+|Document Management|&#x2705;|&#x2705;|
+|Reporting & Scheduling|&#x2705;|&#x2705;|
+|Advanced Analytics|$|&#x2705;|
+|Advanced Reporting & Delivery|-|&#x2705;|
+|[Direct Database Access](/esp-fundamentals/core-capabilities/direct-database-access)|-|&#x2705;|
+|[Multi-Client/MSP Capabilities](/esp-fundamentals/core-capabilities/multi-client-msp)|-|$|
 
 ### Integration
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
 |:--|:--:|:--:|
-|iBridge Cloud Integration Basic|Y|Y|
+|iBridge Cloud Integration Basic|&#x2705;|&#x2705;|
 |iBridge Cloud Integration Premium|$|$|
 |Enterprise Orchestration Integration Connectors|$|$|
 
 ### Security
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
 |:--|:--:|:--:|
-|TLS encryption|Y|Y|
-|Single sign-on (SAML 2.0)|Y|Y|
-|Data encryption at rest (AES-256)|Y|Y|
-|IP access controls|-|Y|
-|Advanced security compliance <sup>(Note 1)</sup>|-|Y|
-|Advanced DR (priority recovery)<sup>(Note 2)</sup>|-|Y|
-|Security audit reports and extended audit storage <sup>(Note 3)</sup>|-|Y|
-|Extended mobile access controls <sup>(Note 4)</sup>|-|Y|
+|TLS encryption|&#x2705;|&#x2705;|
+|Single sign-on (SAML 2.0)|&#x2705;|&#x2705;|
+|Data encryption at rest (AES-256)|&#x2705;|&#x2705;|
+|IP access controls|&#x2705; <br><span style="font-size: 7pt; color: gray">(added 09/2024)</span>|&#x2705;|
+|Advanced security compliance <sup>(Note 1)</sup>|-|&#x2705;|
+|Advanced DR (priority recovery)<sup>(Note 2)</sup>|-|&#x2705;|
+|Security audit reports and extended audit storage <sup>(Note 3)</sup>|-|&#x2705;|
+|Extended mobile access controls <sup>(Note 4)</sup>|-|&#x2705;|
 
 :::note
 1. __Advanced security compliance.__ This extends our standard platform by facilitating deeper and more bespoke individual support for security-related needs, including additional service features to provide you with more fine-grained controls over IP and mobile access, etc. In addition, we provide more personalized support for security audits, and where appropriate, can facilitate you reviewing Hornbill's own ISM and compliance stats (charges generally apply).
