@@ -104,12 +104,12 @@
             "expand": true,
             "items": [
               {
-                "text": "Web Hooks",
-                "link": "esp-fundamentals/core-capabilities/integration/web-hooks"
-              },
-              {
                 "text": "HAi Services",
                 "link": "esp-fundamentals/core-capabilities/integration/hai-services"
+              },
+              {
+                "text": "Web Hooks",
+                "link": "esp-fundamentals/core-capabilities/integration/web-hooks"
               },
               {
                 "text": "iBridge",
