@@ -4,13 +4,12 @@ The Hornbill ESP Platform provides seamless integration with available AI Servic
 
 ## HAi Service Providers
 
-The Following HAi Service Providers are currently available (as of 09/2024): 
+The Following HAi Service Providers are currently available (as of 11/2024):
 
 |Provider|Usage|Description|
 |:--|:--|:--|
 |OpenAI (US International)|Free|Data is processed on OpenAI's international servers, which basically means in the US data centers. Hornbill picks up the bill for all usage for this service provider option|
 |OpenAI (Customer Provided)|Premium|You can choose to provide credentials to your own registered OpenAI account, which gives you full access to the OpenAI services reporting, statistics and usage restrictions controls that the OpenAI service provides.|
-|Microsoft Azure (UK)|Premium|Integration with AI Services provided by Microsoft, with all data processing done UK data centers operated by Microsoft. Hornbill picks up the bill for all usage for this service provider option|
 |Microsoft Azure (US)|Premium|Integration with AI Services provided by Microsoft, with all data processing done in US data centers operated by Microsoft. Hornbill picks up the bill for all usage for this service provider option|
 |Microsoft Azure (EU)|Premium|Integration with AI Services provided by Microsoft, with all data processing done in EU data centers operated by Microsoft. Hornbill picks up the bill for all usage for this service provider option|
 |Microsoft Azure (Customer Provided)|Premium|You can choose to provide credentials to your own registered Microsoft Azure account, which gives you full access to the Microsoft Azure AI services reporting, statistics and usage restrictions controls that the Microsoft Azure AI service provides.|
@@ -22,25 +21,25 @@ HAi Premium services (upcoming) will available for free, on request, only while 
 ## Frequently Asked Questions
 
 #### Can HAi Services feature be disabled globally on my Hornbill instance? 
-> Yes, in the Platform Administration area, under Integration there is an option to disable HAi services on your instance, or choose from one of the available AI Service Providers. 
+> Yes, in the Platform Administration area, under Integration there is an option to disable HAi services on your instance, or choose from one of the available AI Service Providers.
 
 #### Who is paying for the HAi Service Provider usage?
-> For now, Hornbill is picking up the bill for these services we provide, so for all customers, the usage of this feature is free of charge when using the OpenAI service provider. For HAi Premium option, it is possible to choose regional services from Microsoft Azure, we have UK, EU and USA service providers available for you to choose form.  It is also possible for individual customers to provide an API/Credentials/Settings ror their own OpenAI or Azure account should they wish to track/manage usage via the AI Services independently of Hornbills own tracking, in this case each customer choosing this option will pay for their own AI services from their chose AI service provider. 
+> For now, Hornbill is picking up the bill for these services we provide, so for all customers, the usage of this feature is free of charge when using the OpenAI service provider. For HAi Premium option, it is possible to choose regional services from Microsoft Azure, we have UK, EU and USA service providers available for you to choose form.  It is also possible for individual customers to provide an API/Credentials/Settings ror their own OpenAI or Azure account should they wish to track/manage usage via the AI Services independently of Hornbills own tracking, in this case each customer choosing this option will pay for their own AI services from their chose AI service provider.
 
 #### Can HAi Features be restricted to specific groups of users?
 > No, at the platform level, your instance is configured to use an HAi Service Provider or not.  However, individual applications on the Hornbill Platform may provide more granular per user/per group access controls for specific HAi features.
 
 #### What is the underpinning service that is powering this HAi Services capability?
-> We currently support two specific back endHAi service providers, being [OpenAI](https://openai.com/), which is the same generative AI system that powers ChatGPT, and Microsoft Azure AI Services [Microsoft Azure AI](https://azure.microsoft.com/en-us/solutions/ai/v).  
+> We currently support two specific back end HAi service providers, being [OpenAI](https://openai.com/), which is the same generative AI system that powers ChatGPT, and [Microsoft Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service/).  
 
 #### Do you have a Data Processing Agreement with the back end AI service providers?
 > Yes we have supplier agreements in place, generally speaking the service providers terms of service directly pass through to you as a Hornbill customer using these services.  
 
 #### Where is the data being processed?
-> For any use of HAi Services, the related data is being processed on the back end HAi Service Providers servers. The specific data centers/regions depend on the specific HAi Service Provider selected. 
+> For any use of HAi Services, the related data is being processed on the back end HAi Service Providers servers. The specific data centers/regions depend on the specific HAi Service Provider selected.
 
 #### What assurances do we have around data being stored?
-> You have the exact same assurances that we do, via the selected service providers Terms of Use agreement that applies to the selected service provider. A link to these terms will be available in the administration area when you select your chosen HAi service provider. 
+> You have the exact same assurances that we do, via the selected service providers Terms of Use agreement that applies to the selected service provider. A link to these terms will be available in the administration area when you select your chosen HAi service provider.
 
 #### Has any consideration be given for what might happen if personal data is inputted and processed?
 > We do not feel there is a data processing problem based on the currently supported HAi Service Providers, but we do recognize thad individual customers may well take a different view.  For this reason, we provide the ability for individual customers to turn HAi Services off for their instance.
