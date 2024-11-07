@@ -59,10 +59,8 @@ is a simple example of how a WebHook expression would work.
 WebHook HTTP calls are expensive in terms of time to complete, which does directly influence the responsiveness of the user experience, the performance relates to the typical latency involved in making API calls over the Internet.  WebHook rule expressions on the other had are very fast to evaluate, so you should always aim to create a rule that only triggers your web hook when its needed, instead of always firing the webhook to your script and then using your script to determine if you should be acting on the web hook.  
 :::
 
-
-
 ## Webhook Payload
-When a webhook is called, an HTTP POST is made to your UTL endpoint, and the payload of that POST request will include a JSON or XML object called __onEntityEvent__ that includes the following properties: -
+When a webhook is called, an HTTP POST is made to your URL endpoint, and the payload of that POST request will include a JSON or XML object called __onEntityEvent__ that includes the following properties: -
 
 |Property|Description|
 |:--|:--|
