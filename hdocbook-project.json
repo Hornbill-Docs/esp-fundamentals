@@ -6,7 +6,9 @@
   },
   "validation": {
     "exclude_links": [
-      "https://openai.com/"
+      "https://openai.com/",
+      "https://docs.hornbill.com/esp-fundamentals/about/about-roadmap#requesting-enhancements-or-features-for-inclusion-in-the-hornbill-roadmaps",
+      "https://docs.hornbill.com/esp-fundamentals/about/about-roadmap#roadmap-inclusion-policy"
     ]
   },
   "redirects": [
