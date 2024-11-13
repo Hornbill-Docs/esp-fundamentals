@@ -17,7 +17,7 @@ Customers can access these published roadmaps within the Hornbill platform itsel
 
 Each roadmap is presented as a visual Kanban-inspired board organized into columns containing features. Each column represents a different stage of development of the feature.
 
-![Roadmap Board](_books/esp-fundamentals/about/images/roadmap-board.png)
+![Roadmap Board](/_books/esp-fundamentals/about/images/roadmap-board.png)
 
 __Incoming:__
 

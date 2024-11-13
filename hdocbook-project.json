@@ -5,7 +5,9 @@
     "exclude_paths": []
   },
   "validation": {
-    "exclude_links": []
+    "exclude_links": [
+      "https://openai.com/"
+    ]
   },
   "redirects": [
     { "url": "/esp-fundamentals/security/account-types", "location": "/esp-fundamentals/security/user-accounts", "code": 308 },
