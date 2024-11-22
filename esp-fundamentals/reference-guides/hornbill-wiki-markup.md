@@ -159,22 +159,22 @@ Namespace prefix is still supported as a synonym as well as Media.
 
 ### Examples
 
-* This markup: `[[File:https://docs.hornbill.com/images/help_icon.png]]`
+* This markup: `[[File:https://www.hornbill.com/images/logo.png]]`
 * Would be displayed as:
 <p align="left">
-    <img src="https://docs.hornbill.com/images/help_icon.png" width="50">
+    <img src="https://www.hornbill.com/images/logo.png" width="200">
 </p>
 
-* This markup: `[[File:https://docs.hornbill.com/images/help_icon.png|center|caption]]` 
+* This markup: `[[File:https://www.hornbill.com/images/logo.png|center|caption]]` 
 * Would be displayed as:
 <p align="center">
-    <img src="https://docs.hornbill.com/images/help_icon.png" title="caption" width="50">
+    <img src="https://www.hornbill.com/images/logo.png" title="caption" width="200">
 </p>
 
-* This markup: `[[File:https://docs.hornbill.com/images/help_icon.png|right|caption]]`
+* This markup: `[[File:https://www.hornbill.com/images/logo.png|right|caption]]`
 * Would be displayed as:
 <p align="right">
-    <img src="https://docs.hornbill.com/images/help_icon.png" title="caption" width="50">
+    <img src="https://www.hornbill.com/images/logo.png" title="caption" width="200">
 </p>
 
 ## Images with Link:
