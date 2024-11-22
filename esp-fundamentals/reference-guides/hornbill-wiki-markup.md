@@ -121,7 +121,7 @@ Single quotation marks ( ' ) are used to format text as either bold or italic. T
 | ```'''bold'''``` |	<b>bold</b> |
 | ```<del>strike through</del>``` | <del>strike through</del> |
 | ```<ins>underline</ins>``` | <ins>underline</ins> |
-| ```<span style="color:red;font-size:16px;font-family:monospace">font formatting such as color and font type</span>``` |	$\textcolor{red}{\texttt{font formatting such as color and font type }}$ |
+| ```<span style="color:red;font-size:16px;font-family:monospace">font formatting such as color and font type</span>``` |	<span style="color:red;font-size:16px;font-family:monospace">font formatting such as color and font type</span> |
 
 ## Links
 Hyperlinks to other areas of Hornbill can be added. This includes the ability to provide some friendly text along with the link. These links are internal to your instance of Hornbill. The URL link will always be prefixed with https://live.hornbill.com/<your instance>/
