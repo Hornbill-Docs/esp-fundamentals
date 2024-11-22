@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.147",
+  "version": "1.0.148",
   "audience": [
     "public"
   ],
@@ -260,6 +260,10 @@
           {
             "text": "ExpressLogic Guide",
             "link": "esp-fundamentals/reference-guides/express-logic"
+          },
+          {
+            "text": "Hornbill Wiki Markup",
+            "link": "esp-fundamentals/reference-guides/hornbill-wiki-markup"
           }
         ]
       },
