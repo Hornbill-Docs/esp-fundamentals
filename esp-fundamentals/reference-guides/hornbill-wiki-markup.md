@@ -148,23 +148,43 @@ Another common use is using the Variable Picker in the Business Process Engine t
 ## Images
 Images can be added to any text field that allows wiki markup other than Posts or Comments as they have their own mechanism for managing images.
 
-### Syntax: 
-```[[File:filename.extension|options|caption]]```
+### Syntax
+```txt
+[[File:filename.extension|options|caption]]
+
+```
 
 __Legacy Image:__
-namespace prefix is still supported as a synonym as well as Media.
+Namespace prefix is still supported as a synonym as well as Media.
 
-| Markup        | Displayed As..............................................  |
-|---------------|:---------------------------------------------|
-| ```some [[File:https://www.hornbill.com/images/logo.png]] text```	| some<p align="left"><img src="https://www.hornbill.com/images/logo.png" style="width: 200px"></p>text |
-| ```some [[File:https://www.hornbill.com/images/logo.png\|center\|caption]] text```	| some<p align="center"><img src="https://www.hornbill.com/images/logo.png" alt="caption" style="width: 200px"></p>text |
-| ```some [[File:https://www.hornbill.com/images/logo.png\|right\|caption]] text```	| some<p align="right"><img src="https://www.hornbill.com/images/logo.png" alt="caption" style="width: 200px;"></p>text |
+### Examples
+
+* This markup: `[[File:https://docs.hornbill.com/images/help_icon.png]]`
+* Would be displayed as:
+<p align="left">
+    <img src="https://docs.hornbill.com/images/help_icon.png" width="50">
+</p>
+
+* This markup: `[[File:https://docs.hornbill.com/images/help_icon.png|center|caption]]` 
+* Would be displayed as:
+<p align="center">
+    <img src="https://docs.hornbill.com/images/help_icon.png" title="caption" width="50">
+</p>
+
+* This markup: `[[File:https://docs.hornbill.com/images/help_icon.png|right|caption]]`
+* Would be displayed as:
+<p align="right">
+    <img src="https://docs.hornbill.com/images/help_icon.png" title="caption" width="50">
+</p>
 
 ## Images with Link:
 Images can also be linked to a URL.
 
 The syntax is: 
-```[[File:https://www.hornbill.com/images/logo.png|link=http://www.hornbill.com|alt=Hornbill Logo]]```
+
+```
+[[File:https://www.hornbill.com/images/logo.png|link=http://www.hornbill.com|alt=Hornbill Logo]]
+```
 
 ## Symbols
 | Markup        | Displayed As       |
@@ -247,4 +267,4 @@ __Note:__ It is possible also to use [quote] as an alias to [blockquote]
 ## Nowiki
 | Markup        | Displayed As       |
 |---------------|:---------------------------------------------|
-| [nowiki]<br />This is '''bold''' and this is ''italic''<br />[/nowiki] | ```This is '''bold''' and this is ''italic''``` |
+| `[nowiki]<br />This is '''bold''' and this is ''italic''<br />[/nowiki]` | This is '''bold''' and this is '''italic''' |
