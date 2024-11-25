@@ -117,26 +117,26 @@ Single quotation marks ( ' ) are used to format text as either bold or italic. T
 
 | Markup        | Displayed As       |
 |---------------|:---------------------------------------------|
-| ```''italics''``` |	<i>italics</i> |
-| ```'''bold'''``` |	<b>bold</b> |
-| ```<del>strike through</del>``` | <del>strike through</del> |
-| ```<ins>underline</ins>``` | <ins>underline</ins> |
-| ```<span style="color:red;font-size:16px;font-family:monospace">font formatting such as color and font type</span>``` |	<span style="color:red;font-size:16px;font-family:monospace">font formatting such as color and font type</span> |
+| `''italics''` |	<i>italics</i> |
+| `'''bold'''` |	<b>bold</b> |
+| `<del>strike through</del>` | <del>strike through</del> |
+| `<ins>underline</ins>` | <ins>underline</ins> |
+| `<span style="color:red;font-size:16px;font-family:monospace">font formatting such as color and font type</span>` |	<span style="color:red;font-size:16px;font-family:monospace">font formatting such as color and font type</span> |
 
 ## Links
 Hyperlinks to other areas of Hornbill can be added. This includes the ability to provide some friendly text along with the link. These links are internal to your instance of Hornbill. The URL link will always be prefixed with https://live.hornbill.com/<your instance>/
 
 | Markup        | Displayed As       |
 |---------------|:---------------------------------------------|
-| ```[[newsfeed]]``` | newsfeed |
-| ```[[newsfeed\|Link to your Newsfeed]]``` |	Link to your Newsfeed |
+| `[[newsfeed]]` | newsfeed |
+| `[[newsfeed\|Link to your Newsfeed]]` |	Link to your Newsfeed |
 
 The same concept will be available for external links using absolute URLs
 
 | Markup        | Displayed As       |
 |---------------|----------------------------------------------|
-| ```[[http://community.hornbill.com]]``` | [http://community.hornbill.com](http://community.hornbill.com/) |
-| ```[[Hornbill Community Forums\|http://community.hornbill.com]]``` |	[Hornbill Community Forums](http://community.hornbill.com) |
+| `[[https://community.hornbill.com]]` | [https://community.hornbill.com](https://community.hornbill.com/) |
+| `[[https://community.hornbill.com\|Hornbill Community Forums]]` |	[Hornbill Community Forums](https://community.hornbill.com) |
 
 ## Date Formatting
 You can wrap a Date & Time value (e.g. 21-02-2020 16:10:30) with square brackets to apply the configured preferences in your Profile's Regional Settings.
