@@ -53,7 +53,7 @@ The colored bars show a percentage indicator of the total time split into Transa
         <p>Shows an example of a very high network latency the overall test times are quite high and as shown by the large block of yellow and the Network time we can see that somewhere there is network latency being introduced and should be investigated further.</p>    </td>
     <td width="33.3%">
         <h4 style="text-align: center">High Transaction Times Example</h4>
-        <img src="/_books/esp-fundamentals/in-the-cloud/images/status_check_5.png" alt="Status Check - Slow App Performance">
+        <img src="/_books/esp-fundamentals/in-the-cloud/images/Status_Check_5.png" alt="Status Check - Slow App Performance">
         <p>This final image gives an example of elevated transaction times and can happen when the instance is under load. Despite being higher than the first check, the times are still in an acceptable range. Its important to note that throughout the day the overall load on your instance will change so the transaction times can very depending on when they are being run.</p>
     </td>
 <tr>
