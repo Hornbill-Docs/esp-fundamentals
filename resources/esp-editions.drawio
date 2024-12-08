@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sIj_hzTkc6H56EFc9QRA-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sIj_hzTkc6H56EFc9QRA-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#828282;" vertex="1" parent="1">
           <mxGeometry x="90" y="110" width="430" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="sIj_hzTkc6H56EFc9QRA-71" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sIj_hzTkc6H56EFc9QRA-71" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#828282;" vertex="1" parent="1">
           <mxGeometry x="520" y="110" width="450" height="610" as="geometry" />
         </mxCell>
         <mxCell id="sIj_hzTkc6H56EFc9QRA-1" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515a85;shape=mxgraph.azure.user" vertex="1" parent="1">
