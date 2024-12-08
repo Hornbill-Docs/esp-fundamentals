@@ -12,9 +12,8 @@ The compute resource configurations are not bespoke. We currently define two spe
 ## Standard Edition architecture
 The Standard Edition is the typical configuration for most customers using a single primary Hornbill application. Users access their application data through the application logic and a database, which is their primary database. The primary database (based on MariaDB) is a single transactional relational database that serves both transactional as well as read queries. For light to medium loads, workflows, and data sets, this configuration offers ample performance and reliability. 
 
-
 ## Enterprise Edition architecture
-The Enterprise Edition is a more modular, horizontally scaled configuration, designed primarily to much greater transactional and query throughput, while also separating, balancing, and tuning compute resources to more equally match individual customer instance workloads. In addition to the configuration differences, there are a number of additional features offered that require more compute resources to function adequately and that are typically only demanded by enterprise organizations where higher levels of security, auditing, compliance, and performance at scale are required. 
+The Enterprise Edition is a more modular, horizontally scaled configuration, designed primarily to handle much larger transactional and query throughput, while also separating, balancing, and proactive fine tuning compute resources to more equally match individual customers instance workloads. In addition to the configuration differences, there are a number of additional features offered that require more compute resources to function adequately, these features are typically only required by enterprise organizations where higher levels of security, auditing, compliance, and performance at scale are required. 
 
 ## Platform edition feature matrix
 The following feature list provides a side-by-side comparison of the two editions to help you evaluate them. 
