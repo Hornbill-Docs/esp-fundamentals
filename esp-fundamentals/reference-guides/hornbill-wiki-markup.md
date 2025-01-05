@@ -1,7 +1,20 @@
 # Hornbill Wiki Markup
-For easy formatting of text in Hornbill, a subset of wiki markup can be used for decorating text with italics or bold, creating bulleted or numbered lists, and defining titles and subtitles. Wiki markup lets you quickly apply some basic formatting to your text as you type, giving it that extra touch to make it stand out.
+For easy formatting of text in Hornbill, you can use a subset of wiki markup to add italics or bold, to create bulleted or numbered lists, and to change text size for titles and other headings. With wiki markup, you can quickly apply basic formatting to your text as you type, giving it that extra touch to make it stand out.
 
-## Section Headings
+## Topics covered
+* [Section headings](/esp-fundamentals/reference-guides/hornbill-wiki-markup#section-headings)
+* [Lists](/esp-fundamentals/reference-guides/hornbill-wiki-markup#lists)
+* [Text formatting](/esp-fundamentals/reference-guides/hornbill-wiki-markup#text-formatting)
+* [Links](/esp-fundamentals/reference-guides/hornbill-wiki-markup#links)
+* [Date formatting](/esp-fundamentals/reference-guides/hornbill-wiki-markup#date-formatting)
+* [Images](/esp-fundamentals/reference-guides/hornbill-wiki-markup#images)
+* [Emoticons](/esp-fundamentals/reference-guides/hornbill-wiki-markup#emoticons)
+* [Code snippets](/esp-fundamentals/reference-guides/hornbill-wiki-markup#code-snippets)
+* [Blockquote](/esp-fundamentals/reference-guides/hornbill-wiki-markup#blockquote)
+* [Horizontal rule](/esp-fundamentals/reference-guides/hornbill-wiki-markup#horizontal-rule)
+* [Nowiki](/esp-fundamentals/reference-guides/hornbill-wiki-markup#nowiki)
+
+## Section headings
 Using the equal sign (=) on either side of a word creates a section heading. The number of equal signs determines the size of the heading. Each heading is followed by a line break.
 
 ```
@@ -11,42 +24,42 @@ Using the equal sign (=) on either side of a word creates a section heading. The
 ```
 
 ## Lists
-There are three types of lists - [Bulleted](#bulleted-list), [Numbered](#numbered-list) and [Indented](#indented-list).
+There are three types of lists: [bulleted](#bulleted-list), [numbered](#numbered-list), and [indented](#indented-list).
 
-### Bulleted List
-Start each line with an asterisk (*). Chaining multiple asterisks (*) will indent the list level even further.
+### Bulleted lists
+Start each line with an asterisk (\*). Chaining multiple asterisks indents the list level further.
 ```
 * Start each line with an asterisk (*).
 ** More asterisks give deeper
 *** and deeper levels.
 * Line breaks <br />don't break levels.
 *** But jumping levels creates empty space.
-* Blank lines ends the list
+* Blank lines ends the list.
 
 Any other start ends the list.
 ```
 #### Example
 <pre>
-• Start each line with an aserisk (*).
+• Start each line with an asterisk (*).
   • More asterisks give deeper
     • and deeper levels.
 • Line breaks 
-  don't break levels
+  don't break levels.
 
-• Blank lines end the list
+• Blank lines end the list.
 
-Any other start ends the list
+Any other start ends the list.
 </pre>
 
 ### Numbered List
-Start each line with a [number sign](http://en.wikipedia.org/wiki/Number_sign) (#). Chaining multiple number signs (#) will indent the list level even further.
+Start each line with a [number sign](http://en.wikipedia.org/wiki/Number_sign) (#). Chaining multiple number signs (#)  indents the list level further.
 ```
 # Start each line with a number sign (#).
 ## More number signs give deeper
 ### and deeper levels.
 # Line breaks <br />don't break levels.
 ### But jumping levels creates empty space.
-# Blank lines ends the list
+# Blank lines end the list.
 
 Any other start also ends the list.
 ```
@@ -58,13 +71,13 @@ Any other start also ends the list.
 2. Line breaks 
   don't break levels.
 
-3. Blank lines ends the list
+3. Blank lines end the list.
 
 Any other start also ends the list.
 </pre>
 
 ### Indented List
-This type of list is used for indenting only, and doesn't prefix the lines with any visible characters. Start each line with a colon sign (:). Chaining multiple colon signs (:) will indent the list level even further.
+This type of list is used for indenting only, and doesn't prefix the lines with any visible characters. Start each line with a colon sign (:). Chaining multiple colon signs (:) indents the list level further.
 ```
 No indent
 : Single indent
@@ -112,72 +125,80 @@ No Indent
    2. five sub 2
 </pre>
 
-## Text Formatting
-Single quotation marks ( ' ) are used to format text as either bold or italic. Typing two single quotation marks either side of some text will italicize the text. Typing three single quotation marks either side of some text will bold the text.
+## Text formatting
 
-| Markup        | Displayed As       |
+### Bold and italic
+With wiki markup, use quotation marks on either side of text as follows:
+* Use two single quotation marks to italicize the text.
+* Use three single quotation marks to make the text bold.
+
+### Strike-through, underline, and font color/type
+You can also use strike-through and underline formatting, as well as change the color and font type.
+
+### Examples
+| Markup        | Displayed as       |
 |---------------|:---------------------------------------------|
 | `''italics''` |	<i>italics</i> |
 | `'''bold'''` |	<b>bold</b> |
 | `<del>strike through</del>` | <del>strike through</del> |
 | `<ins>underline</ins>` | <ins>underline</ins> |
-| `<span style="color:red;font-size:16px;font-family:monospace">font formatting such as color and font type</span>` |	<span style="color:red;font-size:16px;font-family:monospace">font formatting such as color and font type</span> |
+| `<span style="color:red;font-size:12px;font-family:monospace">font formatting such as color and font type</span>` |	<span style="color:red;font-size:12px;font-family:monospace">font formatting such as color and font type</span> |
 
 ## Links
-Hyperlinks to other areas of Hornbill can be added. This includes the ability to provide some friendly text along with the link. These links are internal to your instance of Hornbill. The URL link will always be prefixed with https://live.hornbill.com/<your instance>/
+You can add hyperlinks to other areas of Hornbill, referenced with text. These links are internal to your instance of Hornbill. The URL link will always be prefixed with https://live.hornbill.com/<`your instance`>/
 
-| Markup        | Displayed As       |
+| Markup        | Displayed as       |
 |---------------|:---------------------------------------------|
-| `[[newsfeed]]` | newsfeed |
-| `[[newsfeed\|Link to your Newsfeed]]` |	Link to your Newsfeed |
+| `[[newsfeed]]` | <span style="color:blue">newsfeed</span>|
+| `[[newsfeed\|Link to your Newsfeed]]` |	 <span style="color:blue">Link to your Newsfeed</span>|
 
-The same concept will be available for external links using absolute URLs
+Add external links using absolute URLs.
 
-| Markup        | Displayed As       |
+| Markup        | Displayed as       |
 |---------------|----------------------------------------------|
 | `[[https://community.hornbill.com]]` | [https://community.hornbill.com](https://community.hornbill.com/) |
 | `[[https://community.hornbill.com\|Hornbill Community Forums]]` |	[Hornbill Community Forums](https://community.hornbill.com) |
 
-## Date Formatting
-You can wrap a Date & Time value (e.g. 21-02-2020 16:10:30) with square brackets to apply the configured preferences in your Profile's Regional Settings.
+## Date formatting
+You can wrap a date/time value (e.g. 21-02-2020 16:10:30) with square brackets to apply the preferences that are configured in your profile's regional settings.
 
-For example, if the "Date Time Format" option in my Profile's Regional Settings is set to "21/02/2020 16:10", the syntax [01-01-1970 01:00:00] would result in 01/01/1970 01:00.
+For example, if the *Date Time Format* option in your profile's regional settings is set to "21/02/2020 16:10", the syntax [01-01-1970 01:00:00] would result in 01/01/1970 01:00.
 
-Another common use is using the Variable Picker in the Business Process Engine to post to a Timeline or Workspace. You can wrap the generated value (by the Variable Picker) with square brackets. For example, &[functions.pcf("askAQuestion","selectStartDate")] becomes [&[functions.pcf("askAQuestion","selectStartDate")]].
+Another common use is using the variable picker in workflows to post to a timeline or workspace. You can wrap the value generated by the variable picker with square brackets. For example, &[functions.pcf("askAQuestion","selectStartDate")] becomes [&[functions.pcf("askAQuestion","selectStartDate")]].
 
 ## Images
-Images can be added to any text field that allows wiki markup other than Posts or Comments as they have their own mechanism for managing images.
+You can add images to any text field that allows wiki markup. The exception to this is posts and comments, because they have their own mechanism for managing images.
 
-### Syntax
+The syntax is the following:
 ```txt
 [[File:filename.extension|options|caption]]
 
 ```
-
-__Legacy Image:__
-Namespace prefix is still supported as a synonym as well as Media.
+Both the legacy `Image:namespace` and `Media:namespace`  prefixes are supported as a synonym for the `File:namespace` prefix.
 
 ### Examples
 
 * This markup: `[[File:https://www.hornbill.com/images/logo.png]]`
-* Would be displayed as:
-<p align="left">
+
+    would be displayed as:
+    <p align="left">
     <img src="https://www.hornbill.com/images/logo.png" width="200">
 </p>
 
-* This markup: `[[File:https://www.hornbill.com/images/logo.png|center|caption]]` 
-* Would be displayed as:
-<p align="center">
+* This markup: `[[File:https://www.hornbill.com/images/logo.png|center|caption]]`
+
+    would be displayed as:
+    <p align="center">
     <img src="https://www.hornbill.com/images/logo.png" title="caption" width="200">
 </p>
 
 * This markup: `[[File:https://www.hornbill.com/images/logo.png|right|caption]]`
-* Would be displayed as:
-<p align="right">
+    would be displayed as:
+    <p align="right">
     <img src="https://www.hornbill.com/images/logo.png" title="caption" width="200">
 </p>
 
-## Images with Link:
+### Images with links
 Images can also be linked to a URL.
 
 The syntax is: 
@@ -186,8 +207,9 @@ The syntax is:
 [[File:https://www.hornbill.com/images/logo.png|link=http://www.hornbill.com|alt=Hornbill Logo]]
 ```
 
-## Symbols
-| Markup        | Displayed As       |
+## Emoticons
+You can use the following keyboard characters to display emoticons.
+| Markup        | Displayed as       |
 |---------------|:---------------------------------------------|
 | :-)	| 😀 |
 | :)	| 😀 |
@@ -222,17 +244,18 @@ The syntax is:
 | \|-)	| 😴 |
 | (zip)	| 🤐 |
 
-## Code Snippets
-A language can be passed as an option after a colon [code:SOURCE-LANGUAGE] 
+## Code snippets
+You can include snippets formatted as generic code, or snippets of a specific programming language, using brackets and a colon as in the examples that follow.
 
-These are the available languages: "bsh", "c", "cc", "cpp", "cs", "csh", "cyc", "cv", "htm", "html", "java", "js", "m", "mxml", "perl", "pl", "pm", "py", "rb", "sh", "xhtml", "xml", "xsl", "sql"
+The available languages are: "bsh", "c", "cc", "cpp", "cs", "csh", "cyc", "cv", "htm", "html", "java", "js", "m", "mxml", "perl", "pl", "pm", "py", "rb", "sh", "xhtml", "xml", "xsl", and "sql".
 
-| Markup        | Displayed As       |
+| Markup        | Displayed as       |
 |---------------|:---------------------------------------------|
 | [code]<br>var a = 1<br>[/code] | ```var a = 1``` |
 | [code:sql]<br>SELECT *<br>FROM TABLE<br>[/code] | <pre>SELECT *<br />FROM TABLE</pre> |
 
 ## Blockquote
+Add a blockquote using the following syntax:
 
 <pre>[blockquote]
 some text
@@ -243,13 +266,15 @@ __Example__
 some text
 </blockquote>
 
-__More properties:__  
-__actor__ - The name of the person  
-__date__ - Can be a custom format or ISO date format. In the case of ISO format it will be converted to the user's local time and format based on his settings.
+### Additional properties for blockquotes
+Add further properties to the blockquote using the following:
 
-<pre>[blockquote|actor:Daniel|date:2015-03-06T16:46:08Z]
-some text
-[/blockquote]</pre>
+* **actor.** The name of the person quoted.  
+* **date.** This can be a custom format or ISO date format. In the case of ISO format, it will be converted to the local time and format specified in the user's settings.
+
+    <pre>[blockquote|actor:Daniel|date:2015-03-06T16:46:08Z]
+    some text
+    [/blockquote]</pre>
 
 __Example__
 <blockquote>
@@ -257,14 +282,17 @@ __Example__
   <footer>-- Daniel - 06/03/2015 4:46pm</footer>
 </blockquote>
 
-__Note:__ It is possible also to use [quote] as an alias to [blockquote]
+__Note:__ As an alternative, you can use `quote` as an alias to `blockquote`.
 
-## Horizontal Rule
-| Markup        | Displayed As       |
+## Horizontal rule
+To add a line, use the syntax for a horizontal rule as in the following example:
+
+| Markup        | Displayed as       |
 |---------------|:---------------------------------------------|
 | ```----``` | <hr style="margin: 0; margin-bottom: 10px; border: none; border-top: 1px solid #000;"> |
 
 ## Nowiki
-| Markup        | Displayed As       |
+If you want to prevent wiki markup from being parsed and executed along with all the other wiki text on a page, use `nowiki` as in the following example:
+| Markup        | Displayed as       |
 |---------------|:---------------------------------------------|
 | `[nowiki]<br />This is '''bold''' and this is ''italic''<br />[/nowiki]` | This is '''bold''' and this is '''italic''' |
