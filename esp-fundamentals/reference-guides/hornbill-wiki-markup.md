@@ -26,7 +26,7 @@ Using the equal sign (=) on either side of a word creates a section heading. The
 ## Lists
 There are three types of lists: [bulleted](#bulleted-list), [numbered](#numbered-list), and [indented](#indented-list).
 
-### Bulleted lists
+### Bulleted list
 Start each line with an asterisk (\*). Chaining multiple asterisks indents the list level further.
 ```
 * Start each line with an asterisk (*).
@@ -51,7 +51,7 @@ Any other start ends the list.
 Any other start ends the list.
 </pre>
 
-### Numbered List
+### Numbered list
 Start each line with a [number sign](http://en.wikipedia.org/wiki/Number_sign) (#). Chaining multiple number signs (#)  indents the list level further.
 ```
 # Start each line with a number sign (#).
@@ -76,7 +76,7 @@ Any other start also ends the list.
 Any other start also ends the list.
 </pre>
 
-### Indented List
+### Indented list
 This type of list is used for indenting only, and doesn't prefix the lines with any visible characters. Start each line with a colon sign (:). Chaining multiple colon signs (:) indents the list level further.
 ```
 No indent
