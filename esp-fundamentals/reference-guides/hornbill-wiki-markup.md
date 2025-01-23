@@ -135,10 +135,11 @@ With wiki markup, use quotation marks on either side of text as follows:
 ### Strike-through, underline, and font color/type
 You can also use strike-through and underline formatting, as well as change the color and font type.  
 
-Color can be defined using the `<span style="">` tag. Inside style you can define a specific color (#555 for gray), a named color (gray) or a hornbill color variable (var(--hb-promary)).  
-The Hornbill Color Variable is more flexible and will change depending on the theme you currently have (light, dark, high contrast). These colors also have a meaning, so `hb-primary` indicated importance.  
-Note that the Hornnill Variables can change in the future in case of an overall style update.  
-Here is the list of variables you can use:
+To define color, use the `<span style="">` tag. Inside the style tag, you can define a specific color (#555 for gray), a named color (gray), or a Hornbill color variable (var(--hb-primary)).  
+The Hornbill color variable is more flexible and will change depending on the theme you currently have (light, dark, high contrast). These colors also have a meaning, so `hb-primary` indicates importance.  
+Note that the Hornbill color variables can change in the future in case of an overall style update.  
+
+The list of Hornbill color variables you can use is the following:
 * --hb-primary
 * --hb-secondary
 * --hb-warning
@@ -154,7 +155,7 @@ Here is the list of variables you can use:
 | `<del>strike through</del>` | <del>strike through</del> |
 | `<ins>underline</ins>` | <ins>underline</ins> |
 | `<span style="color:red;font-size:12px;font-family:monospace">font formatting such as color and font type</span>` |	<span style="color:red;font-size:12px;font-family:monospace">font formatting such as color and font type</span> |
-| `<span style="color:var(--hb-primary)">Using Horbill Color Variables</span>` |	<span style="color:red;font-size:12px;font-family:monospace">Using Horbill Color Variables</span> |
+| `<span style="color:var(--hb-primary)">using Hornbill Color Variables</span>` |	<span style="color:red;font-size:12px;font-family:monospace">using Hornbill color variables</span> |
 
 ## Links
 You can add hyperlinks to other areas of Hornbill, referenced with text. These links are internal to your instance of Hornbill. The URL link will always be prefixed with https://live.hornbill.com/<`your instance`>/
