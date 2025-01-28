@@ -11,9 +11,10 @@ __Community Solution Support:__
 
 __Solution Support Services:__
 > This level of support is an optional paid-for support service for customers who need support for non-critical problems and how-to type assistance/support.  This service is bespoke to the needs of each customer and is provided by our customer success and support team.
+https://www.hornbill.com/support
 
 __Getting Support and the Service Availability Checks:__
-> To get support you can start by visiting [(https://hornbill.com/support](https://hornbill.com/support) this is the gateway to all support channels.  When you visit this page you are asked to enter your instance ID and your email address.  This information is used to identify you as a known, supported contact in relation to your instance, and once you have been identified, the gateway will run and automated __Instance Service Availability Check__ against your instance.  Based on the results of this check, you will be transferred to the support portal where the various support options available to you are presented.
+> To get support you can start by visiting [(https://www.hornbill.com/support)](https://www.hornbill.com/support) this is the gateway to all support channels.  When you visit this page you are asked to enter your instance ID and your email address.  This information is used to identify you as a known, supported contact in relation to your instance, and once you have been identified, the gateway will run and automated __Instance Service Availability Check__ against your instance.  Based on the results of this check, you will be transferred to the support portal where the various support options available to you are presented.
 
 
 ## Service Availability Check
