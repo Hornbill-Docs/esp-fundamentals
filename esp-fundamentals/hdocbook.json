@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.171",
+  "version": "1.0.172",
   "audience": [
     "public"
   ],
@@ -26,11 +26,11 @@
             "link": "esp-fundamentals/about/what-is-hornbill"
           },
           {
-            "text": "Platform Editions",
+            "text": "Platform editions",
             "link": "esp-fundamentals/about/hornbill-editions"
           },
           {
-            "text": "Hornbill Applications",
+            "text": "Hornbill applications",
             "link": "esp-fundamentals/about/hornbill-applications"
           },
           {
@@ -42,17 +42,17 @@
             "link": "esp-fundamentals/about/about-roadmap"
           },
           {
-            "text": "Requesting Product Enhancements",
+            "text": "Requesting product enhancements",
             "link": "esp-fundamentals/about/request-product-enhancements"
           },
           {
-            "text": "Accessibility Report (WCAG)",
+            "text": "Accessibility report (WCAG)",
             "link": "esp-fundamentals/about/accessibility-report-wcag-2-2"
           }
         ]
       },
       {
-        "text": "Cloud Native",
+        "text": "Cloud native",
         "expand": true,
         "items": [
           {
@@ -64,15 +64,15 @@
             "link": "esp-fundamentals/in-the-cloud/support"
           },
           {
-            "text": "Software Updates",
+            "text": "Software updates",
             "link": "esp-fundamentals/in-the-cloud/software-updates"
           },
           {
-            "text": "Multi-Region Deployment",
+            "text": "Multi-region deployment",
             "link": "esp-fundamentals/in-the-cloud/multi-region"
           },
           {
-            "text": "Subscription Model",
+            "text": "Subscription model",
             "link": "esp-fundamentals/in-the-cloud/subscription-model"
           },
           {
@@ -87,20 +87,20 @@
         ]
       },
       {
-        "text": "Core Platform Capabilities",
+        "text": "Core platform capabilities",
         "expand": true,
         "items": [
           {
-            "text": "Organizational & Teams Structure",
+            "text": "Organization and teams structure",
             "link": "esp-fundamentals/core-capabilities/organization-and-teams"
           },
           {
-            "text": "Human Tasks",
+            "text": "Human tasks",
             "link": "esp-fundamentals/core-capabilities/human-tasks"
           },
           {
             "draft": true,
-            "text": "Business Rules",
+            "text": "Business rules",
             "link": "esp-fundamentals/core-capabilities/business-rules"
           },
           {
@@ -108,7 +108,7 @@
             "expand": true,
             "items": [
               {
-                "text": "HAi Services",
+                "text": "HAi services",
                 "link": "esp-fundamentals/core-capabilities/integration/hai-services"
               },
               {
@@ -121,7 +121,7 @@
                 "link": "esp-fundamentals/core-capabilities/integration/ibridge"
               },
               {
-                "text": "Operations Automation (ITOM)",
+                "text": "Operations automation (ITOM)",
                 "draft": true,
                 "link": "esp-fundamentals/core-capabilities/integration/itom"
               }
@@ -146,17 +146,17 @@
                 "items": [
                   {
                     "draft": true,
-                    "text": "IT Systems Automation",
+                    "text": "IT systems automation",
                     "link": "esp-fundamentals/core-capabilities/workflow-it-automaton"
                   },
                   {
                     "draft": true,
-                    "text": "Cloud Systems Integrations",
+                    "text": "Cloud systems integrations",
                     "link": "esp-fundamentals/core-capabilities/workflow-cloud-integration"
                   },
                   {
                     "draft": true,
-                    "text": "Behind the Firewall Integrations",
+                    "text": "Behind-the-firewall integrations",
                     "link": "esp-fundamentals/core-capabilities/workflow-behind-the-firewall-integration"
                   }
                 ]
@@ -165,17 +165,17 @@
           },
           {
             "draft": true,
-            "text": "E-Mail Automation",
+            "text": "Email automation",
             "link": "esp-fundamentals/core-capabilities/email-automation"
           },
           {
             "draft": true,
-            "text": "Mobile Access",
+            "text": "Mobile access",
             "link": "esp-fundamentals/core-capabilities/mobile-access"
           },
           {
             "draft": true,
-            "text": "Presence, Availability & Status",
+            "text": "Presence, availability and status",
             "link": "esp-fundamentals/core-capabilities/presence-availability-status"
           },
           {
@@ -185,7 +185,7 @@
           },
           {
             "draft": false,
-            "text": "MSP Multi-Client Capabilities",
+            "text": "MSP Multi-client capabilities",
             "link": "esp-fundamentals/core-capabilities/multi-client-msp"
           },
           {
@@ -193,7 +193,7 @@
             "link": "esp-fundamentals/core-capabilities/internationalization"
           },
           {
-            "text": "Productivity Features",
+            "text": "Productivity features",
             "expand": true,
             "items": [
               {
@@ -205,12 +205,12 @@
           },
           {
             "draft": true,
-            "text": "System of Record",
+            "text": "System of record",
             "link": "esp-fundamentals/core-capabilities/system-of-record"
           },
           {
             "draft": true,
-            "text": "System of Action",
+            "text": "System of action",
             "link": "esp-fundamentals/core-capabilities/system-of-action"
           }
         ]
@@ -220,11 +220,11 @@
         "expand": true,
         "items": [
           {
-            "text": "User Accounts",
+            "text": "User accounts",
             "link": "esp-fundamentals/security/user-accounts"
           },
           {
-            "text": "API Keys",
+            "text": "API keys",
             "link": "esp-fundamentals/security/api-keys"
           },
           {
@@ -238,27 +238,27 @@
         ]
       },
       {
-        "text": "System Requirements and Compatibility",
+        "text": "System requirements and compatibility",
         "expand": true,
         "items": [
           {
-            "text": "Browser Support",
+            "text": "Browser support",
             "link": "esp-fundamentals/system-requirements/browser-compatibility"
           },
           {
             "draft": true,
-            "text": "Device Support",
+            "text": "Device support",
             "link": "esp-fundamentals/system-requirements/device-support"
           },
           {
             "draft": true,
-            "text": "Behind the Firewall",
+            "text": "Behind the firewall",
             "link": "esp-fundamentals/system-requirements/behind-the-firewall"
           }
         ]
       },
       {
-        "text": "Reference Guides",
+        "text": "Reference guides",
         "expand": true,
         "items": [
           {
@@ -266,21 +266,21 @@
             "link": "esp-fundamentals/reference-guides/express-logic"
           },
           {
-            "text": "Hornbill Wiki Markup",
+            "text": "Hornbill Markup",
             "link": "esp-fundamentals/reference-guides/hornbill-wiki-markup"
           }
         ]
       },
       {
-        "text": "Best Practice Guides",
+        "text": "Best-practice guides",
         "expand": true,
         "items": [
           {
-            "text": "API Keys Best Practice",
+            "text": "API keys best practice",
             "link": "esp-fundamentals/best-practice/platform-api-keys"
           },
           {
-            "text": "Organizational Structure Best Practice",
+            "text": "Organizational structure best practice",
             "link": "esp-fundamentals/best-practice/org-structure"
           }
         ]
