@@ -43,7 +43,7 @@ A webhook event originates before and after general database operations related 
 The concepts of __pre__ and __post__ events are important. Pre-events allow you to act on the event *before* anything is committed to the database.  The classic use case for this type of webhook would be to provide customized input data validation.  For example, suppose you hooked the event for adding a customer record. You could create a custom webhook that may, for example, look up some of the details that have been provided by the user in another system, for example, your CRM system, and verify the input data quality. For pre-event hooks, your webhook script can return a non-200 HTTP response code that will prevent the database action from taking place, returning the error you throw back to the user.  For pre-event hooks, the event includes a number of properties including access to the incoming data. 
 
 :::warning
-In order for a pre-event hook to inhibit a user or even action, you must make sure that you use the __Synconous Critical__ POST mode and follow the basic guidance provoded for this mode.
+In order for a pre-event hook to inhibit a user or even action, you must make sure that you use the __Syncronous Critical__ POST mode and follow the basic guidance provoded for this mode.
 :::
 
 For post-events, this happens *after* the data has been committed to the database. There are various use cases here; one example might be that on creation, you want to get the primary key value for the record that has just been created. This could be in order to synchronize with another system, or maybe make an API call back into your Hornbill instance to perform another action. Unlike a pre-event, returning a non-200 error code from the post-event hook will not prevent the transaction from completing.
@@ -69,7 +69,7 @@ For example, the following is a simple example of how a webhook expression would
 LEFT(h_name) = 'G' AND h_email NOT NULL
 ```
 :::info
-Webhook HTTP calls are expensive in terms of time to complete, which can directly influence the responsiveness of the user experience if you are usiong one of the Synconous POST modes. The performance relates to the typical latency involved in making API calls over the Internet.  Webhook rule expressions, on the other hand, are very fast to evaluate, so you should always aim to create a rule that only triggers your webhook when it is needed, instead of always firing the webhook to your script and then using your script to determine if you should be acting on the webhook.  
+Webhook HTTP calls are expensive in terms of time to complete, which can directly influence the responsiveness of the user experience if you are usiong one of the Syncronous POST modes. The performance relates to the typical latency involved in making API calls over the Internet.  Webhook rule expressions, on the other hand, are very fast to evaluate, so you should always aim to create a rule that only triggers your webhook when it is needed, instead of always firing the webhook to your script and then using your script to determine if you should be acting on the webhook.  
 :::
 
 ## Webhook Payload
