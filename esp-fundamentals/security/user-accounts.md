@@ -65,5 +65,8 @@ When we refer to a guest account, we are referring to a Contact Login via a port
 
 ## Special User Account - admin
 
-When an instance is provisioned, one default account is created and is configured with full system access (super-user), the login ID for this account is `admin`.  This account is typically used for initial setup of the instance, at least to the point where more specific user accounts are created for the purpose of administration.  The `admin` account cannot be deleted, but it can be disabled or reset with an unknown random password.  The `admin` account is the only account on your instance that the Hornbill Cloud team can reset for you to re-enable login should you lose the credentials or lose the ability for you to reset them yourself. 
+When an instance is provisioned, one default account is created and is configured with full system access (super-user), the login ID for this account is `admin`.  This account is typically used for the initial setup of the instance, at least to the point where more specific user accounts are created for administration purposes.  The `admin` account cannot be deleted, but it can be disabled or reset with an unknown random password.  The `admin` account is the only account on your instance that the Hornbill Cloud team can reset for you to re-enable login should you lose the credentials or lose the ability to reset them yourself. 
 
+:::tip
+The Hornbill admin account can install apps, however, once an app is installed additional application roles will need to be associated with the admin account to allow them to complete the initial configuration.  Each app will typically include an admin role.
+:::
