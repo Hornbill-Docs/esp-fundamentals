@@ -37,10 +37,14 @@ The following feature list provides a side-by-side comparison of the two edition
 |Shared mailboxes|&#x2705;|&#x2705;|
 |Document Management|&#x2705;|&#x2705;|
 |Reporting & Scheduling|&#x2705;|&#x2705;|
-|Advanced Analytics|$|&#x2705;|
+|Advanced Analytics|$<br><snall style="font-size: 0.7em">Included since July 2024**<br>(see below note)</snall>|&#x2705;|
 |Advanced Reporting & Delivery|-|&#x2705;|
 |[Direct Database Access](/esp-fundamentals/core-capabilities/direct-database-access)|-|&#x2705;|
 |[Multi-Client/MSP Capabilities](/esp-fundamentals/core-capabilities/multi-client-msp)|-|$|
+
+:::note
+- The __Advanced Analytics__ module has been rolled into the Service Manager user subscription price, this was done as part of a pricing simplifcation exercise in July 2024. Existing customers subscribed before this change, the subscription option for Advanced Analytics remains, as does the lower priced subscriptions for Service Manager users. 
+:::
 
 ### Integration
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
