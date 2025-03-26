@@ -1,24 +1,50 @@
 # Direct Database Access (DDA)
-The Direct Database Access capability is a feature of the [Enterprise Edition](/esp-fundamentals/about/hornbill-editions) of Hornbill, providing customers with direct read-only access to an optimized-for-reporting, transactional database. This access is provided via a dedicated SQL server instance with secure, encrypted private access. 
+Direct Database Access (DDA) is an optional feature available in the Enterprise Edition of the Hornbill platform. It gives customers the ability to securely connect to a read-only database that’s specifically optimized for reporting.
+
+When enabled, a dedicated SQL Server instance is provisioned for your use, offering encrypted, private access to your Hornbill data—designed specifically to support your advanced reporting and analytics needs.
 
 ## Background
-Hornbill ESP is a self-contained, fully functional transactional system giving you everything you need out of the box including a range of reporting capabilities with standard reporting, analytics, trending and dashboards, and in-app dynamic reporting and dashboard features.  For many customers, what the Hornbill platform provides out of the box is comprehensive and more than sufficient for their needs when reporting on Hornbill data is stand-alone. 
+Hornbill ESP is a fully integrated transactional informaiton system that includes a wide range of built-in reporting tools: standard reports, analytics, trends, dashboards, and in-app dynamic reporting. For many customers, these out-of-the-box capabilities are more than sufficient to meet their reporting needs.
 
-For some customers, their Hornbill instance is only one of a number of business systems where there is a need to provide cross-system and cross-departmental reporting, often by deploying enterprise BI tools and a data warehouse, where the reporting needs are beyond the capabilities of Hornbill's own integrated reporting capabilities. As a general rule, these organizations have very mature reporting capabilities to meet corporate reporting needs and will often have a dedicated team of people providing enterprise-level reporting that sources data from multiple digital systems and services.  Hornbill's Direct Database Access capability works within these environments. 
+However, some organizations require a broader view — with consolidated reporting across multiple systems or have very advanced and specific reporting requirements. These are typically more mature, enterprise-level environments using BI tools and data warehouses are in use to support cross-functional, cross-system reporting. In such cases, Hornbill’s built-in reporting may not be sufficient to meet all of these customers requirements.
 
-## Getting access to the Hornbill database
-It is possibly counter-intuitive, but just directly accessing the system's primary database would seem the obvious and easy solution. Indeed this is a very common question.  In practice though, the Hornbill primary database is designed for transactional and UI performance; it is optimized for this use case, and as a result, data is de-normalized and related in ways that may seem  convoluted. Also, in some cases, data representation is optimized, for example things like status, timestamps, and other things that should ideally be human-recognizable will be represented as integer values. This is because we prioritize transactional performance over reporting ease.  A fully optioned-up Hornbill instance with multiple applications can have upwards of 700 database tables; that database is complex and can be difficult to navigate. Our in-built reporting tools restrict access to a sub-set of these tables to make things easier, but none the less, the in-built reporting capabilities of Hornbill are run against our application database, which is not optimized for reporting. This becomes more apparent as the scale of the data increases.  
+For these scenarios, DDA offers a powerful solution: direct access to your Hornbill data formatted and optimized for enterprise-grade reporting 
 
-Hornbill is expected to meet its service performance and availability obligations.  Reporting across large datasets without very careful consideration for performance of each query can lead to database locking and compute resource usage, creating large amounts of latency, which could easily and adversely affect the performance of the Hornbill application for your users.
 
-Direct Database Access (DDA) is more than just providing a connection to a database.  DDA provides you a dedicated data-staging database instance. We replicate a subset of data from the application database to the reporting database.  Unlike the application/transactional database, the target reporting database is better optimized for reporting. Not only are the number of tables significantly reduced to only 10s of tables with just the required data you need, but the data contained within them will have been put through a transformation as part of the ETL (Extract-Transform-Load) replication process that maps data from the application database to data in the reporting database. 
+## Why not just give customers access to the primary database?
+A common question we hear is: “Can we get direct access to the Hornbill database?”
 
-The DDA instance operates on different clusters of compute resources, which insulates the application database from any poorly performing reporting queries that cause a heavy workload on the database server processing, which would otherwise severely affect performance and responsiveness.
+While it might seem like the easiest path, there are important reasons why direct access to the primary Hornbill database is not offered:
+
+- __Optimized for performance, not reporting:__ The primary database is designed to support fast, responsive UI and transactional performance. This means the data is often de-normalized, structured in non-obvious ways, or stored using system-level representations (e.g., statuses as integers).
+- __Complex data model:__ A full Hornbill instance may contain 700+ tables. Navigating this structure for reporting can be complex and inefficient.
+- __Service reliability:__ Large or poorly optimized queries run directly against the transactional database could degrade performance for end users—something we take great care to avoid.
+- __Database Schema is Flud:__ Hornbill reserves the right to change the database schema at any time.  If you depeneded on specific data when accessing the database directly, this would create a significant maintenance overhead for customers.
+- __Documentation:__ Large parts of the database schema is not well documented because its not designed for direct customer consumption
+
+Hornbill’s internal reporting tools work within these constraints because they are aligned with the database schema at all times as we evolve our products. 
+
+
+## DDA is more than just a direct connection to the Database. 
+
+The Direct Database Access (DDA) capability is more than just providing you with a direct connection to a database.  DDA provides a dedicated data-staging database instance. We replicate and normalize a subset of data from the application database to the DDA reporting database.  Unlike the application/transactional database, the target reporting database is better optimized for reporting. Not only are the number of tables significantly reduced to only 10s of tables with just the required data you need, but the data contained within them will have been run through a transformation process to optimize data specifically for reporting needs. 
+
+The DDA database instance is deployed on compute resources that are isolated from the main application database, which insulates the main transactional application database from any poorly performing reporting queries that cause a heavy workload on the database server processing.
 
 ![Direct Database Access Data Flow](/_books/esp-fundamentals/core-capabilities/images/direct-database-access.png)
 
 ## DDA operation
-As you can see from the diagram, the DDA components are all running within the Hornbill Cloud environment. The basic operation of the system is designed around a simple ETL data replication model, where data is extracted periodically from the Hornbill application database, it is transformed in various ways, and then loaded (synchronized) with the DDA database.  The mappings that control what data is extracted, transformed, and replicated into the staging database are managed by Hornbill, and like customer APIs, we ensure that this database schema does not change in ways that would break any customer integration with the data through the direct access.  Typically, a customer would configure their data warehouse to query/extract the data from the staging database into their own data warehouse database, at which point the customer has full control over that data and is free to manipulate/transform as required to meet their specific reporting needs. 
+As shown in the diagram, all DDA components operate entirely within the Hornbill Cloud environment.
+
+At its core, DDA follows a straightforward ETL (Extract, Transform, Load) model:
+
+- __Extract:__ Data is periodically pulled from the Hornbill application (transactional) database.
+- __Transform:__ The data is processed and transformed to support reporting needs—normalizing formats, resolving references, and converting values into more readable forms.
+- __Load:__ The transformed data is then synchronized into a dedicated reporting (staging) database.
+
+Hornbill manages the mappings that determine what data is extracted, how it's transformed, and what gets loaded into the reporting database. These mappings are carefully maintained—just like our public APIs—to ensure schema stability. This means you can rely on a consistent structure that won’t change unexpectedly or break your integrations.
+
+Once the data is available in the DDA staging database, you can connect your own data warehouse or BI tools to it. From there, you’re in full control: you can extract, transform, and integrate the data however you like to meet your unique reporting and analytics needs.
 
 
 ## Benefits of DDA
