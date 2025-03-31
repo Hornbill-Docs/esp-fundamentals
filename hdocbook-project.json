@@ -15,7 +15,9 @@
   },
   "redirects": [
     { "url": "/esp-fundamentals/security/account-types", "location": "/esp-fundamentals/security/user-accounts", "code": 308 },
-    { "url": "/esp-fundamentals/productivity/ai-assist", "location": "/esp-fundamentals/core-capabilities/integration/hai-services", "code": 308 },
-    { "url": "/esp-fundamentals/about/request-product-enhancements", "location": "/hornbill-customer-services/request-features", "code": 308 }
+    { 
+      "url": "/esp-fundamentals/productivity/ai-assist", "location": "/esp-fundamentals/core-capabilities/integration/hai-services", "code": 308 },
+    { "url": "/esp-fundamentals/about/request-product-enhancements", "location": "/hornbill-customer-services/request-features", "code": 308, 
+    "skip_location_validation": true }
   ]
 }
