@@ -160,6 +160,10 @@
             ]
           },
           {
+            "text": "Activity Streams",
+            "link": "esp-fundamentals/core-capabilities/activity-streams"
+          },
+          {
             "draft": true,
             "text": "Email automation",
             "link": "esp-fundamentals/core-capabilities/email-automation"
