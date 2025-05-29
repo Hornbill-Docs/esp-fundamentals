@@ -105,21 +105,6 @@ The following types of organizational units are available in Hornbill to help yo
 </tbody>
 </table>
 
-
-|OU Type|Description|
-|:---|:---|
-|department|A division of an organization responsible for a specific function or task, such as human resources, finance, marketing, or sales.|
-|costcenter|A cost center is an alternative type of department or unit within an organization that is responsible for incurring costs but does not directly generate revenue. The primary function of a cost center is to support the overall operations of the organization by providing essential services, such as IT, human resources, or administrative support.|
-|division|A larger unit of an organization that includes multiple departments or teams, often organized around a product line or geographic region.|
-|company|<span style="white-space: nowrap;">```Single Company``` <small>(only one top-level)</small></span><br><br>```Hierarchical``` or ```Organizational``` (multiple top-level and/or nested)|A company is typically a group that provides goods or services, generate revenue, create jobs, manage resources, innovate and adapt, and report to stakeholders. The success of the company is often measured by its ability to achieve these objectives in a sustainable and responsible manner. In a typical organizational structure, a company is often at the very top of the structure. <br> NOTE: |
-|businessUnit|A self-contained unit within an organization that operates as a separate entity, often with its own profit and loss responsibility.|
-|directorate|A Directorate is a group of senior managers who are responsible for the overall strategic direction and management of a specific area within an organization. The term "Directorate" is often used in government organizations and large corporations.|
-|branch|A location of an organization that operates independently but is part of a larger entity, such as a bank branch or retail store.|
-|board|A group of individuals who oversee the strategic direction of an organization, often made up of external stakeholders or directors.|
-|subsidiary|A subsidiary is a separate legal entity that is owned and controlled by another company, known as the parent company. The subsidiary operates as an independent company with its own management, finances, and legal structure. The parent company may own all or a majority of the subsidiary's shares, giving it control over the subsidiary's operations.|
-|function|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
-|general|Where no other OU type fits, this type can be used as part of your organizational structure.  If you find yourself having to use this type, we encourage you to start a conversation on our community forums so we may consider expanding the available organizational unit types in Hornbill|
-
 ### Functional Organizational Unit (OU) Types
 Functional Organizational Unit (OU) type are available in Hornbill, not only to help you define your organizational structure but they also define the functional grouping of users.  Functional OU's have additional "functional" behavior over and above General OU's, specifically, the assignment of tasks can be made to a functional OU, but not general OU types.  Other applications on the Hornbill Platform may also use functional OU types for assignment and other functional behaviors that are beyond the scope of the Hornbill platform itself.  For specific application behaviors around functional OUs, please refer to the applications specific documentation.  
 

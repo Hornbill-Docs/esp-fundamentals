@@ -4,6 +4,6 @@ The hornbill Platform provides the ability for you to deifne external companies 
 
 The data model for Companies and Context is a simple one to many relationship between Companies, where, a Contact but be associated witha Company, and a Company can have many Contacts associated with it. 
 
-:::node
-Please keep in mind that an External Company in this context does not in any way relate to the Company OU type that may be defined in your [Internal Groups and Teams Structure](/esp-fundamentals/core-capabilities/internal-groups-and-teams)
+:::note
+Please keep in mind that an __External Company__ in this context does not in any way relate to the Company OU type that may be defined in your [Internal Groups and Teams Structure](/esp-fundamentals/core-capabilities/internal-groups-and-teams)
 :::
