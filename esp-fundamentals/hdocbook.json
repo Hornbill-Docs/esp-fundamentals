@@ -4,7 +4,7 @@
   "description": "Everything you should know before using/administering/working with the Hornbill Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-fundamentals",
   "productFamily": "esp",
-  "version": "1.0.189",
+  "version": "1.0.191",
   "audience": [
     "public"
   ],
@@ -87,8 +87,12 @@
         "expand": true,
         "items": [
           {
-            "text": "Organization and teams structure",
-            "link": "esp-fundamentals/core-capabilities/organization-and-teams"
+            "text": "Internal Groups and Teams structure",
+            "link": "esp-fundamentals/core-capabilities/internal-groups-and-teams"
+          },
+          {
+            "text": "External Companies and Contacts",
+            "link": "esp-fundamentals/core-capabilities/external-companies-and-contacts"
           },
           {
             "text": "Human tasks",

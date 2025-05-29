@@ -1,6 +1,6 @@
 # Defining Your Organizational Structure
 
-It is possible to map almost any organization structure within Hornbill. The organization structure can be hierarchial and can include functional and non-functional organizational unit types.  To read more about the capabilities of the Hornbill platform in relation to defining your organizational structure, please see the document [Fundamentals : Organization And Team Structure](/esp-fundamentals/core-capabilities/organization-and-teams)
+It is possible to map almost any organization structure within Hornbill. The organization structure can be hierarchial and can include functional and non-functional organizational unit types.  To read more about the capabilities of the Hornbill platform in relation to defining your organizational structure, please see the document [Fundamentals : Internal Groups & Team Structure](/esp-fundamentals/core-capabilities/internal-groups-and-teams)
 
 On the face of it, being able to fully map your org structure in Hornbill (or any other tool where you could do the same) seems like a really good idea. But based on our own experience deploying thousands of complex service management solutions into a diverse range of organization types and sizes, and over more than 25 years, mapping an organizational structure into a product can be challenging for a number of reasons:
 
