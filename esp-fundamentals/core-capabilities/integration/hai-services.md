@@ -4,7 +4,14 @@ The Hornbill ESP Platform provides seamless integration with available AI Servic
 
 ## Selecting a HAi Service Provider
 
-By default your Hornbill instance will not be configured with a HAi Service Provider, this effectively disables Generative AI for your Hornbill instance. Use the following steps to enable to change the HAi Service provider:
+By default your Hornbill instance will not be configured with a HAi Service Provider, this effectively disables Generative AI for your Hornbill instance. To enable any of the Generative AI Capabilities, your User Account must be associated with the following roles:
+
+|Role|Application|Description|
+|-|-|-|
+|HAi Manager|Platform|This role should only be used for managing HAi configurations.|
+|Admin Role|Platform|This role provides administrative functionality to the Hornbill platform and should only be granted to an administrator.|
+
+Then use the following steps to enable to change the HAi Service provider:
 
 * Log into Hornbill with the relevant access role.
 * Click on the settings gear icon in the lower left of the screen.
