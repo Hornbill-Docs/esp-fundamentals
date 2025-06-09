@@ -2,9 +2,21 @@
 
 The Hornbill ESP Platform provides seamless integration with available AI Service Providers, including OpenAI and Azure AI. Hornbill ESP's integration layer makes AI services available to applications and features in Hornbill in a way that is abstracted from any specific AI service provider.  This allows each customer to choose specific AI services providers and in some cases even specific AI models.  The Hornbill ESP platform makes integration with AI service providers a simple point and click exercise, we implement real time result streaming providing modern real-time service integrations for optimal user experience when making use of HAi features.  
 
+## Selecting a HAi Service Provider
+
+By default your Hornbill instance will not be configured with a HAi Service Provider, this effectively disables Generative AI for your Hornbill instance. Use the following steps to enable to change the HAi Service provider:
+
+* Log into Hornbill with the relevant access role.
+* Click on the settings gear icon in the lower left of the screen.
+* Change the dropdown from My ```Personal Settings``` to ```Platform Configuration```.
+* Click on ```HAi Services``` under Administration in the left-hand menu.
+* Select the provider required, click Save.
+
+![Hornbill AI Configuration](/_books/esp-fundamentals/core-capabilities/images/hai-services.png)
+
 ## HAi Service Providers
 
-The Following HAi Service Providers are currently available (as of 11/2024):
+The primary difference in HAi Service providers is the geographic location where your data will be processed, both Azure and OpenAI providers utilize the same underlying OpenAI models but Azure allows for tighter controls on the region data is processed in, The Following HAi Service Providers are currently available (as of 11/2024):
 
 |Provider|Usage|Description|
 |:--|:--|:--|
