@@ -12,9 +12,8 @@ The compute resource configurations are not bespoke. We currently define two spe
 ## Standard Edition architecture
 The Standard Edition is the typical configuration for most customers using a single primary Hornbill application. Users access their application data through the application logic and a database, which is their primary database. The primary database (based on MariaDB) is a single transactional relational database that serves both transactional as well as read queries. For light to medium loads, workflows, and data sets, this configuration offers ample performance and reliability. 
 
-
 ## Enterprise Edition architecture
-The Enterprise Edition is a more modular, horizontally scaled configuration, designed primarily to much greater transactional and query throughput, while also separating, balancing, and tuning compute resources to more equally match individual customer instance workloads. In addition to the configuration differences, there are a number of additional features offered that require more compute resources to function adequately and that are typically only demanded by enterprise organizations where higher levels of security, auditing, compliance, and performance at scale are required. 
+The Enterprise Edition is a more modular, horizontally scaled configuration, designed primarily to handle much larger transactional and query throughput, while also separating, balancing, and proactive fine tuning compute resources to more equally match individual customers instance workloads. In addition to the configuration differences, there are a number of additional features offered that require more compute resources to function adequately, these features are typically only required by enterprise organizations where higher levels of security, auditing, compliance, and performance at scale are required. 
 
 ## Platform edition feature matrix
 The following feature list provides a side-by-side comparison of the two editions to help you evaluate them. 
@@ -38,10 +37,14 @@ The following feature list provides a side-by-side comparison of the two edition
 |Shared mailboxes|&#x2705;|&#x2705;|
 |Document Management|&#x2705;|&#x2705;|
 |Reporting & Scheduling|&#x2705;|&#x2705;|
-|Advanced Analytics|$|&#x2705;|
+|Advanced Analytics|$<br><snall style="font-size: 0.7em">Included since July 2024**<br>(see below note)</snall>|&#x2705;|
 |Advanced Reporting & Delivery|-|&#x2705;|
 |[Direct Database Access](/esp-fundamentals/core-capabilities/direct-database-access)|-|&#x2705;|
 |[Multi-Client/MSP Capabilities](/esp-fundamentals/core-capabilities/multi-client-msp)|-|$|
+
+:::note
+- The __Advanced Analytics__ module has been rolled into the Service Manager user subscription price, this was done as part of a pricing simplifcation exercise in July 2024. Existing customers subscribed before this change, the subscription option for Advanced Analytics remains, as does the lower priced subscriptions for Service Manager users. 
+:::
 
 ### Integration
 |<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
@@ -71,6 +74,28 @@ The following feature list provides a side-by-side comparison of the two edition
 
 
 ## Choosing the right platform edition for your organization
-There is no one-size-fits-all answer to this question.  It's important to say that the Standard Edition of the Hornbill platform is robust and capable; it scales well for many hundreds, even thousands of concurrently logged in and active users. So for most needs, the Standard Edition is more than adequate. However, in environments where you have large numbers of very active users, or where you have many complex workflows, large data throughput, large transaction volume (such as logging larger numbers of requests), handling large volumes of emails, orchestrating larger volumes of automations and workflows --- these will all be driving factors of the Workload/Workflow axis. The point at which a customer will benefit from, or need the Enterprise Edition will be different for each customer, each instance, and each situation. 
+Choosing the Right Platform Edition for Your Organization
+Selecting the appropriate Hornbill platform edition depends on your organization's specific needs. The Standard Edition is robust and capable, supporting hundreds or even thousands of concurrently active users. For most organizations, it offers more than adequate performance.
 
-You may also require the Enterprise Edition at a smaller scale if you need the more advanced security features, or the guarantees for faster/prioritized system recovery in the event of a DR situation. 
+However, the key limiting factor in scalability is database throughput. In the Standard Edition, both database writes and reads are handled by a single database instance. The Enterprise Edition, on the other hand, uses a master-slave database configuration. This setup dedicates the primary database to write transactions while distributing read operations across multiple slave databases, significantly improving performance and scalability—especially since most database activity in Hornbill applications involves reads.
+
+When to Consider the Enterprise Edition
+The Enterprise Edition is ideal for environments with:
+
+- A large number of highly active users.
+- Complex workflows or high data throughput.
+- Heavy transaction volumes (e.g., logging many requests or operations).
+- Large volumes of emails, automations, or workflows.
+
+These factors, along the Workload/Workflow axis, may indicate the need for the Enterprise Edition. The decision will vary based on your specific requirements, user activity, and operational complexity.
+
+Additionally, the Enterprise Edition might be necessary at a smaller scale if you require:
+
+- Advanced security features.
+- Faster or prioritized system recovery in disaster recovery (DR) situations.
+
+Each organization's needs are unique, and it may be difficult to asses the platform edition you require. Our product experts can advise based on prior experience and taking into consideration you specific circumstances/expected usage.  You can generally start with Standard, assess the levels of performance/throughput.
+
+:::note
+Although its possible to switch from standard to enterprise edition without any changes to your instance; behind the scenes its actually a full data migration from one set of systems to another, which requires a small amount of downtime (around 30 minutes) which Hornbill will undertake out of hours at a convenient time-slot for you. 
+::: 

@@ -1,6 +1,9 @@
-# Organization and team structure
-It is possible to define part or all of your organizational structure in Hornbill. This allows you to organize your users into logical and organizational groups.  In Hornbill there are two classes of organizational units, general and functional.  While general org types are there to help you define your org structure, functional org types, can not only be part of your organizational structure but also have some extended functional capabilities, generally related to task and work assignments, ownership and content sharing. 
+# Internal Groups and Teams structure
+It is possible to define part or all of your heiarchical organizational structure in Hornbill. This allows you to organize your users into logical organizational groupings.  In Hornbill, the org strcuture is defined using organizational units (OUs), and there are two classes of organizational units, general and functional.  While general org types are there to help you define and visualize your org structure, functional org types, can not only be part of your organizational structure but also have some extended functional capabilities, generally related to task and work assignments, ownership and content sharing. 
 
+:::warning
+Your Internal Groups and Teams strcuture relate to your internal users only.  When defining your internal organizational strcuture, one of the OU types available is called Company, and this represents a company within your corporate organizational strcuture - this is not to be confused with [External Companies & Contacts](/esp-fundamentals/core-capabilities/external-companies-and-contacts)
+:::
 
 ## Common types of organizational structure 
 There are many types of organizational structures in use today, each with its own strengths and weaknesses.  Here are some of the most common types that can easily be modeled in Hornbill if required:
@@ -40,20 +43,67 @@ For the purpose of Hornbill's Organizational Structure, there are two types of u
 ### General Organizational Unit (OU) Types
 The following types of organizational units are available in Hornbill to help you define your organizational structure. These general types are only used for organizing your users into a browsable structure, and have no specific functional purpose beyond that.  
 
-|OU Type|Assignable|Description|
-|:---|:---:|:---|
-|department|No|A division of an organization responsible for a specific function or task, such as human resources, finance, marketing, or sales.|
-|costcenter|No|A cost center is an alternative type of department or unit within an organization that is responsible for incurring costs but does not directly generate revenue. The primary function of a cost center is to support the overall operations of the organization by providing essential services, such as IT, human resources, or administrative support.|
-|division|No|A larger unit of an organization that includes multiple departments or teams, often organized around a product line or geographic region.|
-|company|No|<span style="white-space: nowrap;">```Single Company``` <small>(only one top-level)</small></span><br><br>```Hierarchical``` or ```Organizational``` (multiple top-level and/or nested)|A company is typically a group that provides goods or services, generate revenue, create jobs, manage resources, innovate and adapt, and report to stakeholders. The success of the company is often measured by its ability to achieve these objectives in a sustainable and responsible manner. In a typical organizational structure, a company is often at the very top of the structure|
-|businessUnit|No|A self-contained unit within an organization that operates as a separate entity, often with its own profit and loss responsibility.|
-|directorate|No|A Directorate is a group of senior managers who are responsible for the overall strategic direction and management of a specific area within an organization. The term "Directorate" is often used in government organizations and large corporations.|
-|branch|No|A location of an organization that operates independently but is part of a larger entity, such as a bank branch or retail store.|
-|board|No|A group of individuals who oversee the strategic direction of an organization, often made up of external stakeholders or directors.|
-|subsidiary|No|A subsidiary is a separate legal entity that is owned and controlled by another company, known as the parent company. The subsidiary operates as an independent company with its own management, finances, and legal structure. The parent company may own all or a majority of the subsidiary's shares, giving it control over the subsidiary's operations.|
-|function|No|A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.|
-|general|No|Where no other OU type fits, this type can be used as part of your organizational structure.  If you find yourself having to use this type, we encourage you to start a conversation on our community forums so we may consider expanding the available organizational unit types in Hornbill|
 
+<table>
+<thead>
+<tr>
+<th style="text-align:left">OU Type</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">department</td>
+<td style="text-align:left">A division of an organization responsible for a specific function or task, such as human resources, finance, marketing, or sales.</td>
+</tr>
+<tr>
+<td style="text-align:left">costcenter</td>
+<td style="text-align:left">A cost center is an alternative type of department or unit within an organization that is responsible for incurring costs but does not directly generate revenue. The primary function of a cost center is to support the overall operations of the organization by providing essential services, such as IT, human resources, or administrative support.</td>
+</tr>
+<tr>
+<td style="text-align:left">division</td>
+<td style="text-align:left">A larger unit of an organization that includes multiple departments or teams, often organized around a product line or geographic region.</td>
+</tr>
+<tr>
+<td style="text-align:left">company</td>
+<td style="text-align:left"><span style="white-space: nowrap;"><code>Single Company</code> <small>(only one top-level)</small></span><br><br><code>Hierarchical</code> or <code>Organizational</code> (multiple top-level and/or nested)<br><br>
+    A OU of type Company is typically a business function/unit within a group of companies that provides goods or services, generate revenue, create jobs, manage resources, innovate and adapt, and report to stakeholders. The success of the company is often measured by its ability to achieve these objectives in a sustainabl, responsible and profitable manner. In a typical organizational structure, a company is often at the very top of any individual structure and of course you can have groups of companies within an organization.
+    <div class="hdoc-alert alert-icon-info">
+    <p class="hdoc-alert-title"><span class="bi bi-exclamation-triangle"></span>Warning</p>
+    <p>This OU type relates to your internal users only - this is not to be confused with <a href="/esp-fundamentals/core-capabilities/external-companies-and-contacts" class="md-tip-link">External Companies &amp; Contacts</a></p>
+    </div>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">businessUnit</td>
+<td style="text-align:left">A self-contained unit within an organization that operates as a separate entity, often with its own profit and loss responsibility.</td>
+</tr>
+<tr>
+<td style="text-align:left">directorate</td>
+<td style="text-align:left">A Directorate is a group of senior managers who are responsible for the overall strategic direction and management of a specific area within an organization. The term “Directorate” is often used in government organizations and large corporations.</td>
+</tr>
+<tr>
+<td style="text-align:left">branch</td>
+<td style="text-align:left">A location of an organization that operates independently but is part of a larger entity, such as a bank branch or retail store.</td>
+</tr>
+<tr>
+<td style="text-align:left">board</td>
+<td style="text-align:left">A group of individuals who oversee the strategic direction of an organization, often made up of external stakeholders or directors.</td>
+</tr>
+<tr>
+<td style="text-align:left">subsidiary</td>
+<td style="text-align:left">A subsidiary is a separate legal entity that is owned and controlled by another company, known as the parent company. The subsidiary operates as an independent company with its own management, finances, and legal structure. The parent company may own all or a majority of the subsidiary’s shares, giving it control over the subsidiary’s operations.</td>
+</tr>
+<tr>
+<td style="text-align:left">function</td>
+<td style="text-align:left">A specific area of expertise or responsibility within an organization, such as IT, legal, or procurement.</td>
+</tr>
+<tr>
+<td style="text-align:left">general</td>
+<td style="text-align:left">Where no other OU type fits, this type can be used as part of your organizational structure.  If you find yourself having to use this type, we encourage you to start a conversation on our community forums so we may consider expanding the available organizational unit types in Hornbill</td>
+</tr>
+</tbody>
+</table>
 
 ### Functional Organizational Unit (OU) Types
 Functional Organizational Unit (OU) type are available in Hornbill, not only to help you define your organizational structure but they also define the functional grouping of users.  Functional OU's have additional "functional" behavior over and above General OU's, specifically, the assignment of tasks can be made to a functional OU, but not general OU types.  Other applications on the Hornbill Platform may also use functional OU types for assignment and other functional behaviors that are beyond the scope of the Hornbill platform itself.  For specific application behaviors around functional OUs, please refer to the applications specific documentation.  
@@ -62,9 +112,8 @@ Functional Organizational Unit (OU) type are available in Hornbill, not only to 
 When adding users as to your organizational structure, you can add any users or basic users as a member to any OU; but with the one exception that basic users cannot be added as members to functional OU's 
 :::
 
-
-|OU Type|Assignable|Description|
-|:---|:---:|:---|
-|team|Yes|A group of individuals who work together to achieve a common goal, such as a project team, research team, or customer service team.|
+|OU Type|Description|
+|:---|:---|
+|team|A group of individuals who work together to achieve a common goal, such as a project team, research team, or customer service team.|
 
 Please also see [Human Tasks](/esp-fundamentals/core-capabilities/human-tasks) for more details on how Functional OU types are used and how assignment relates to your Organizational and Groups structure

@@ -8,11 +8,16 @@
     "exclude_links": [
       "https://openai.com/",
       "https://docs.hornbill.com/esp-fundamentals/about/about-roadmap#requesting-enhancements-or-features-for-inclusion-in-the-hornbill-roadmaps",
-      "https://docs.hornbill.com/esp-fundamentals/about/about-roadmap#roadmap-inclusion-policy"
+      "https://docs.hornbill.com/esp-fundamentals/about/about-roadmap#roadmap-inclusion-policy",
+      "https://community.hornbill.com*",
+      "https://wiki.hornbill.com*"
     ]
   },
   "redirects": [
     { "url": "/esp-fundamentals/security/account-types", "location": "/esp-fundamentals/security/user-accounts", "code": 308 },
-    { "url": "/esp-fundamentals/productivity/ai-assist", "location": "/esp-fundamentals/core-capabilities/integration/hai-services", "code": 308 }
+    { 
+      "url": "/esp-fundamentals/productivity/ai-assist", "location": "/esp-fundamentals/core-capabilities/integration/hai-services", "code": 308 },
+    { "url": "/esp-fundamentals/about/request-product-enhancements", "location": "/hornbill-customer-services/request-features", "code": 308, "skip_location_validation": true },
+    { "url": "/esp-fundamentals/core-capabilities/organization-and-teams", "location": "/esp-fundamentals/core-capabilities/internal-groups-and-teams", "code": 308 }
   ]
 }

@@ -179,7 +179,7 @@ When a user is being added to an assignment team, each user is given an associat
 
 
 ## Defining Your Task Assignment Architecture
-An essential aspect of defining your task assignment architecture is setting up an appropriate [Organizational & Team Structure](/esp-fundamentals/core-capabilities/organization-and-teams). A strong correlation exists between lines of responsibility and the way you define your organizational structure, particularly in relation to assignment teams. If you are deploying a specific application, there may well be special consideration needed for the way in which the org structure needs to be defined. In this case, you should refer to documentation for that application to better understand how the [Organizational & Team Structure](/esp-fundamentals/core-capabilities/organization-and-teams) will impact the way the application operates. 
+An essential aspect of defining your task assignment architecture is setting up an appropriate [Internal Groups & Team Structure](/esp-fundamentals/core-capabilities/internal-groups-and-teams). A strong correlation exists between lines of responsibility and the way you define your organizational structure, particularly in relation to assignment teams. If you are deploying a specific application, there may well be special consideration needed for the way in which the org structure needs to be defined. In this case, you should refer to documentation for that application to better understand how the [Internal Groups & Team Structure](/esp-fundamentals/core-capabilities/internal-groups-and-teams) will impact the way the application operates. 
 
 Here are some general tips in relation to task assignments for creating your task assignment architecture:
 

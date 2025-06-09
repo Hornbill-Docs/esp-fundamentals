@@ -1,7 +1,7 @@
 # Accessibility Evaluation Report for WCAG 2.2
 
 ## 1. Executive Summary
-This report describes the conformance of the Hornbill Collaboration Core and its applications with W3C's Web Content Accessibility Guidelines (WCAG) 2.2. The Success Criteria (checklist) is described in Section 4 below and is based on the Success Criteria checklist provided by W3C ( https://www.w3.org/WAI/WCAG22/implementation-report/ )
+This report describes the conformance of the Hornbill Platform and its applications with W3C's Web Content Accessibility Guidelines (WCAG) 2.2. The Success Criteria (checklist) is described in Section 4 below and is based on the Success Criteria checklist provided by W3C ( https://www.w3.org/WAI/WCAG22/implementation-report/ )
 
 ## 2. Last Reviewed
 http://live.hornbill.com/INSTANCE_NAME/  

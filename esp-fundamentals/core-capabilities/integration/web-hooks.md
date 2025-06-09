@@ -1,74 +1,87 @@
-# Web Hooks
-Webhooks provide you a way to customize the database record operations relating to entities on the platform. The idea is, you can intercept and act on specific events, for example adding or updating a database record, you are able to write your own custom script and have the Hornbill platform call that script. 
+# Webhooks
+Webhooks provide you a way to customize the database record operations relating to entities on the platform. The idea is, you can intercept and act on specific events, for example adding or updating a database record. You write your own custom script and have the Hornbill platform call that script. 
 
-Webhooks are a way for different applications or services to communicate with each other in real time via HTTP callbacks. They provide a mechanism for one service to notify another about a specific event that has occurred, allowing the receiving service to immediately react to the event.
+Webhooks allow different applications or services to communicate with each other in real time via HTTP callbacks. They provide a mechanism for one service to notify another about a specific event that has occurred, allowing the receiving service to immediately react to the event.
 
-## How Webhooks Work
+## How webhooks work
 
-The following diagram shows the data flow of a typical record-oriented data transaction, with the blue boxes indicating where WebHooks are able to plug into the transactional data flow. 
+The following diagram shows the data flow of a typical record-oriented data transaction, with the blue boxes indicating where webhooks are able to plug into the transactional data flow. 
 
 ![Webhook Transaction](/_books/esp-fundamentals/core-capabilities/images/webhook.svg)
 
 
-* __The Event Triggers__:  Webhooks are triggered by specific events, such as creating a new database record, updating a user etc. 
+* __Event triggers__:  Webhooks are triggered by specific events, such as creating a new database record, updating a user, and so on. 
 
-* __Event Rules__:  webhook rules are evaluated, and if a match if found, the webhook event is fired. 
+* __Event rules__:  Webhook rules are evaluated, and if a match is found, the webhook event is fired. 
 
-* __WebHook Call__: Once the event occurs, the Hornbill service sends an HTTP request to the URL specified for the webhook. 
+* __Webhook call__: Once the event occurs, the Hornbill service sends an HTTP request to the URL specified for the webhook. 
 
-* __Custom Application__: Your custom web application that receives the webhook can then take action based on the data received in real-time.  Webhooks deliver relevant data to other applications, meaning you get data immediately. The endpoints (URLs) are specific to each webhook and are registered to receive callbacks.
+* __Custom application__: Your custom web application that receives the webhook can then take action based on the data received in real time.  Webhooks deliver relevant data to other applications, meaning you get data immediately. The endpoints (URLs) are specific to each webhook and are registered to receive callbacks.
 
-* __Real Time__: WebHooks enable enables real-time processing and reactions to events as they allow applications to get real-time data without relying on any time of polling mechanisms. Webhooks are more efficient than polling, where an application would need to continually check for new data.
+* __Real time__: Webhooks enable real-time processing and reactions to events as they give applications access to real-time data without relying on any type of polling mechanisms. In this way, webhooks are more efficient, because with polling, an application must continually check for new data.
 
 * __Secure__: Webhooks should ensure that data is encrypted during transit using HTTPS to maintain data confidentiality.
 Webhooks are widely used due to their efficiency, real-time processing capabilities, and ease of implementation. They are crucial in enabling integrations between disparate systems in today's highly connected digital ecosystem.
 
 ## Events
-Entity events originate before and after general database operations related to entities when the operations are record-oriented. It is possible to plug in your own custom pre-and-post handlers using expressive rules that enabled you to extend and customize the way in which simple database operations work. There are two classes of webhook events, referred to as __pre__ and __post__ which indicates when in the transaction the webhook is fired.  In addition to the two classes of events, there are different types of event, including __create__, __update__ and __delete__ which unsurprisingly are fired when a database record is being created, updated or deleted. 
+Entity events are defined on an application-by-application basis. While the basic operation of webhooks is the same regardless of any application, the data payloads provided in the payload of webhook calls are entirely dependent on each application's definition of which webhooks it is making available for use.  
 
-The concepts of pre and post events are important. Pre-events allow you to act on the event *before* anything is committed to the database.  The classic use case for this type of webhook would be to provide customized input data validation.  For example, supposed you hooked the event for adding a customer record, you could create a custom WebHook that may, for example, look up some of the details that have been provided by the user in another system, for example, your CRM system, and verify the input data quality or some other means. For pre-event hooks, your WebHook script can return a non-200 HTTP response code which will prevent the database action from taking place, returning the error you throw back to the user.  For pre-event hooks, the event includes a number of properties including access to the incoming data. 
+### Synchronous vs. asynchronous
+When creating a webhook trigger, you can set its __POST mode__. The POST mode refers to the way in which the webhook you call interoperates with the Hornbill platform.  Because webhooks are remote web API calls, these can be slow. Depending on what you want to achieve, you may not want any slowness to be reflected in the interaction of the user with the system. To give you more control over this, there are three modes of operation for a webhook that control how Hornbill ESP makes the network calls:
 
-For post events, this happens *after* the data has been committed to the database. There are various use cases here, but one example might be, on creation you want to get the primary key value for the record that has just been created, in order to synchronize with another system, or maybe make an API call back into your Hornbill instance to perform another action. Unlike a pre-event, returning a non-200 error code from the post event hook will not prevent the transaction from completing
+|POST mode|Description|
+|:--|:--|
+|Asynchronous|You can think of this as a fire-and-forget scheme. Much like sending an email, the system will compose the webhook payload, and add that post request into a queue, immediately returning control back to the server. This means that, if the webhook being invoked is slow, this will not impact the performance of the transaction in Hornbill that triggered the webhook.|
+|Synchronous|In this mode, the Hornbill service will wait for the webhook to complete *before* returning control back to whatever triggered the webhook.  Let's say a new record is being added; this triggers a webhook that makes a call to a web service, and that web service takes 5 seconds to return, then the user adding this record will *perceive* the delay of the webhook as it will take 5 seconds to return control to the user.  If the webhook succeeds or fails, the user's operation will still complete successfully; but on failure, an entry will be written to the log file indicating the webhook failed.|
+|Synchronous Critical|This is the same basic behavior as __Synchronous__ but in addition, it has the ability to prevent the user's operation and can optionally return a user-presented error message. If the webhook returns a non-success (2xx) response code, then the webhook will have been considered to fail, and in this mode, the user's operation would also fail. The typical use case for this mode would be to use in combination with a __pre__ hook event to validate user input.  For example, suppose one of your input fields contains an employee number, and, you want to verify that employee number is valid, but your employee numbers are maintained on your Workday HR system. Your webhook code can make a call to your Workday HR system, look up the employee number, do whatever checks you need, and either return success or failure to the Hornbill webhook trigger.<br><br>You can optionally return a user-presented error message back to the user.  In order to do this, you must ensure the following conditions are met: <ul><li>Return the HTTP response code __403__ from your webhook.</li><li>Set the __Content-Type__ response header to __text/plain__.</li><li>Return the error message text you want to be presented to the user in the webhook response body.</li></ul>|
 
-The table lists the event names that are available as webhook events
+
+A webhook event originates before and after general database operations related to entities when the operations are record-oriented actions. It is possible to plug in your own custom pre-and-post handlers using expressive rules that enable you to extend and customize the way in which simple database operations work. There are two classes of webhook events, referred to as __pre__ and __post__, which indicate when in the transaction the webhook is fired.  In addition to the two classes of events, there are different types of events, including __create__, __update__, and __delete__, which unsurprisingly are fired when a database record is being created, updated, or deleted. 
+
+### Pre and post event hooks
+
+The concepts of __pre__ and __post__ events are important. Pre-events allow you to act on the event *before* anything is committed to the database.  The classic use case for this type of webhook would be to provide customized input data validation.  For example, suppose you hooked the event for adding a customer record. You could create a custom webhook that may, for example, look up some of the details that have been provided by the user in another system, for example, your CRM system, and verify the input data quality. For pre-event hooks, your webhook script can return a non-200 HTTP response code that will prevent the database action from taking place, returning the error you throw back to the user.  For pre-event hooks, the event includes a number of properties including access to the incoming data. 
+
+:::warning
+In order for a pre-event hook to inhibit a user or even an action, you must make sure that you use the __Synchronous Critical__ POST mode and follow the basic guidance provided for this mode.
+:::
+
+For post-events, acting on the event happens *after* the data has been committed to the database. There are various use cases here; one example might be that on creation, you want to get the primary key value for the record that has just been created. This could be in order to synchronize with another system, or maybe make an API call back into your Hornbill instance to perform another action. Unlike a pre-event, returning a non-200 error code from the post-event hook will not prevent the transaction from completing.
+
+The following table lists the event names that are available as webhook events.
 
 |Property|Pre/Post|Description|
 |:--|:--|:--|
-|create`|`pre`|When a new record is about to be created, this event fires before the record is added to the database.  You can prevent creation by returning a non-200 response code in your WebHook script|
-|`created`|`post`|After a new record has been created, you can hook this event, you will get all new data for this record in the event.|
-|`update`|`pre`|When an existing record is about to be updated, this event is fired.  You can validate any data thats about to get applied to the database before its written to the database|
-|`updated`|`post`|After a record has been updated, you will get all of the updated data for this record|
-|`delete`|`pre`|Before a record is deleted, you will receive the current record data|
-|`deleted`|`post`|After a record is deleted, you will receive the record data that has now been deleted from the database|
+|`create`|`pre`|When a new record is about to be created, this event fires before the record is added to the database.  You can prevent creation by returning a non-200 response code in your webhook script.|
+|`created`|`post`|After a new record has been created, you can hook this event. You will get all new data for this record in the event.|
+|`update`|`pre`|When an existing record is about to be updated, this event is fired.  You can validate any data that's about to get applied to the database before it is written to the database.|
+|`updated`|`post`|After a record has been updated, you will get all of the updated data for this record.|
+|`delete`|`pre`|Before a record is deleted, you will receive the current record data.|
+|`deleted`|`post`|After a record is deleted, you will receive the record data that has now been deleted from the database.|
 
 
+## WebHook expressions
+Webhook expressions make use of [Hornbill's ExpressLogic](/esp-fundamentals/reference-guides/express-logic) expression engine. In addition to the common ExpressLogic functions, the properties of the __onEntityEvent__ payload (see below) are accessible for your expressions to determine when you want to fire a webhook. 
 
-
-## WebHook Expressions
-WebHook expressions make use of [Hornbills ExpressLogic](/esp-fundamentals/reference-guides/express-logic) expression engine. In addition to the common ExpressLogic functions, the properties of the __onEntityEvent__ payload (see below) are accessible for your expressions to determine when you want to fire a WebHook. 
-
-For example, if you were hooking the __create__ event when adding a Contact and wanted to make sure that if the Users first name started with 'G' and an email address was not being provided, you could write an expression like...
+For example, the following is a simple example of how a webhook expression would work. Say you are hooking the __create__ event when adding a contact. If you want to make sure that if the user's first name starts with *G* and an email address is not being provided, you could write an expression like this:
 
 ```sql
 LEFT(h_name) = 'G' AND h_email NOT NULL
 ```
-
-is a simple example of how a WebHook expression would work.  
-
-:::note
-WebHook HTTP calls are expensive in terms of time to complete, which does directly influence the responsiveness of the user experience, the performance relates to the typical latency involved in making API calls over the Internet.  WebHook rule expressions on the other had are very fast to evaluate, so you should always aim to create a rule that only triggers your web hook when its needed, instead of always firing the webhook to your script and then using your script to determine if you should be acting on the web hook.  
+::: note
+Webhook HTTP calls are expensive in terms of time to complete, which can directly influence the responsiveness of the user experience if you are using one of the Synchronous POST modes. The performance relates to the typical latency involved in making API calls over the Internet.  Webhook rule expressions, on the other hand, are very fast to evaluate, so you should always aim to create a rule that only triggers your webhook when it is needed, instead of always firing the webhook to your script and then using your script to determine if you should be acting on the webhook.  
 :::
 
-## Webhook Payload
-When a webhook is called, an HTTP POST is made to your URL endpoint, and the payload of that POST request will include a JSON or XML object called __onEntityEvent__ that includes the following properties: -
+## Webhook payload
+When a webhook is called, an HTTP POST is made to your URL endpoint, and the payload of that POST request will include a JSON or XML object called __onEntityEvent__ that includes the following properties:
 
 |Property|Description|
 |:--|:--|
-|`eventSource`|The name of the event source is a URN in the format __urn:webhook:entity:{table}:{event-name}__ see __Event Sources__ for more details.|
-|`eventTime`|The date/time this event was fired|
-|`actionBy`|The User ID of the person who carried out the action that invoked this WebHook|
-|`actionByName`|The display name of the person who carried out the action that invoked this WebHook|
-|`entity`|The name of the entity this event relates to|
-|`table`|The name of the database table that this entity event relates to|
-|`record`.*|The list of record values relating to the database table for this event.  The [*] means all of the columns that contains a value that are from the __table__ being operated on|
+|`eventSource`|The name of the event source is a URN in the format __urn:webhook:entity:{table}:{event-name}__.|
+|`eventTime`|The date/time this event was fired.|
+|`actionBy`|The user ID of the person who carried out the action that invoked this webhook.|
+|`actionByName`|The display name of the person who carried out the action that invoked this webhook.|
+|`entity`|The name of the entity this event relates to.|
+|`table`|The name of the database table this entity event relates to.|
+|`record`.*|The list of record values relating to the database table for this event.  The [*] means all of the columns that contain a value that are from the __table__ being operated on.|
 
