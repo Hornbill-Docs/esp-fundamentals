@@ -37,6 +37,26 @@ The primary difference in HAi Service providers is the geographic location where
 HAi Premium services (upcoming) will available for free, on request, only while the HAi Services and features are available in the beta program, please talk to your account manager when these services become available.
 :::
 
+### Azure (Customer Provided) 
+
+To make use of the HAi Service Provider type **Azure (Customer Provided)** you will need to have an [Azure OpenAI Resource](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/create-resource) created and a [supported model](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal#deploy-a-model) deployed.
+
+Currently Supported Models:
+
+* OpenAI gpt-4o - 2024-11-20
+
+Once deployed the following settings need to be configured against the HAi Service provider:
+
+* **API Key** - API Key from Microsoft Azure to authenticate against the **Azure OpenAI Resource**.
+* **API Version** - 2025-04-01-preview
+* **Deployment** - Name of the Azure Open AI Model deployment.
+* **Model Name** - gpt-4o
+* **Model Version** - 2024-11-20 (Optional)
+* **Region** - Name of the region the model is deployed in (Optional)
+* **Resource** - Name of the Azure Open AI Resource.
+
+Example, if your Target URL from Azure is ```https://h-ai-res-uk-1.openai.azure.com/openai/deployments/h-ai-dep-uk-gpt4/chat/completions``` then the resource will be **h-ai-res-uk-1** and the deployment will be **h-ai-dep-uk-gpt4**.
+
 ## Frequently Asked Questions
 
 #### Can HAi Services feature be disabled globally on my Hornbill instance? 
