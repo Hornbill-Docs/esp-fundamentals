@@ -10,6 +10,7 @@ For easy formatting of text in Hornbill, you can use a subset of wiki markup to 
 * [Images](/esp-fundamentals/reference-guides/hornbill-wiki-markup#images)
 * [Emoticons](/esp-fundamentals/reference-guides/hornbill-wiki-markup#emoticons)
 * [Code snippets](/esp-fundamentals/reference-guides/hornbill-wiki-markup#code-snippets)
+* [quote](/esp-fundamentals/reference-guides/hornbill-wiki-markup#quote)
 * [Blockquote](/esp-fundamentals/reference-guides/hornbill-wiki-markup#blockquote)
 * [Horizontal rule](/esp-fundamentals/reference-guides/hornbill-wiki-markup#horizontal-rule)
 * [Nowiki](/esp-fundamentals/reference-guides/hornbill-wiki-markup#nowiki)
@@ -266,6 +267,20 @@ The available languages are: "bsh", "c", "cc", "cpp", "cs", "csh", "cyc", "cv", 
 |---------------|:---------------------------------------------|
 | [code]<br>var a = 1<br>[/code] | ```var a = 1``` |
 | [code:sql]<br>SELECT *<br>FROM TABLE<br>[/code] | <pre>SELECT *<br />FROM TABLE</pre> |
+
+
+## Quote
+Add a Quote using the following syntax:
+
+<pre>[quote]
+some text
+[/quote]</pre>
+
+__Example__
+<quote>
+some text to quote
+</quote>
+
 
 ## Blockquote
 Add a blockquote using the following syntax:
