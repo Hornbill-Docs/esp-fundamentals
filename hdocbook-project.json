@@ -11,7 +11,10 @@
       "https://docs.hornbill.com/esp-fundamentals/about/about-roadmap#roadmap-inclusion-policy",
       "https://community.hornbill.com*",
       "https://wiki.hornbill.com*",
-      "https://shibboleth.atlassian.net/wiki/spaces/IDP4/overview"
+      "https://shibboleth.atlassian.net/wiki/spaces/IDP4/overview",
+      "https://www.w3.org/WAI/WCAG22/implementation-report/",
+      "https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2",
+      "https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/"
     ]
   },
   "redirects": [
