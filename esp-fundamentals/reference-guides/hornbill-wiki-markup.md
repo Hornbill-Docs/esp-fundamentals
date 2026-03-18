@@ -360,7 +360,7 @@ __Note:__ As an alternative, you can use `quote` as an alias to `blockquote`.
 
 ## Tables
 
-Hornbill wiki markup supports two table formats: markdown tables and box-style tables. Both formats allow you to present data in an organised, easy-to-read manner.
+Hornbill wiki markup supports two table formats: markdown tables and box-style tables. Both formats allow you to present data in an organized, easy-to-read manner.
 
 ### Markdown table format
 
@@ -400,11 +400,11 @@ Box-style tables use plus signs (+) and dashes (-) to create visible borders aro
 +----------+---------------------------------+------------------+
 | count(*) | h_fk_team_id                    | h_status         |
 +----------+---------------------------------+------------------+
-|    31324 | NULL                            | status.cancelled |
+|    31324 | NULL                            | status.canceled |
 |       18 | NULL                            | status.closed    |
 |       86 | NULL                            | status.new       |
 |      619 | NULL                            | status.open      |
-|    10761 | ELFS/AccountsPayable/           | status.cancelled |
+|    10761 | ELFS/AccountsPayable/           | status.canceled |
 |   104405 | ELFS/AccountsPayable/           | status.closed    |
 +----------+---------------------------------+------------------+
 ```
@@ -414,11 +414,11 @@ Box-style tables use plus signs (+) and dashes (-) to create visible borders aro
 The above markup would be displayed as:
 |count(*)               |h_fk_team_id       | h_status  |
 |-------------------|-----------|----------|
-|    31324 | NULL                            | status.cancelled |
+|    31324 | NULL                            | status.canceled |
 |       18 | NULL                            | status.closed    |
 |       86 | NULL                            | status.new       |
 |      619 | NULL                            | status.open      |
-|    10761 | ELFS/AccountsPayable/           | status.cancelled |
+|    10761 | ELFS/AccountsPayable/           | status.canceled |
 |   104405 | ELFS/AccountsPayable/           | status.closed    |
 
 
