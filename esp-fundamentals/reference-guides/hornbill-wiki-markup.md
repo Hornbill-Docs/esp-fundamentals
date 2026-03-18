@@ -14,6 +14,7 @@ For easy formatting of text in Hornbill, you can use a subset of wiki markup to 
 * [Code snippets](/esp-fundamentals/reference-guides/hornbill-wiki-markup#code-snippets)
 * [quote](/esp-fundamentals/reference-guides/hornbill-wiki-markup#quote)
 * [Blockquote](/esp-fundamentals/reference-guides/hornbill-wiki-markup#blockquote)
+* [Tables](/esp-fundamentals/reference-guides/hornbill-wiki-markup#tables)
 * [Horizontal rule](/esp-fundamentals/reference-guides/hornbill-wiki-markup#horizontal-rule)
 * [Nowiki](/esp-fundamentals/reference-guides/hornbill-wiki-markup#nowiki)
 
@@ -356,6 +357,70 @@ Add further properties to the blockquote using the following:
 </blockquote>
 
 __Note:__ As an alternative, you can use `quote` as an alias to `blockquote`.
+
+## Tables
+
+Hornbill wiki markup supports two table formats: markdown tables and box-style tables. Both formats allow you to present data in an organised, easy-to-read manner.
+
+### Markdown table format
+
+Markdown tables use pipes (|) to separate columns and dashes (-) to define the header row. You can control text alignment using colons in the separator row.
+
+```
+|Name               |Type       | Is Mandatory  | Description |
+|-------------------|-----------|:-------------:| ----------|
+|'''id'''           | ''string''  | true          | Represents the field name in data |
+|'''value'''        | ''string''  | false         | If the '''id''' is different from the record property, add the column name here |
+|'''label'''        | ''string''  | false         | Display label shown to the user |
+```
+
+#### Markdown table alignment
+
+You can control alignment using colons in the separator row:
+
+- Left-aligned (default): `|------|`
+- Right-aligned: `|------:|`
+- Centre-aligned: `|:-----:|`
+
+#### Markdown table example
+
+The above markup would be displayed as:
+
+| Name | Type | Is Mandatory | Description |
+|---|---|:---:|---|
+| **id** | _string_ | true | Represents the field name in data |
+| **value** | _string_ | false | If the **id** is different from the record property, add the column name here |
+| **label** | _string_ | false | Display label shown to the user |
+
+### Box-style table format
+
+Box-style tables use plus signs (+) and dashes (-) to create visible borders around cells, creating a box-like appearance. This format is useful for displaying complex data in a clearly defined structure.
+
+```
++----------+---------------------------------+------------------+
+| count(*) | h_fk_team_id                    | h_status         |
++----------+---------------------------------+------------------+
+|    31324 | NULL                            | status.cancelled |
+|       18 | NULL                            | status.closed    |
+|       86 | NULL                            | status.new       |
+|      619 | NULL                            | status.open      |
+|    10761 | ELFS/AccountsPayable/           | status.cancelled |
+|   104405 | ELFS/AccountsPayable/           | status.closed    |
++----------+---------------------------------+------------------+
+```
+
+#### Box-style table example
+
+The above markup would be displayed as:
+|count(*)               |h_fk_team_id       | h_status  |
+|-------------------|-----------|----------|
+|    31324 | NULL                            | status.cancelled |
+|       18 | NULL                            | status.closed    |
+|       86 | NULL                            | status.new       |
+|      619 | NULL                            | status.open      |
+|    10761 | ELFS/AccountsPayable/           | status.cancelled |
+|   104405 | ELFS/AccountsPayable/           | status.closed    |
+
 
 ## Horizontal rule
 
