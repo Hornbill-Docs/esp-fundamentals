@@ -404,8 +404,8 @@ Box-style tables use plus signs (+) and dashes (-) to create visible borders aro
 |       18 | NULL                            | status.closed    |
 |       86 | NULL                            | status.new       |
 |      619 | NULL                            | status.open      |
-|    10761 | ELFS/AccountsPayable/           | status.canceled |
-|   104405 | ELFS/AccountsPayable/           | status.closed    |
+|    10761 | Accounts/Payable/               | status.canceled |
+|   104405 | Accounts/Payable/               | status.closed    |
 +----------+---------------------------------+------------------+
 ```
 
@@ -418,8 +418,8 @@ The above markup would be displayed as:
 |       18 | NULL                            | status.closed    |
 |       86 | NULL                            | status.new       |
 |      619 | NULL                            | status.open      |
-|    10761 | ELFS/AccountsPayable/           | status.canceled |
-|   104405 | ELFS/AccountsPayable/           | status.closed    |
+|    10761 | Accounts/Payable/               | status.canceled |
+|   104405 | Accounts/Payable/               | status.closed    |
 
 
 ## Horizontal rule
