@@ -398,7 +398,7 @@ Box-style tables use plus signs (+) and dashes (-) to create visible borders aro
 
 ```
 +----------+---------------------------------+------------------+
-| count(*) | h_fk_team_id                    | h_status         |
+| count(*) | id                    | status         |
 +----------+---------------------------------+------------------+
 |    31324 | NULL                            | status.canceled |
 |       18 | NULL                            | status.closed    |
@@ -412,7 +412,7 @@ Box-style tables use plus signs (+) and dashes (-) to create visible borders aro
 #### Box-style table example
 
 The above markup would be displayed as:
-|count(*)               |h_fk_team_id       | h_status  |
+|count(*)               |id       | status  |
 |-------------------|-----------|----------|
 |    31324 | NULL                            | status.canceled |
 |       18 | NULL                            | status.closed    |
