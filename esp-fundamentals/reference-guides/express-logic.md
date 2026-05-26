@@ -1,5 +1,5 @@
 # ExpressLogic Expressions
-Hornbill ExpressLogic as a generalized expression language for matching data, this language is used in various parts of the Hornbill platform where there is a requirement to allow user configuration of data matching. Use includes areas such as email routing rules, 
+Hornbill ExpressLogic is a generalized expression language for matching data, this language is used in various parts of the Hornbill platform where there is a requirement to allow user configuration of data matching. Use includes areas such as email routing rules, 
 
 Data matching and querying are central to the efficient management and utilization of data and workflows, especially in complex, data-rich environments that Hornbill is designed for. The ability to quickly and efficiently query and analyze data at scale with high throughput is crucial for system performance, especially when large transactional volume and scale is required. Hornbill ExpressLogic is a custom developed expression evaluation engine designed to work with in-memory datasets, removing the need to use more typical complex processing and expression evaluating systems such as full blown languages and even database servers.  
 
@@ -90,11 +90,11 @@ someFunction(myFunction(a), 99) == 4
 
 This is the basic syntax one would typically expect to find in SQL or JavaScript type languages.
 
-Function names are case sensitive meaning my_function and My_function would be treated as twe separate and unique functions.
+Function names are case sensitive meaning my_function and My_function would be treated as two separate and unique functions.
 
 Here are a list of basic functions supported by ExpressLogic.  Please be aware that this list of functions may be extended by specific areas through the system that make use of the ExpressLogic engine.  These functions are common to all areas where the ExpressLogic engine is used
 
-|Functon|Desxription|
+|Function|Description|
 |:--|:--|
 |LEFT|Return the leftmost number of characters specified. <br><br>For example: <br><br>`LEFT('The Dog', 3) = 'The'`|
 |MID|Same as SUBSTRING()|

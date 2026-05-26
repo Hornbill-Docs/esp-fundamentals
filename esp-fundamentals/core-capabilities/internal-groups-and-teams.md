@@ -1,8 +1,8 @@
 # Internal Groups and Teams structure
-It is possible to define part or all of your heiarchical organizational structure in Hornbill. This allows you to organize your users into logical organizational groupings.  In Hornbill, the org strcuture is defined using organizational units (OUs), and there are two classes of organizational units, general and functional.  While general org types are there to help you define and visualize your org structure, functional org types, can not only be part of your organizational structure but also have some extended functional capabilities, generally related to task and work assignments, ownership and content sharing. 
+It is possible to define part or all of your hierarchical organizational structure in Hornbill. This allows you to organize your users into logical organizational groupings.  In Hornbill, the org structure is defined using organizational units (OUs), and there are two classes of organizational units, general and functional.  While general org types are there to help you define and visualize your org structure, functional org types, can not only be part of your organizational structure but also have some extended functional capabilities, generally related to task and work assignments, ownership and content sharing. 
 
 :::warning
-Your Internal Groups and Teams strcuture relate to your internal users only.  When defining your internal organizational strcuture, one of the OU types available is called Company, and this represents a company within your corporate organizational strcuture - this is not to be confused with [External Companies & Contacts](/esp-fundamentals/core-capabilities/external-companies-and-contacts)
+Your Internal Groups and Teams structure relate to your internal users only.  When defining your internal organizational structure, one of the OU types available is called Company, and this represents a company within your corporate organizational structure - this is not to be confused with [External Companies & Contacts](/esp-fundamentals/core-capabilities/external-companies-and-contacts)
 :::
 
 ## Common types of organizational structure 
@@ -29,9 +29,9 @@ When configuring Hornbill to support your organization, you have a choice of a n
 
 - __Single Company__: With this approach you define a simple top-level OU of type "company", and avoid using child OU items, and instead just define a single list of teams. You define a single top-level Company OU, and then define a flat list of assignment teams beneath the top-level company. 
 - __Hierarchical__: For organizations that have more complex, multi-level team structures, in this mode, you can define one or more top-level company OU's and, beneath each company OU, you can define any number of teams within that company, and teams can optionally have child teams as required. 
-- __Organizational__: For organizations that have really complex, multi-level company/divisional and organizational structures where you want to represent the organizational structure making use of the full range of organizational unit (OU) types and an unlimited depth hierarchical structure, where you can inter-mix non-functional OU's and teams as you need, then this more advanced approach may well be the the right choice. 
+- __Organizational__: For organizations that have really complex, multi-level company/divisional and organizational structures where you want to represent the organizational structure making use of the full range of organizational unit (OU) types and an unlimited depth hierarchical structure, where you can inter-mix non-functional OU's and teams as you need, then this more advanced approach may well be the right choice. 
 
-This is an important choice you really need to make early on when deploying Hornbill into your organization, please ensure you read our [Best Practice Guide for Defining Your Org Structure](/esp-fundamentals/best-practice/org-structure) before making your choice. Its worth remembering that just because you can do something does not mean you always should, and this applies when it comes to mapping your organizational structure in Hornbill. 
+This is an important choice you really need to make early on when deploying Hornbill into your organization, please ensure you read our [Best Practice Guide for Defining Your Org Structure](/esp-fundamentals/best-practice/org-structure) before making your choice. It's worth remembering that just because you can do something does not mean you always should, and this applies when it comes to mapping your organizational structure in Hornbill. 
 
 
 ## Organizational Units (OU's)
@@ -67,7 +67,7 @@ The following types of organizational units are available in Hornbill to help yo
 <tr>
 <td style="text-align:left">company</td>
 <td style="text-align:left"><span style="white-space: nowrap;"><code>Single Company</code> <small>(only one top-level)</small></span><br><br><code>Hierarchical</code> or <code>Organizational</code> (multiple top-level and/or nested)<br><br>
-    A OU of type Company is typically a business function/unit within a group of companies that provides goods or services, generate revenue, create jobs, manage resources, innovate and adapt, and report to stakeholders. The success of the company is often measured by its ability to achieve these objectives in a sustainabl, responsible and profitable manner. In a typical organizational structure, a company is often at the very top of any individual structure and of course you can have groups of companies within an organization.
+    A OU of type Company is typically a business function/unit within a group of companies that provides goods or services, generate revenue, create jobs, manage resources, innovate and adapt, and report to stakeholders. The success of the company is often measured by its ability to achieve these objectives in a sustainable, responsible and profitable manner. In a typical organizational structure, a company is often at the very top of any individual structure and of course you can have groups of companies within an organization.
     <div class="hdoc-alert alert-icon-info">
     <p class="hdoc-alert-title"><span class="bi bi-exclamation-triangle"></span>Warning</p>
     <p>This OU type relates to your internal users only - this is not to be confused with <a href="/esp-fundamentals/core-capabilities/external-companies-and-contacts" class="md-tip-link">External Companies &amp; Contacts</a></p>
@@ -109,7 +109,7 @@ The following types of organizational units are available in Hornbill to help yo
 Functional Organizational Unit (OU) type are available in Hornbill, not only to help you define your organizational structure but they also define the functional grouping of users.  Functional OU's have additional "functional" behavior over and above General OU's, specifically, the assignment of tasks can be made to a functional OU, but not general OU types.  Other applications on the Hornbill Platform may also use functional OU types for assignment and other functional behaviors that are beyond the scope of the Hornbill platform itself.  For specific application behaviors around functional OUs, please refer to the applications specific documentation.  
 
 :::note
-When adding users as to your organizational structure, you can add any users or basic users as a member to any OU; but with the one exception that basic users cannot be added as members to functional OU's 
+When adding users to your organizational structure, you can add any users or basic users as a member to any OU; but with the one exception that basic users cannot be added as members to functional OU's 
 :::
 
 |OU Type|Description|

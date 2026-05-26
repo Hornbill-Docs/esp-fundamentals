@@ -51,7 +51,7 @@ __Advantages:__
 
 __Disadvantages:__
 
-- Will be time-consuming, and even wholely impractical, especially for large projects or workflows with numerous tasks.
+- Will be time-consuming, and even wholly impractical, especially for large projects or workflows with numerous tasks.
 - Prone to human error, such as typos or inconsistencies in task descriptions and assignments.
 - Lacks efficiency in handling repetitive tasks (beyond repetitive scheduling) or processes that follow a pattern.
 

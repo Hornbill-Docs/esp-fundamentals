@@ -19,7 +19,7 @@ The Enterprise Edition is a more modular, horizontally scaled configuration, des
 The following feature list provides a side-by-side comparison of the Standard and Enterprise Editions to help you evaluate them. 
 
 ### Scalability and architecture 
-|<div style="width:490px"></div>|<div style="width:200px; text-align:cetnter;">Standard</div>|<div style="width:200px; text-align:cetnter;">Enterprise</div>|
+|<div style="width:490px"></div>|<div style="width:200px; text-align:center;">Standard</div>|<div style="width:200px; text-align:center;">Enterprise</div>|
 |:--|:--:|:--:|
 |Compute nodes/memory sharing|Up to 8 instances|Up to 4 instances|
 |Storage technology|SSD|NVME|

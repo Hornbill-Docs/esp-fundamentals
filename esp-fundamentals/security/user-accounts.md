@@ -10,7 +10,7 @@ For security checks there are four types of account, these are: -
 
 __User Accounts__ are as you might expect, for normal users that will log into the Hornbill platform. So for every User, there will be an associated user account. A user can log into Hornbill using the login credentials associated with a user account. 
 
-__Portal Accounts__ are another special type of account which provide a security context that is applied applied to guest logins that log into the Customer and other external contact portals. 
+__Portal Accounts__ are another special type of account which provide a security context that is applied to guest logins that log into the Customer and other external contact portals. 
 
 __Guest Accounts__ are not strictly "accounts" so warrant their own, more detailed explanation in the [Guest Accounts](#guest-accounts) section below.
 
@@ -52,7 +52,7 @@ The second category of users are basic users, these are also typically employees
 |:---|---|---|
 |`user/full`|Service Provider<br><br>Consumer|This is the user type that would log into Hornbill and use it on a day to day basis as a tool and management system that enables them to provide/deliver the services being provided to others. When we talk about a `subscriber` to Hornbill, they are classed generally as a __user__ of the system. In a typical ESM setting, full users are also Consumers of services being provided|
 |`user/basic`|Consumer|This type of user account is equivalent to a normal 'user' account, but, with very reduced access to the features of the system.  A `basic` user can easily be promoted to a `full` user, and visa versa, the fundamental difference between a `full` user and a `basic` user is, a full user requires a subscription to use the main features of the Hornbill Platform and its applications, while a basic user does not require a specific subscription but only gets very limited access to the systems functionality. 
-|`user/portal`|Consumer|This is a special system account that cannot be logged into directly. This account type provides security access control to guests logging into, or accessingHornbill via a guest portal.  When accessing the Hornbill Platform via one of the guest portals, or mobile applications, all guest logins get the same basic security controls applied to their session, these controls are defined by the portal account|
+|`user/portal`|Consumer|This is a special system account that cannot be logged into directly. This account type provides security access control to guests logging into, or accessing Hornbill via a guest portal.  When accessing the Hornbill Platform via one of the guest portals, or mobile applications, all guest logins get the same basic security controls applied to their session, these controls are defined by the portal account|
 
 ## Guest Accounts
 

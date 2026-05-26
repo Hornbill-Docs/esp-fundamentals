@@ -1,6 +1,6 @@
 # API Keys Security Considerations
 
-When using API keys, security is an important consideration which should not be overlooked.  Its important that you keep your API keys secure, API keys in many respects should be treated like pass codes. Exposing API keys to an extended audience can result in the associated user account being compromised, which could lead to many security issues including unauthorized access and data theft/loss.  To keep your API keys secure, follow these best practices:
+When using API keys, security is an important consideration which should not be overlooked.  It's important that you keep your API keys secure, API keys in many respects should be treated like pass codes. Exposing API keys to an extended audience can result in the associated user account being compromised, which could lead to many security issues including unauthorized access and data theft/loss.  To keep your API keys secure, follow these best practices:
 
 * __Do not embed API keys directly in code__: API keys that are embedded in code can be accidentally exposed to the public, for example, if you forget to remove the keys from the code that you share. Instead of embedding your API keys in your applications, store them in environment variables or in files outside of your application's source tree.
 * __Do not store API keys in files inside your application's source tree__: If you store API keys in files, keep the files outside your application's source tree to help ensure your keys do not end up in your source code control system. This is particularly important if you use a public source code management system such as GitHub.
@@ -28,7 +28,7 @@ Sometimes there is a valid reason for having more than one API key on an account
 
 ### 2. Always apply IP Address restriction rules.
 
-Almost every use case for an API key is for some form of integration, data import or automation and as a general rule you would know exactly where these processes/tools are running.  By limiting the use of the API key to a specific IP address (or group of IP addresses) you will be limited in the ability for the API key to be abused, even if the key its self has been compromised. 
+Almost every use case for an API key is for some form of integration, data import or automation and as a general rule you would know exactly where these processes/tools are running.  By limiting the use of the API key to a specific IP address (or group of IP addresses) you will be limited in the ability for the API key to be abused, even if the key itself has been compromised. 
 
   :::note
   IP Address restriction rules are only available for platform build 3755 and above
@@ -40,11 +40,11 @@ Most integrations or tools that will make use of API keys will typically only ne
 
 ### 4. Never use the 'admin' account or any user account that has super-user right granted for API Keys
 
-While its tempting to create API's on all-powerful user accounts, this is not recommended and should be avoided.  The default 'admin' account on your Hornbill instances is a very powerful account, the privilege level applied to these super-user accounts bypass a lot of security checks and other security controls.  While its technically possible to create one or more API keys on the 'admin' account, or other super-user designated account, even with the IP Address Rules and API Filter Rules in place, its simply not a good idea to make a non-interactive super-user account so easily accessible with a simple key.
+While it's tempting to create API's on all-powerful user accounts, this is not recommended and should be avoided.  The default 'admin' account on your Hornbill instances is a very powerful account, the privilege level applied to these super-user accounts bypass a lot of security checks and other security controls.  While it's technically possible to create one or more API keys on the 'admin' account, or other super-user designated account, even with the IP Address Rules and API Filter Rules in place, it's simply not a good idea to make a non-interactive super-user account so easily accessible with a simple key.
 
 ### 5. Rotate your API keys.  
 
-You should consider rotating your API keys periodically.  Hornbill provides an option to have an API key expire on a future date you specify, and we recommend that you never keep API Keys valid for longer that 2 years.  Its a good idea to set yourself a periodic reminder to achieve this.  This is especially true as individuals move in and out of your organization, make sure you cycle any API keys that person may have had site of, or cause to work with. 
+You should consider rotating your API keys periodically.  Hornbill provides an option to have an API key expire on a future date you specify, and we recommend that you never keep API Keys valid for longer than 2 years.  It's a good idea to set yourself a periodic reminder to achieve this.  This is especially true as individuals move in and out of your organization, make sure you cycle any API keys that person may have had sight of, or cause to work with. 
 
 ### 6. Set API Key Expiry Times  
 

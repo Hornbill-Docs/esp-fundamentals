@@ -2,7 +2,7 @@
 Hornbill is a collection of cloud-based work management, productivity and collaboration tools offered by Hornbill. Running through all applications there is a common theme running throughout the entire Hornbill product suite that is focused on Workflow, Orchestration, Automation and Integration. Hornbill includes applications like Service Manager, Collaboration, Board Manager, Document Manager, Customer Manager, and others, along with all of the cloud storage and various capabilities that enable communication, collaboration, and productivity.
 
 ## Subscription Pricing
-The subscription pricing model for Hornbill can appear complex because it is designed to for Enterprise organizations of all sizes, and has to cater to a wide range of users, who have a wide range of needs within any enterprise, which can in some cases lead to complex pricing, and in others can be very simple, but our subscription and pricing model must consider the following: -
+The subscription pricing model for Hornbill can appear complex because it is designed for Enterprise organizations of all sizes, and has to cater to a wide range of users, who have a wide range of needs within any enterprise, which can in some cases lead to complex pricing, and in others can be very simple, but our subscription and pricing model must consider the following: -
 
 |Consideration|Description|
 |:--|:--|
@@ -34,7 +34,7 @@ The general guiding principles we apply when setting subscription requirements a
 - Our customers should be able to easily flex their subscription up/down in accordance with their subscription agreement parameters to meet changing business needs.
 - Our customers own customers should not need any paid-for subscription in order to benefit from Hornbill web portals/mobile devices for guest session, that enhance the service experience delivered to them by our customers. 
 - Pricing should always reflect the business value in terms of productivity, enablement or automation capabilities delivered to the organization.
-- We sometimes offer limited free-tier access to otherwise subscribable apps/modules/options/features within the Hornbill platform and applications ecosystem in order to allow customers to touch/see/evaluate capabilities to determine the business value they may be able to derive from the subscription to that capability. Where possible we make these features available for production use but with limits, ensuring very simple/small/low scale requirements can access teh capabilities without any subscription charge (we do not take enhancement requests to change those limits)  
+- We sometimes offer limited free-tier access to otherwise subscribable apps/modules/options/features within the Hornbill platform and applications ecosystem in order to allow customers to touch/see/evaluate capabilities to determine the business value they may be able to derive from the subscription to that capability. Where possible we make these features available for production use but with limits, ensuring very simple/small/low scale requirements can access the capabilities without any subscription charge (we do not take enhancement requests to change those limits)  
 
 ## Subscription Extensions
 

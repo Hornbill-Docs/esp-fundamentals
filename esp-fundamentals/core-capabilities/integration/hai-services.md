@@ -11,7 +11,7 @@ By default your Hornbill instance will not be configured with a HAi Service Prov
 |HAi Manager|Platform|This role should only be used for managing HAi configurations.|
 |Admin Role|Platform|This role provides administrative functionality to the Hornbill platform and should only be granted to an administrator.|
 
-Then use the following steps to enable to change the HAi Service provider:
+Then use the following steps to change the HAi Service provider:
 
 * Log into Hornbill with the relevant access role.
 * Click on the settings gear icon in the lower left of the screen.
@@ -34,7 +34,7 @@ The primary difference in HAi Service providers is the geographic location where
 |Microsoft Azure (Customer Provided)|Premium|You can choose to provide credentials to your own registered Microsoft Azure account, which gives you full access to the Microsoft Azure AI services reporting, statistics and usage restrictions controls that the Microsoft Azure AI service provides.|
 
 :::note
-HAi Premium services (upcoming) will available for free, on request, only while the HAi Services and features are available in the beta program, please talk to your account manager when these services become available.
+HAi Premium services (upcoming) will be available for free, on request, only while the HAi Services and features are available in the beta program, please talk to your account manager when these services become available.
 :::
 
 ### Azure (Customer Provided) 
@@ -63,7 +63,7 @@ Example, if your Target URL from Azure is ```https://h-ai-res-uk-1.openai.azure.
 > Yes, in the Platform Administration area, under Integration there is an option to disable HAi services on your instance, or choose from one of the available AI Service Providers.
 
 #### Who is paying for the HAi Service Provider usage?
-> For now, Hornbill is picking up the bill for these services we provide, so for all customers, the usage of this feature is free of charge when using the OpenAI service provider. For HAi Premium option, it is possible to choose regional services from Microsoft Azure, we have UK, EU and USA service providers available for you to choose form.  It is also possible for individual customers to provide an API/Credentials/Settings ror their own OpenAI or Azure account should they wish to track/manage usage via the AI Services independently of Hornbills own tracking, in this case each customer choosing this option will pay for their own AI services from their chose AI service provider.
+> For now, Hornbill is picking up the bill for these services we provide, so for all customers, the usage of this feature is free of charge when using the OpenAI service provider. For HAi Premium option, it is possible to choose regional services from Microsoft Azure, we have UK, EU and USA service providers available for you to choose form.  It is also possible for individual customers to provide an API/Credentials/Settings ror their own OpenAI or Azure account should they wish to track/manage usage via the AI Services independently of Hornbills own tracking, in this case each customer choosing this option will pay for their own AI services from their chosen AI service provider.
 
 #### Can HAi Features be restricted to specific groups of users?
 > No, at the platform level, your instance is configured to use an HAi Service Provider or not.  However, individual applications on the Hornbill Platform may provide more granular per user/per group access controls for specific HAi features.
@@ -81,7 +81,7 @@ Example, if your Target URL from Azure is ```https://h-ai-res-uk-1.openai.azure.
 > You have the exact same assurances that we do, via the selected service providers Terms of Use agreement that applies to the selected service provider. A link to these terms will be available in the administration area when you select your chosen HAi service provider.
 
 #### Has any consideration be given for what might happen if personal data is inputted and processed?
-> We do not feel there is a data processing problem based on the currently supported HAi Service Providers, but we do recognize thad individual customers may well take a different view.  For this reason, we provide the ability for individual customers to turn HAi Services off for their instance.
+> We do not feel there is a data processing problem based on the currently supported HAi Service Providers, but we do recognize that individual customers may well take a different view.  For this reason, we provide the ability for individual customers to turn HAi Services off for their instance.
 
 #### Can we get any technical documentation and any other statements that Hornbill might have prepared to allay any of the numerous concerns of these types?
 > HAi Services and their use is in the very early stages of development, today is very simple and does not warrant any significant documentation in its own right.  Hornbill is simply providing a nicely done integration to existing Generative AI service providers. We are still deciding on exactly how this applies and will be used in the long term, we have limited internal technical documentation that would be customer-friendly, so at this time we do not. We would refer you to the relevant documentation of the specific HAi Service provider you choose to use.

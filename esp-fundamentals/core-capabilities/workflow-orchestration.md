@@ -27,7 +27,7 @@ Here are some of the key business benefits:
 
 |Benefit|Description|
 |:--|:--|
-|Accessibility and User-Friendliness|Hornbill's no-code approach make automation accessible to users with limited coding skills, democratizing the process and reducing IT dependency. General workflow automation streamlines processes for increased efficiency.|
+|Accessibility and User-Friendliness|Hornbill's no-code approach makes automation accessible to users with limited coding skills, democratizing the process and reducing IT dependency. General workflow automation streamlines processes for increased efficiency.|
 |Speed of Implementation|Hornbill's no-code workflow tools enable rapid development and deployment of workflows, allowing businesses to respond swiftly to changing needs. General automation reduces time spent on manual tasks, boosting overall productivity.|
 |Flexibility and Integration|Hornbill's pre-built integrations and templates, making it easy to connect with various applications and services. General automation provides deep integration possibilities, enhancing flexibility.|
 |Cost Efficiency|Hornbill automation minimizes the need for expensive developers, leading to cost savings. General automation reduces labor costs associated with manual tasks and reallocates resources strategically.|
@@ -40,4 +40,4 @@ Here are some of the key business benefits:
 |Competitive Advantage|Hornbill's workflow automation helps companies become more efficient, agile, and responsive to ever-changing needs, giving them a competitive edge in delivering better products and services.|
 |Adaptability|Hornbill workflow easily facilitates adjustments to your processes that accommodate changing business needs and evolving processes, ensuring adaptability in a dynamic business environment.|
 
-In summary, with Hornbills no-code workflow automation, organizations can benefit from increased efficiency, reduced costs, improved accuracy, and better overall business agility. The choice between the two depends on specific technical requirements and the skillset of the users involved.
+In summary, with Hornbill's no-code workflow automation, organizations can benefit from increased efficiency, reduced costs, improved accuracy, and better overall business agility. The choice between the two depends on specific technical requirements and the skillset of the users involved.
