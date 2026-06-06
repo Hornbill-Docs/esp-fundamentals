@@ -28,9 +28,19 @@ You should review the subscription model for each Hornbill application you plan 
 
 ## Platform Access Types
 
-At the platform level, access for people who are not Hornbill application users is provided through __Basic User Access__ for internal employees and __Guest Access__ for external users, such as customers, consumers or citizens. Individual applications may use application-specific terms for these access patterns. For example, Service Manager refers to some of these people as __Self-Service Users__, while another application might use Guest Access for a community forum or another external-facing experience.
+At the platform level, Hornbill distinguishes between people who use Hornbill to provide, administer or participate in work, and people who only need limited access as recipients or external participants.
+
+|Access type|Who it is for|Subscription position|
+|:--|:--|:--|
+|__Guest Access__|External users, such as customers, consumers, citizens or community participants.|Does not require a paid platform subscription for that access.|
+|__Basic User Access__|Internal employees who are not Hornbill application users, but who need limited employee-facing access.|Does not require a paid platform subscription for that access.|
+|__Platform User__|Named individuals who use Hornbill to deliver, administer, own or participate in work.|Requires a paid Platform User subscription.|
+
+Individual applications may use application-specific terms for Guest Access or Basic User Access. For example, Service Manager refers to some of these people as __Self-Service Users__, while another application might use Guest Access for a community forum or another external-facing experience.
 
 For more information, see [Hornbill Platform User Accounts](/esp-fundamentals/security/user-accounts).
+
+The following table summarizes the main difference between Basic User Access and Platform User access.
 
 |Feature/Module|Basic|User|
 |:--|:--:|:--:|
@@ -94,10 +104,10 @@ There is no fixed ratio between Platform Users, named application subscriptions 
 A concurrent subscription is allocated from the pool when all of the following are true:
 
 1. The user is logged in as a Platform User.
-2. The user intentionally opens the subscribed application, for example by selecting the application icon.
+2. The user intentionally accesses the subscribed application, including its main views, records, data or other application-specific areas.
 3. A concurrent subscription is available in the pool.
 
-Allocation is always triggered by intentional user access to the application.
+Allocation is always triggered by intentional user access to the application. If no concurrent subscription is available, access to that part of the application will fail and the user will be shown an appropriate error or notification.
 
 ### Minimum Usage Period
 
@@ -170,7 +180,10 @@ The following considerations may apply:
 >Yes, where an application supports concurrent subscriptions. Platform User subscriptions remain named and are not concurrent. Concurrent subscriptions apply at the application level and are purchased in addition to the required Platform User subscriptions.
 
 #### How does concurrent access work?
->A concurrent subscription is allocated when a Platform User intentionally opens the subscribed application and a subscription is available in the pool. The allocation starts a 120-minute minimum usage period. The subscription is returned to the pool after that period has elapsed and the user has intentionally logged out.
+>A concurrent subscription is allocated when a Platform User intentionally accesses the subscribed application, including its main views, records, data or other application-specific areas, and a subscription is available in the pool. The allocation starts a 120-minute minimum usage period. The subscription is returned to the pool after that period has elapsed and the user has intentionally logged out.
+
+#### Does simply logging in to Hornbill consume a concurrent subscription?
+>No. Logging in as a Platform User does not consume a concurrent application subscription by itself. The concurrent subscription is consumed when the user intentionally accesses the subscribed application, including its main views, records, data or other application-specific areas. If no concurrent subscription is available, access to that part of the application will fail and the user will be shown an appropriate error or notification.
 
 #### Is concurrent access released automatically when a user is inactive?
 >No. Concurrent subscriptions are not released by inactivity-based automatic logout. The user must intentionally log out. If the 120-minute minimum usage period has elapsed and the user has not logged out, a system administrator can end the session and return the subscription to the pool. This administrator action cannot be automated.
