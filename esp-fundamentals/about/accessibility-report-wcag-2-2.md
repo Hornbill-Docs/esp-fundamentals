@@ -31,17 +31,17 @@ There are 85 checks in total. 67 are fully met. 6 are partially met, 5 are not a
 ### Results for Level 1 (A)
 There are 30 checks in total for Level 1  
 
-30 are fully met.
+<span class="text-success">30 are fully met.</span>
 
 ### Results for Level 2 (AA)
 There are 24 checks in total for Level 2  
 
-22 are fully met and 2 are not applicable.
+<span class="text-success">22 are fully met</span> and 2 are not applicable.
 
 ### Results for Level 3 (AAA)
 There are 31 checks in total for Level 3  
 
-16 are fully met. 6 are partially met, 4 are not met and 5 are not applicable.
+<span class="text-success">16 are fully met.</span> 6 are partially met, 4 are not met and 5 are not applicable.
 
 ### General
 Items that are not met - Explanation
