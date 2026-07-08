@@ -16,7 +16,6 @@
       {
         "text": "Welcome",
         "link": "esp-fundamentals/welcome",
-        "id": "btvw8jem",
         "draft": false
       },
       {
@@ -25,36 +24,29 @@
         "items": [
           {
             "text": "What is Hornbill?",
-            "link": "esp-fundamentals/about/what-is-hornbill",
-            "id": "t4dvmrap"
+            "link": "esp-fundamentals/about/what-is-hornbill"
           },
           {
             "text": "Platform editions",
-            "link": "esp-fundamentals/about/hornbill-editions",
-            "id": "awneax3k"
+            "link": "esp-fundamentals/about/hornbill-editions"
           },
           {
             "text": "Hornbill applications",
-            "link": "esp-fundamentals/about/hornbill-applications",
-            "id": "6tw69t3n"
+            "link": "esp-fundamentals/about/hornbill-applications"
           },
           {
             "text": "Integrations",
-            "link": "esp-fundamentals/about/hornbill-integrations",
-            "id": "zjnj86yy"
+            "link": "esp-fundamentals/about/hornbill-integrations"
           },
           {
             "text": "Roadmap",
-            "link": "esp-fundamentals/about/about-roadmap",
-            "id": "nnhpad27"
+            "link": "esp-fundamentals/about/about-roadmap"
           },
           {
             "text": "Accessibility report (WCAG)",
-            "link": "esp-fundamentals/about/accessibility-report-wcag-2-2",
-            "id": "88cc9rfa"
+            "link": "esp-fundamentals/about/accessibility-report-wcag-2-2"
           }
-        ],
-        "id": "mwb392nj"
+        ]
       },
       {
         "text": "Cloud native",
@@ -62,42 +54,34 @@
         "items": [
           {
             "text": "Availability",
-            "link": "esp-fundamentals/in-the-cloud/availability",
-            "id": "3avvmkwg"
+            "link": "esp-fundamentals/in-the-cloud/availability"
           },
           {
             "text": "Support",
-            "link": "esp-fundamentals/in-the-cloud/support",
-            "id": "6vyhdcf3"
+            "link": "esp-fundamentals/in-the-cloud/support"
           },
           {
             "text": "Software updates",
-            "link": "esp-fundamentals/in-the-cloud/software-updates",
-            "id": "m24cjjrx"
+            "link": "esp-fundamentals/in-the-cloud/software-updates"
           },
           {
             "text": "Multi-region deployment",
-            "link": "esp-fundamentals/in-the-cloud/multi-region",
-            "id": "q3btv467"
+            "link": "esp-fundamentals/in-the-cloud/multi-region"
           },
           {
             "text": "Subscription model",
-            "link": "esp-fundamentals/in-the-cloud/subscription-model",
-            "id": "mcqz4p4f"
+            "link": "esp-fundamentals/in-the-cloud/subscription-model"
           },
           {
             "text": "Open API",
-            "link": "esp-fundamentals/in-the-cloud/open-api",
-            "id": "kyn7hr5p"
+            "link": "esp-fundamentals/in-the-cloud/open-api"
           },
           {
             "text": "Storage",
             "link": "esp-fundamentals/in-the-cloud/storage",
-            "draft": true,
-            "id": "5hxqprvj"
+            "draft": true
           }
-        ],
-        "id": "8v463hsk"
+        ]
       },
       {
         "text": "Core platform capabilities",
@@ -105,24 +89,20 @@
         "items": [
           {
             "text": "Internal Groups and Teams structure",
-            "link": "esp-fundamentals/core-capabilities/internal-groups-and-teams",
-            "id": "57wwd7bb"
+            "link": "esp-fundamentals/core-capabilities/internal-groups-and-teams"
           },
           {
             "text": "External Companies and Contacts",
-            "link": "esp-fundamentals/core-capabilities/external-companies-and-contacts",
-            "id": "kk6qt4jj"
+            "link": "esp-fundamentals/core-capabilities/external-companies-and-contacts"
           },
           {
             "text": "Human tasks",
-            "link": "esp-fundamentals/core-capabilities/human-tasks",
-            "id": "bqfschn5"
+            "link": "esp-fundamentals/core-capabilities/human-tasks"
           },
           {
             "draft": true,
             "text": "Business rules",
-            "link": "esp-fundamentals/core-capabilities/business-rules",
-            "id": "xgq3skav"
+            "link": "esp-fundamentals/core-capabilities/business-rules"
           },
           {
             "text": "Integration",
@@ -130,28 +110,23 @@
             "items": [
               {
                 "text": "HAi services",
-                "link": "esp-fundamentals/core-capabilities/integration/hai-services",
-                "id": "gkcxpm9a"
+                "link": "esp-fundamentals/core-capabilities/integration/hai-services"
               },
               {
                 "text": "Webhooks",
-                "link": "esp-fundamentals/core-capabilities/integration/web-hooks",
-                "id": "ft9n6hrc"
+                "link": "esp-fundamentals/core-capabilities/integration/web-hooks"
               },
               {
                 "text": "iBridge",
                 "draft": true,
-                "link": "esp-fundamentals/core-capabilities/integration/ibridge",
-                "id": "xnssab6a"
+                "link": "esp-fundamentals/core-capabilities/integration/ibridge"
               },
               {
                 "text": "Operations automation (ITOM)",
                 "draft": true,
-                "link": "esp-fundamentals/core-capabilities/integration/itom",
-                "id": "j25v5xnr"
+                "link": "esp-fundamentals/core-capabilities/integration/itom"
               }
-            ],
-            "id": "x22gg6gp"
+            ]
           },
           {
             "text": "Workflow",
@@ -159,13 +134,11 @@
             "items": [
               {
                 "text": "Orchestration",
-                "link": "esp-fundamentals/core-capabilities/workflow-orchestration",
-                "id": "m69ty3dp"
+                "link": "esp-fundamentals/core-capabilities/workflow-orchestration"
               },
               {
                 "text": "Approvals",
-                "link": "esp-fundamentals/core-capabilities/workflow-approvals",
-                "id": "nh7d78j8"
+                "link": "esp-fundamentals/core-capabilities/workflow-approvals"
               },
               {
                 "text": "Automation",
@@ -175,66 +148,54 @@
                   {
                     "draft": true,
                     "text": "Cloud systems integrations",
-                    "link": "esp-fundamentals/core-capabilities/workflow-cloud-integration",
-                    "id": "ek44v9xh"
+                    "link": "esp-fundamentals/core-capabilities/workflow-cloud-integration"
                   },
                   {
                     "draft": true,
                     "text": "IT systems automation",
-                    "link": "esp-fundamentals/core-capabilities/workflow-it-automaton",
-                    "id": "8vg4vcst"
+                    "link": "esp-fundamentals/core-capabilities/workflow-it-automaton"
                   },
                   {
                     "draft": true,
                     "text": "Behind-the-firewall integrations",
-                    "link": "esp-fundamentals/core-capabilities/workflow-behind-the-firewall-integration",
-                    "id": "dfxddbe9"
+                    "link": "esp-fundamentals/core-capabilities/workflow-behind-the-firewall-integration"
                   }
-                ],
-                "id": "twh49pcd"
+                ]
               }
-            ],
-            "id": "pm73nevm"
+            ]
           },
           {
             "text": "Activity Streams",
-            "link": "esp-fundamentals/core-capabilities/activity-streams",
-            "id": "66ymb2yt"
+            "link": "esp-fundamentals/core-capabilities/activity-streams"
           },
           {
             "draft": true,
             "text": "Email automation",
-            "link": "esp-fundamentals/core-capabilities/email-automation",
-            "id": "s686we8b"
+            "link": "esp-fundamentals/core-capabilities/email-automation"
           },
           {
             "draft": true,
             "text": "Mobile access",
-            "link": "esp-fundamentals/core-capabilities/mobile-access",
-            "id": "7p6hgyjt"
+            "link": "esp-fundamentals/core-capabilities/mobile-access"
           },
           {
             "draft": true,
             "text": "Presence, availability and status",
-            "link": "esp-fundamentals/core-capabilities/presence-availability-status",
-            "id": "mw5zcshn"
+            "link": "esp-fundamentals/core-capabilities/presence-availability-status"
           },
           {
             "draft": false,
             "text": "Direct Database Access (DDA)",
-            "link": "esp-fundamentals/core-capabilities/direct-database-access",
-            "id": "tmtyk74z"
+            "link": "esp-fundamentals/core-capabilities/direct-database-access"
           },
           {
             "draft": false,
             "text": "MSP Multi-client capabilities",
-            "link": "esp-fundamentals/core-capabilities/multi-client-msp",
-            "id": "93btfmg7"
+            "link": "esp-fundamentals/core-capabilities/multi-client-msp"
           },
           {
             "text": "Internationalization",
-            "link": "esp-fundamentals/core-capabilities/internationalization",
-            "id": "zg92qb77"
+            "link": "esp-fundamentals/core-capabilities/internationalization"
           },
           {
             "text": "Productivity features",
@@ -243,26 +204,21 @@
               {
                 "draft": true,
                 "text": "Bookmarks",
-                "link": "esp-fundamentals/productivity/bookmarks",
-                "id": "8rpbj779"
+                "link": "esp-fundamentals/productivity/bookmarks"
               }
-            ],
-            "id": "yxsjzbmg"
+            ]
           },
           {
             "draft": true,
             "text": "System of record",
-            "link": "esp-fundamentals/core-capabilities/system-of-record",
-            "id": "j4t6yrnf"
+            "link": "esp-fundamentals/core-capabilities/system-of-record"
           },
           {
             "draft": true,
             "text": "System of action",
-            "link": "esp-fundamentals/core-capabilities/system-of-action",
-            "id": "h4vz3va2"
+            "link": "esp-fundamentals/core-capabilities/system-of-action"
           }
-        ],
-        "id": "h2zerj2e"
+        ]
       },
       {
         "text": "Security",
@@ -270,26 +226,21 @@
         "items": [
           {
             "text": "User accounts",
-            "link": "esp-fundamentals/security/user-accounts",
-            "id": "jzcpnksh"
+            "link": "esp-fundamentals/security/user-accounts"
           },
           {
             "text": "API keys",
-            "link": "esp-fundamentals/security/api-keys",
-            "id": "k2g4ca2w"
+            "link": "esp-fundamentals/security/api-keys"
           },
           {
             "text": "KeySafe",
-            "link": "esp-fundamentals/security/keysafe",
-            "id": "ta5p7hwx"
+            "link": "esp-fundamentals/security/keysafe"
           },
           {
             "text": "Single Sign-On (SSO)",
-            "link": "esp-fundamentals/security/single-sign-on",
-            "id": "cjstynk8"
+            "link": "esp-fundamentals/security/single-sign-on"
           }
-        ],
-        "id": "jgmwr3vn"
+        ]
       },
       {
         "text": "System requirements and compatibility",
@@ -297,23 +248,19 @@
         "items": [
           {
             "text": "Browser support",
-            "link": "esp-fundamentals/system-requirements/browser-compatibility",
-            "id": "frm8yr7d"
+            "link": "esp-fundamentals/system-requirements/browser-compatibility"
           },
           {
             "draft": true,
             "text": "Device support",
-            "link": "esp-fundamentals/system-requirements/device-support",
-            "id": "d2xq24fx"
+            "link": "esp-fundamentals/system-requirements/device-support"
           },
           {
             "draft": true,
             "text": "Behind the firewall",
-            "link": "esp-fundamentals/system-requirements/behind-the-firewall",
-            "id": "9a7fygje"
+            "link": "esp-fundamentals/system-requirements/behind-the-firewall"
           }
-        ],
-        "id": "m5v7ng49"
+        ]
       },
       {
         "text": "Reference guides",
@@ -321,16 +268,13 @@
         "items": [
           {
             "text": "ExpressLogic Guide",
-            "link": "esp-fundamentals/reference-guides/express-logic",
-            "id": "qkpyz4qr"
+            "link": "esp-fundamentals/reference-guides/express-logic"
           },
           {
             "text": "Hornbill Markup",
-            "link": "esp-fundamentals/reference-guides/hornbill-wiki-markup",
-            "id": "3fjan6rp"
+            "link": "esp-fundamentals/reference-guides/hornbill-wiki-markup"
           }
-        ],
-        "id": "ed7psdwk"
+        ]
       },
       {
         "text": "Best-practice guides",
@@ -338,16 +282,13 @@
         "items": [
           {
             "text": "API keys best practice",
-            "link": "esp-fundamentals/best-practice/platform-api-keys",
-            "id": "dw8r2wp5"
+            "link": "esp-fundamentals/best-practice/platform-api-keys"
           },
           {
             "text": "Organizational structure best practice",
-            "link": "esp-fundamentals/best-practice/org-structure",
-            "id": "z5khjrx2"
+            "link": "esp-fundamentals/best-practice/org-structure"
           }
-        ],
-        "id": "mx6paf9e"
+        ]
       },
       {
         "draft": true,
@@ -356,11 +297,9 @@
         "items": [
           {
             "text": "Topics",
-            "link": "esp-fundamentals/todo/topics",
-            "id": "3whfv7m3"
+            "link": "esp-fundamentals/todo/topics"
           }
-        ],
-        "id": "jys4x5an"
+        ]
       }
     ]
   },
