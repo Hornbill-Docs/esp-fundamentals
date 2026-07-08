@@ -36,7 +36,7 @@ There are 30 checks in total for Level 1
 ### Results for Level 2 (AA)
 There are 24 checks in total for Level 2  
 
-21 are fully met. 1 is not met and 2 are not applicable.
+22 are fully met and 2 are not applicable.
 
 ### Results for Level 3 (AAA)
 There are 31 checks in total for Level 3  
@@ -50,7 +50,6 @@ Items that are not met - Explanation
 | 2.2.5     | Re-authenticating             | AAA   | <span class="text-danger">Not met</span> | When the session expires there is no way to continue working without leaving the page and re-authenticating |
 | 2.2.6     | Timeouts _(Added in 2.1)_       | AAA   | <span class="text-danger">Not met</span> | There is no warning about data loss when the session is about to expire |
 | 2.5.5     | Target Size (Enhanced) _(Added in 2.1)_         | AAA   | <span class="text-danger">Not met</span> | Some target elements are smaller than 44 pixels |
-| 2.5.7     | Dragging Movements _(Added in 2.2)_             | AA    | <span class="text-danger">Not met</span> | In some areas, drag and drop requires a mouse device. |
 | 3.1.6     | Pronunciation                     | AAA   | <span class="text-danger">Not met</span> | There is no mechanism to identify specific pronunciation |
 
 ## Checklist
@@ -151,7 +150,7 @@ Items that are not met - Explanation
 | 2.5.4     | Motion Actuation _(Added in 2.1)_               | A     | <span class="text-success">Fully Met</span> |
 | 2.5.5     | Target Size (Enhanced) _(Added in 2.1)_         | AAA   | <span class="text-danger">Not met</span> |
 | 2.5.6     | Concurrent Input Mechanisms _(Added in 2.1)_    | AAA   | <span class="text-success">Fully Met</span> |
-| 2.5.7     | Dragging Movements _(Added in 2.2)_             | AA    | <span class="text-danger">Not met</span> |
+| 2.5.7     | Dragging Movements _(Added in 2.2)_             | AA    | <span class="text-success">Fully Met</span> |
 | 2.5.8     | Target Size (Minimum) _(Added in 2.2)_          | AA    | <span class="text-success">Fully Met</span> |
 
 ### Principle 3 – Understandable
