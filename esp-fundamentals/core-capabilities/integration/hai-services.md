@@ -37,13 +37,20 @@ The primary difference in HAi Service providers is the geographic location where
 HAi Premium services (upcoming) will be available for free, on request, only while the HAi Services and features are available in the beta program, please talk to your account manager when these services become available.
 :::
 
-### Azure (Customer Provided) 
+### Azure (Customer Provided)
 
 To make use of the HAi Service Provider type **Azure (Customer Provided)** you will need to have an [Azure OpenAI Resource](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/create-resource) created and a [supported model](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal#deploy-a-model) deployed.
 
 Currently Supported Models:
 
-* OpenAI gpt-4o - 2024-11-20
+|Model Name|Version|Status|Notes|
+|:--|:--|:--|:--|
+|OpenAI gpt-4o|2024-11-20|Deprecated|Will be retired by Azure on 2026-10-01|
+|OpenAI gpt-5.4|2026-03-05|Supported||
+|OpenAI gpt-5.4-mini|2026-03-17|Supported||
+|OpenAI gpt-5.6-luna|2026-07-09|Supported||
+|OpenAI gpt-5.6-sol|2026-07-09|Supported||
+|OpenAI gpt-5.6-terra|2026-07-09|Supported||
 
 Once deployed the following settings need to be configured against the HAi Service provider:
 
@@ -88,3 +95,5 @@ Example, if your Target URL from Azure is ```https://h-ai-res-uk-1.openai.azure.
 
 #### What is Text Assist?
 > In Hornbill there are numerous places you may be writing textual content.  Text Assist is a set of productivity feature powered by HAi Services that brings generative AI capabilities to your fingertips to help with improving or expanding your written content, as well as providing you access to non-company-specific generalized AI knowledge.  These features enhance your users ability to write with great clarity, expand on common topics where required and access generic knowledge available to the underlying HAi Service Provider language models.
+
+
