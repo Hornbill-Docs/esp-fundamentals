@@ -40,11 +40,8 @@ Start each line with an asterisk (\*). Chaining multiple asterisks indents the l
 * Start each line with an asterisk (*).
 ** More asterisks give deeper
 *** and deeper levels.
-* Line breaks <br />don't break levels.
-*** But jumping levels creates empty space.
-* Blank lines ends the list.
-
-Any other start ends the list.
+***** Jumping levels creates empty space.
+Blank lines ends the list.
 ```
 
 #### Bulleted list example
@@ -55,12 +52,8 @@ The above markup would be displayed as:
 • Start each line with an asterisk (*).
   • More asterisks give deeper
     • and deeper levels.
-• Line breaks 
-  don't break levels.
-
-• Blank lines end the list.
-
-Any other start ends the list.
+          • Jumping levels creates empty space.
+Blank lines ends the list.
 ```
 
 ### Numbered list
@@ -71,11 +64,8 @@ Start each line with a [number sign](http://en.wikipedia.org/wiki/Number_sign) (
 # Start each line with a number sign (#).
 ## More number signs give deeper
 ### and deeper levels.
-# Line breaks <br />don't break levels.
-### But jumping levels creates empty space.
-# Blank lines end the list.
-
-Any other start also ends the list.
+##### Jumping levels creates empty space.
+Blank lines ends the list.
 ```
 
 #### Numbered list example
@@ -85,12 +75,8 @@ The above markup would be displayed as:
 1. Start each line with a number sign (#).
    1. More number signs give deeper
       1. and deeper levels.
-2. Line breaks 
-  don't break levels.
-
-3. Blank lines end the list.
-
-Any other start also ends the list.
+            1. Jumping levels creates empty space.
+Blank lines ends the list.
 ```
 
 ### Indented list
@@ -434,6 +420,15 @@ To add a line, use the syntax for a horizontal rule as in the following example:
 
 If you want to prevent wiki markup from being parsed and executed along with all the other wiki text on a page, use `nowiki` as in the following example:
 
-| Markup        | Displayed as       |
-|---------------|:---------------------------------------------|
-| `[nowiki]<br />This is '''bold''' and this is ''italic''<br />[/nowiki]` | This is '''bold''' and this is '''italic''' |
+```txt
+[nowiki]
+This is '''bold''' and this is ''italic''
+[/nowiki]
+```
+
+#### Nowiki example
+
+The above markup would be displayed as:
+```txt
+This is '''bold''' and this is ''italic''
+```
